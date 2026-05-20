@@ -1,0 +1,1751 @@
+[
+  {
+    "id": "joshua-johnson",
+    "name": "Joshua Johnson",
+    "birthYear": 1763,
+    "deathYear": 1824,
+    "medium": [
+      "Painting",
+      "Portraiture"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": "Baltimore",
+    "state": "MD",
+    "lat": 39.2904,
+    "lng": -76.6122,
+    "wikiKey": "Joshua_Johnson_(painter)",
+    "commonsImage": "Gentleman of the Shure Family by Joshua Johnson.jpg"
+  },
+  {
+    "id": "patrick-reason",
+    "name": "Patrick Henry Reason",
+    "birthYear": 1816,
+    "deathYear": 1898,
+    "medium": [
+      "Engraving",
+      "Lithography"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Patrick_Henry_Reason",
+    "commonsImage": "Patrick Reason engraving.jpg"
+  },
+  {
+    "id": "robert-duncanson",
+    "name": "Robert S. Duncanson",
+    "birthYear": 1821,
+    "deathYear": 1872,
+    "medium": [
+      "Painting",
+      "Landscape"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": "Cincinnati",
+    "state": "OH",
+    "lat": 39.1031,
+    "lng": -84.512,
+    "wikiKey": "Robert_S._Duncanson",
+    "commonsImage": "Landscape with Ruin by Robert Scott Duncanson - HNT.jpg",
+    "featuredWorks": [
+      "Landscape with Rainbow, 1859, by Robert S. Duncanson - SAAM - DSC00839.JPG",
+      "Robert Seldon Duncanson - Landscape - 2010.104 - Crystal Bridges Museum of American Art.jpg",
+      "Robert S. Duncanson - Romantic Landscape - 1983.95.157 - Smithsonian American Art Museum.jpg"
+    ]
+  },
+  {
+    "id": "edward-bannister",
+    "name": "Edward Mitchell Bannister",
+    "birthYear": 1828,
+    "deathYear": 1901,
+    "medium": [
+      "Painting",
+      "Landscape"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": "Providence",
+    "state": "RI",
+    "lat": 41.824,
+    "lng": -71.4128,
+    "wikiKey": "Edward_Mitchell_Bannister",
+    "commonsImage": "Edward Mitchell Bannister - Road to a House with a Red Roof - 2016.38.3 - Rhode Island School of Design Museum.jpg",
+    "featuredWorks": [
+      "Edward Mitchell Bannister - Harvest - 2014.43 - Crystal Bridges Museum of American Art.jpg",
+      "Edward Mitchell Bannister - Westminster Street - 13.830 - Rhode Island School of Design Museum.jpg",
+      "'Governor Sprague's White Horse' by Edward Mitchell Bannister, 1869.jpg"
+    ]
+  },
+  {
+    "id": "edmonia-lewis",
+    "name": "Edmonia Lewis",
+    "birthYear": 1844,
+    "deathYear": 1907,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": "Boston",
+    "state": "MA",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "wikiKey": "Edmonia_Lewis",
+    "commonsImage": "The Death of Cleopatra by Edmonia Lewis - 1.jpg",
+    "featuredWorks": [
+      "Forever Free by Edmonia Lewis (1867).png",
+      "Hagar by Edmonia Lewis.jpg",
+      "Edmonia lewis hiawatha.jpg"
+    ]
+  },
+  {
+    "id": "grafton-tyler-brown",
+    "name": "Grafton Tyler Brown",
+    "birthYear": 1841,
+    "deathYear": 1918,
+    "medium": [
+      "Painting",
+      "Lithography"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": "San Francisco",
+    "state": "CA",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "wikiKey": "Grafton_Tyler_Brown",
+    "commonsImage": "Grafton Tyler Brown - A Yellowstone Geyser - 2009.4329 - Museum of Fine Arts.jpg"
+  },
+  {
+    "id": "henry-ossawa-tanner",
+    "name": "Henry Ossawa Tanner",
+    "birthYear": 1859,
+    "deathYear": 1937,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "early-american",
+      "harlem-renaissance"
+    ],
+    "city": "Philadelphia",
+    "state": "PA",
+    "lat": 39.9526,
+    "lng": -75.1652,
+    "wikiKey": "Henry_Ossawa_Tanner",
+    "commonsImage": "Henry Ossawa Tanner - The Banjo Lesson.jpg",
+    "featuredWorks": [
+      "'The Young Sabot Maker' by Henry Ossawa Tanner.JPG",
+      "Christ walking on the water, Henry Ossawa Tanner.jpg",
+      "After the Storm, by Henry Ossawa Tanner.jpg"
+    ]
+  },
+  {
+    "id": "may-howard-jackson",
+    "name": "May Howard Jackson",
+    "birthYear": 1877,
+    "deathYear": 1931,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": "Washington",
+    "state": "DC",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "wikiKey": "May_Howard_Jackson",
+    "commonsImage": "May Howard Jackson, Bust of Kelly Miller.jpg"
+  },
+  {
+    "id": "meta-vaux-warrick-fuller",
+    "name": "Meta Vaux Warrick Fuller",
+    "birthYear": 1877,
+    "deathYear": 1968,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": "Framingham",
+    "state": "MA",
+    "lat": 42.2793,
+    "lng": -71.4162,
+    "wikiKey": "Meta_Vaux_Warrick_Fuller",
+    "commonsImage": "Meta Vaux Warrick Fuller, Mary Turner, 1919.jpg"
+  },
+  {
+    "id": "william-edouard-scott",
+    "name": "William Edouard Scott",
+    "birthYear": 1884,
+    "deathYear": 1964,
+    "medium": [
+      "Painting",
+      "Mural"
+    ],
+    "movements": [
+      "harlem-renaissance",
+      "wpa-social-realism"
+    ],
+    "city": "Indianapolis",
+    "state": "IN",
+    "lat": 39.7684,
+    "lng": -86.1581,
+    "wikiKey": "William_Edouard_Scott",
+    "commonsImage": "Scott-Rainy Night.jpg"
+  },
+  {
+    "id": "james-van-der-zee",
+    "name": "James Van Der Zee",
+    "birthYear": 1886,
+    "deathYear": 1983,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "James_Van_Der_Zee",
+    "commonsImage": "VDZ Wedding Day.jpg"
+  },
+  {
+    "id": "augusta-savage",
+    "name": "Augusta Savage",
+    "birthYear": 1892,
+    "deathYear": 1962,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "harlem-renaissance",
+      "wpa-social-realism"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "Augusta_Savage",
+    "commonsImage": "Augusta Savage - Gamin - 2003.40 - Cleveland Museum of Art.jpg"
+  },
+  {
+    "id": "palmer-hayden",
+    "name": "Palmer Hayden",
+    "birthYear": 1890,
+    "deathYear": 1973,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "Palmer_Hayden",
+    "commonsImage": "John Henry lies dead after beating the steam drill - painting by Palmer Hayden.jpg"
+  },
+  {
+    "id": "sargent-johnson",
+    "name": "Sargent Johnson",
+    "birthYear": 1888,
+    "deathYear": 1967,
+    "medium": [
+      "Sculpture",
+      "Ceramics"
+    ],
+    "movements": [
+      "harlem-renaissance",
+      "wpa-social-realism"
+    ],
+    "city": "San Francisco",
+    "state": "CA",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "wikiKey": "Sargent_Claude_Johnson",
+    "commonsImage": "Sargent Claude Johnson sculpture, Aquatic Park Center.jpg"
+  },
+  {
+    "id": "richmond-barthe",
+    "name": "Richmond Barthé",
+    "birthYear": 1901,
+    "deathYear": 1989,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "Richmond_Barthé",
+    "commonsImage": "Blackberry Woman SAAM-2001.6 4.jpg"
+  },
+  {
+    "id": "aaron-douglas",
+    "name": "Aaron Douglas",
+    "birthYear": 1899,
+    "deathYear": 1979,
+    "medium": [
+      "Painting",
+      "Illustration",
+      "Mural"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "Aaron_Douglas",
+    "commonsImage": "Aaron Douglas - NARA - 559198.jpg"
+  },
+  {
+    "id": "james-lesesne-wells",
+    "name": "James Lesesne Wells",
+    "birthYear": 1902,
+    "deathYear": 1993,
+    "medium": [
+      "Printmaking",
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": "Washington",
+    "state": "DC",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "wikiKey": "James_Lesesne_Wells",
+    "commonsImage": "Farmlands James Lesesne Wells print.jpg"
+  },
+  {
+    "id": "malvin-gray-johnson",
+    "name": "Malvin Gray Johnson",
+    "birthYear": 1896,
+    "deathYear": 1934,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "Malvin_Gray_Johnson",
+    "commonsImage": "'Roll Jordan Roll' by Malvin Gray Johnson, 1930.jpg"
+  },
+  {
+    "id": "william-h-johnson",
+    "name": "William H. Johnson",
+    "birthYear": 1901,
+    "deathYear": 1970,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance",
+      "wpa-social-realism"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "William_H._Johnson_(artist)",
+    "commonsImage": "William H. Johnson Self-Portrait.jpg",
+    "featuredWorks": [
+      "Refugee Boy, by William H. Johnson.jpg",
+      "William H. Johnson - Jitterbugs (II) - Smithsonian American Art Museum.jpg",
+      "Jon Fisherman II, by William H. Johnson.jpg"
+    ]
+  },
+  {
+    "id": "lois-mailou-jones",
+    "name": "Loïs Mailou Jones",
+    "birthYear": 1905,
+    "deathYear": 1998,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance",
+      "contemporary"
+    ],
+    "city": "Washington",
+    "state": "DC",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "wikiKey": "Loïs_Mailou_Jones",
+    "commonsImage": "\"Ascent of Ethiopia\" - NARA - 559088.jpg"
+  },
+  {
+    "id": "archibald-motley",
+    "name": "Archibald Motley",
+    "birthYear": 1891,
+    "deathYear": 1981,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "wikiKey": "Archibald_Motley",
+    "commonsImage": "Blues by Archibald Motley.jpg",
+    "featuredWorks": [
+      "\"Getting Religion\" - NARA - 559118.jpg",
+      "\"Black Belt\" - NARA - 559116.jpg",
+      "\"Old Snuff-Dipper\" - NARA - 559117.jpg"
+    ]
+  },
+  {
+    "id": "hale-woodruff",
+    "name": "Hale Woodruff",
+    "birthYear": 1900,
+    "deathYear": 1980,
+    "medium": [
+      "Painting",
+      "Mural",
+      "Printmaking"
+    ],
+    "movements": [
+      "harlem-renaissance",
+      "wpa-social-realism",
+      "spiral-group"
+    ],
+    "city": "Atlanta",
+    "state": "GA",
+    "lat": 33.749,
+    "lng": -84.388,
+    "wikiKey": "Hale_Woodruff",
+    "commonsImage": "\"The Banjo Player\" - NARA - 559155.jpg",
+    "featuredWorks": [
+      "\"Washer Woman\" - NARA - 559154.jpg",
+      "Atlanta landscape, 1936 - NARA - 559150.jpg"
+    ]
+  },
+  {
+    "id": "beauford-delaney",
+    "name": "Beauford Delaney",
+    "birthYear": 1901,
+    "deathYear": 1979,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "Beauford_Delaney",
+    "commonsImage": null
+  },
+  {
+    "id": "horace-pippin",
+    "name": "Horace Pippin",
+    "birthYear": 1888,
+    "deathYear": 1946,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": "West Chester",
+    "state": "PA",
+    "lat": 39.9606,
+    "lng": -75.6055,
+    "wikiKey": "Horace_Pippin",
+    "commonsImage": "John Brown Going to His Hanging by Horace Pippin.png"
+  },
+  {
+    "id": "ellis-wilson",
+    "name": "Ellis Wilson",
+    "birthYear": 1899,
+    "deathYear": 1977,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "Ellis_Wilson",
+    "commonsImage": "\"Old Charleston Market\" - NARA - 559147.jpg"
+  },
+  {
+    "id": "charles-alston",
+    "name": "Charles Alston",
+    "birthYear": 1907,
+    "deathYear": 1977,
+    "medium": [
+      "Painting",
+      "Sculpture",
+      "Mural"
+    ],
+    "movements": [
+      "wpa-social-realism",
+      "spiral-group"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "Charles_Alston",
+    "commonsImage": "\"OUT OF THE FRYING PAN - INTO THE FIRING LINE^\" - NARA - 535609.jpg"
+  },
+  {
+    "id": "dox-thrash",
+    "name": "Dox Thrash",
+    "birthYear": 1893,
+    "deathYear": 1965,
+    "medium": [
+      "Printmaking"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": "Philadelphia",
+    "state": "PA",
+    "lat": 39.9526,
+    "lng": -75.1652,
+    "wikiKey": "Dox_Thrash",
+    "commonsImage": "For She Knows Not Sorrow SAAM-1974.28.330.jpg"
+  },
+  {
+    "id": "elizabeth-catlett",
+    "name": "Elizabeth Catlett",
+    "birthYear": 1915,
+    "deathYear": 2012,
+    "medium": [
+      "Sculpture",
+      "Printmaking"
+    ],
+    "movements": [
+      "wpa-social-realism",
+      "black-arts-movement"
+    ],
+    "city": "Washington",
+    "state": "DC",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "wikiKey": "Elizabeth_Catlett",
+    "commonsImage": "Elizabeth Catlett I am the Black Woman 1947.jpg"
+  },
+  {
+    "id": "jacob-lawrence",
+    "name": "Jacob Lawrence",
+    "birthYear": 1917,
+    "deathYear": 2000,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "Jacob_Lawrence",
+    "commonsImage": "The migration gained in momentum - NARA - 559096.jpg",
+    "featuredWorks": [
+      "During World War I there was a great migration north by southern Negroes - NARA - 559091.jpg",
+      "Many migrants found poor housing conditions in the North - NARA - 559097.jpg",
+      "\"Douglass argued against poor Negroes leaving the South\" - NARA - 559103.jpg"
+    ]
+  },
+  {
+    "id": "norman-lewis",
+    "name": "Norman Lewis",
+    "birthYear": 1909,
+    "deathYear": 1979,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism",
+      "spiral-group"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "Norman_Lewis_(artist)",
+    "commonsImage": "Alabama - Norman Lewis - Cleveland Museum of Art (29567660988).jpg"
+  },
+  {
+    "id": "ernest-crichlow",
+    "name": "Ernest Crichlow",
+    "birthYear": 1914,
+    "deathYear": 2005,
+    "medium": [
+      "Painting",
+      "Illustration"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.6782,
+    "lng": -73.9442,
+    "wikiKey": "Ernest_Crichlow",
+    "commonsImage": null
+  },
+  {
+    "id": "gwendolyn-knight",
+    "name": "Gwendolyn Knight",
+    "birthYear": 1913,
+    "deathYear": 2005,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": "Seattle",
+    "state": "WA",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "wikiKey": "Gwendolyn_Knight",
+    "commonsImage": null
+  },
+  {
+    "id": "charles-white",
+    "name": "Charles White",
+    "birthYear": 1918,
+    "deathYear": 1979,
+    "medium": [
+      "Painting",
+      "Drawing",
+      "Printmaking"
+    ],
+    "movements": [
+      "wpa-social-realism",
+      "black-arts-movement"
+    ],
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "wikiKey": "Charles_Wilbert_White",
+    "commonsImage": null
+  },
+  {
+    "id": "margaret-burroughs",
+    "name": "Margaret Burroughs",
+    "birthYear": 1915,
+    "deathYear": 2010,
+    "medium": [
+      "Printmaking",
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "wikiKey": "Margaret_Taylor-Burroughs",
+    "commonsImage": null
+  },
+  {
+    "id": "eldzier-cortor",
+    "name": "Eldzier Cortor",
+    "birthYear": 1916,
+    "deathYear": 2015,
+    "medium": [
+      "Painting",
+      "Printmaking"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "wikiKey": "Eldzier_Cortor",
+    "commonsImage": null
+  },
+  {
+    "id": "hughie-lee-smith",
+    "name": "Hughie Lee-Smith",
+    "birthYear": 1915,
+    "deathYear": 1999,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": "Detroit",
+    "state": "MI",
+    "lat": 42.3314,
+    "lng": -83.0458,
+    "wikiKey": "Hughie_Lee-Smith",
+    "commonsImage": null
+  },
+  {
+    "id": "alma-thomas",
+    "name": "Alma Thomas",
+    "birthYear": 1891,
+    "deathYear": 1978,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism",
+      "contemporary"
+    ],
+    "city": "Washington",
+    "state": "DC",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "wikiKey": "Alma_Thomas",
+    "commonsImage": "Alma SAAM-1929.6.35 1.jpg"
+  },
+  {
+    "id": "john-biggers",
+    "name": "John T. Biggers",
+    "birthYear": 1924,
+    "deathYear": 2001,
+    "medium": [
+      "Painting",
+      "Mural",
+      "Drawing"
+    ],
+    "movements": [
+      "wpa-social-realism",
+      "black-arts-movement"
+    ],
+    "city": "Houston",
+    "state": "TX",
+    "lat": 29.7604,
+    "lng": -95.3698,
+    "wikiKey": "John_T._Biggers",
+    "commonsImage": null
+  },
+  {
+    "id": "samella-lewis",
+    "name": "Samella Lewis",
+    "birthYear": 1923,
+    "deathYear": 2022,
+    "medium": [
+      "Painting",
+      "Printmaking"
+    ],
+    "movements": [
+      "wpa-social-realism",
+      "black-arts-movement"
+    ],
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "wikiKey": "Samella_Lewis",
+    "commonsImage": null
+  },
+  {
+    "id": "romare-bearden",
+    "name": "Romare Bearden",
+    "birthYear": 1911,
+    "deathYear": 1988,
+    "medium": [
+      "Collage",
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism",
+      "spiral-group"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "Romare_Bearden",
+    "commonsImage": "\"After Church\" - NARA - 559046.jpg"
+  },
+  {
+    "id": "emma-amos",
+    "name": "Emma Amos",
+    "birthYear": 1937,
+    "deathYear": 2020,
+    "medium": [
+      "Painting",
+      "Printmaking",
+      "Textiles"
+    ],
+    "movements": [
+      "spiral-group",
+      "contemporary"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Emma_Amos",
+    "commonsImage": null
+  },
+  {
+    "id": "richard-mayhew",
+    "name": "Richard Mayhew",
+    "birthYear": 1924,
+    "deathYear": 2024,
+    "medium": [
+      "Painting",
+      "Landscape"
+    ],
+    "movements": [
+      "spiral-group"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Richard_Mayhew",
+    "commonsImage": "Nyak, Richard Mayhew, Paintings in the San Francisco Museum of Modern Art, SFMOMA 10.jpg"
+  },
+  {
+    "id": "reginald-gammon",
+    "name": "Reginald Gammon",
+    "birthYear": 1921,
+    "deathYear": 2005,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "spiral-group"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Reginald_Gammon",
+    "commonsImage": null
+  },
+  {
+    "id": "felrath-hines",
+    "name": "Felrath Hines",
+    "birthYear": 1913,
+    "deathYear": 1993,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "spiral-group"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Felrath_Hines",
+    "commonsImage": null
+  },
+  {
+    "id": "alvin-hollingsworth",
+    "name": "Alvin Hollingsworth",
+    "birthYear": 1928,
+    "deathYear": 2000,
+    "medium": [
+      "Painting",
+      "Illustration"
+    ],
+    "movements": [
+      "spiral-group"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "Alvin_Hollingsworth",
+    "commonsImage": null
+  },
+  {
+    "id": "william-majors",
+    "name": "William Majors",
+    "birthYear": 1930,
+    "deathYear": 1982,
+    "medium": [
+      "Printmaking"
+    ],
+    "movements": [
+      "spiral-group"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "William_Majors",
+    "commonsImage": null
+  },
+  {
+    "id": "jeff-donaldson",
+    "name": "Jeff Donaldson",
+    "birthYear": 1932,
+    "deathYear": 2004,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "wikiKey": "Jeff_Donaldson_(artist)",
+    "commonsImage": null
+  },
+  {
+    "id": "barbara-jones-hogu",
+    "name": "Barbara Jones-Hogu",
+    "birthYear": 1938,
+    "deathYear": 2017,
+    "medium": [
+      "Printmaking",
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "wikiKey": "Barbara_Jones-Hogu",
+    "commonsImage": null
+  },
+  {
+    "id": "wadsworth-jarrell",
+    "name": "Wadsworth Jarrell",
+    "birthYear": 1929,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "wikiKey": "Wadsworth_Jarrell",
+    "commonsImage": null
+  },
+  {
+    "id": "jae-jarrell",
+    "name": "Jae Jarrell",
+    "birthYear": 1935,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Wearable Art"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "wikiKey": "Jae_Jarrell",
+    "commonsImage": null
+  },
+  {
+    "id": "gerald-williams",
+    "name": "Gerald Williams",
+    "birthYear": 1941,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "wikiKey": "Gerald_Williams_(artist)",
+    "commonsImage": null
+  },
+  {
+    "id": "nelson-stevens",
+    "name": "Nelson Stevens",
+    "birthYear": 1938,
+    "deathYear": 2022,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": "Springfield",
+    "state": "MA",
+    "lat": 42.1015,
+    "lng": -72.5898,
+    "wikiKey": "Nelson_Stevens",
+    "commonsImage": null
+  },
+  {
+    "id": "carolyn-lawrence",
+    "name": "Carolyn Lawrence",
+    "birthYear": 1940,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "wikiKey": "Carolyn_Mims_Lawrence",
+    "commonsImage": null
+  },
+  {
+    "id": "betye-saar",
+    "name": "Betye Saar",
+    "birthYear": 1926,
+    "deathYear": null,
+    "medium": [
+      "Assemblage",
+      "Mixed Media"
+    ],
+    "movements": [
+      "black-arts-movement",
+      "contemporary"
+    ],
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "wikiKey": "Betye_Saar",
+    "commonsImage": "Betye Saar. Site Installations, 1989. A Cultural Presentation of the United States of America. - DPLA - 222f0c00dfd0660572338a39ac189546.jpg"
+  },
+  {
+    "id": "david-hammons",
+    "name": "David Hammons",
+    "birthYear": 1943,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Installation"
+    ],
+    "movements": [
+      "black-arts-movement",
+      "contemporary"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "David_Hammons",
+    "commonsImage": "Hammons flag.jpg"
+  },
+  {
+    "id": "faith-ringgold",
+    "name": "Faith Ringgold",
+    "birthYear": 1930,
+    "deathYear": 2024,
+    "medium": [
+      "Painting",
+      "Quilting",
+      "Sculpture"
+    ],
+    "movements": [
+      "black-arts-movement",
+      "contemporary"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "Faith_Ringgold",
+    "commonsImage": null
+  },
+  {
+    "id": "benny-andrews",
+    "name": "Benny Andrews",
+    "birthYear": 1930,
+    "deathYear": 2006,
+    "medium": [
+      "Painting",
+      "Collage"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Benny_Andrews",
+    "commonsImage": null
+  },
+  {
+    "id": "dana-chandler",
+    "name": "Dana C. Chandler Jr.",
+    "birthYear": 1941,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Mural"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": "Boston",
+    "state": "MA",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "wikiKey": "Dana_C._Chandler_Jr.",
+    "commonsImage": null
+  },
+  {
+    "id": "murry-depillars",
+    "name": "Murry DePillars",
+    "birthYear": 1938,
+    "deathYear": 2008,
+    "medium": [
+      "Painting",
+      "Drawing"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": "Richmond",
+    "state": "VA",
+    "lat": 37.5407,
+    "lng": -77.436,
+    "wikiKey": "Murry_DePillars",
+    "commonsImage": null
+  },
+  {
+    "id": "sam-gilliam",
+    "name": "Sam Gilliam",
+    "birthYear": 1933,
+    "deathYear": 2022,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Washington",
+    "state": "DC",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "wikiKey": "Sam_Gilliam",
+    "commonsImage": "Sam Gilliam Solar Canopy.jpg"
+  },
+  {
+    "id": "howardena-pindell",
+    "name": "Howardena Pindell",
+    "birthYear": 1943,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Mixed Media",
+      "Video"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Howardena_Pindell",
+    "commonsImage": "Howardeena Pindell painting \"Queens, Festival\".jpg"
+  },
+  {
+    "id": "senga-nengudi",
+    "name": "Senga Nengudi",
+    "birthYear": 1943,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Performance"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Colorado Springs",
+    "state": "CO",
+    "lat": 38.8339,
+    "lng": -104.8214,
+    "wikiKey": "Senga_Nengudi",
+    "commonsImage": null
+  },
+  {
+    "id": "adrian-piper",
+    "name": "Adrian Piper",
+    "birthYear": 1948,
+    "deathYear": null,
+    "medium": [
+      "Conceptual",
+      "Performance",
+      "Video"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Adrian_Piper",
+    "commonsImage": "AdrianPiper65AliceDownRbtHole.png"
+  },
+  {
+    "id": "lorraine-ogrady",
+    "name": "Lorraine O'Grady",
+    "birthYear": 1934,
+    "deathYear": 2024,
+    "medium": [
+      "Performance",
+      "Photography",
+      "Conceptual"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Lorraine_O'Grady",
+    "commonsImage": "O'Grady as Mlle Bourgeoise Noire.jpg"
+  },
+  {
+    "id": "jean-michel-basquiat",
+    "name": "Jean-Michel Basquiat",
+    "birthYear": 1960,
+    "deathYear": 1988,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Jean-Michel_Basquiat",
+    "commonsImage": null
+  },
+  {
+    "id": "kara-walker",
+    "name": "Kara Walker",
+    "birthYear": 1969,
+    "deathYear": null,
+    "medium": [
+      "Silhouette",
+      "Drawing",
+      "Installation"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Kara_Walker",
+    "commonsImage": "Tate Modern – Fons Americanus.jpg"
+  },
+  {
+    "id": "kerry-james-marshall",
+    "name": "Kerry James Marshall",
+    "birthYear": 1955,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "wikiKey": "Kerry_James_Marshall",
+    "commonsImage": null
+  },
+  {
+    "id": "carrie-mae-weems",
+    "name": "Carrie Mae Weems",
+    "birthYear": 1953,
+    "deathYear": null,
+    "medium": [
+      "Photography",
+      "Video"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Syracuse",
+    "state": "NY",
+    "lat": 43.0481,
+    "lng": -76.1474,
+    "wikiKey": "Carrie_Mae_Weems",
+    "commonsImage": null
+  },
+  {
+    "id": "lorna-simpson",
+    "name": "Lorna Simpson",
+    "birthYear": 1960,
+    "deathYear": null,
+    "medium": [
+      "Photography",
+      "Video",
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Brooklyn",
+    "state": "NY",
+    "lat": 40.6782,
+    "lng": -73.9442,
+    "wikiKey": "Lorna_Simpson",
+    "commonsImage": "Twenty Questions (A Sampler) 1986.jpg"
+  },
+  {
+    "id": "glenn-ligon",
+    "name": "Glenn Ligon",
+    "birthYear": 1960,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Conceptual",
+      "Neon"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Glenn_Ligon",
+    "commonsImage": null
+  },
+  {
+    "id": "kehinde-wiley",
+    "name": "Kehinde Wiley",
+    "birthYear": 1977,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Kehinde_Wiley",
+    "commonsImage": "Saint Adelaide, Kehinde Wiley 2014 - Stained Glass Museum.jpg"
+  },
+  {
+    "id": "amy-sherald",
+    "name": "Amy Sherald",
+    "birthYear": 1973,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Baltimore",
+    "state": "MD",
+    "lat": 39.2904,
+    "lng": -76.6122,
+    "wikiKey": "Amy_Sherald",
+    "commonsImage": "\"Equilibrium\" mural (2018; Amy Sherald), Parkway Theater (1915), 5 W. North Avenue, Baltimore, MD 21201 (45950088475).jpg"
+  },
+  {
+    "id": "mickalene-thomas",
+    "name": "Mickalene Thomas",
+    "birthYear": 1971,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Mixed Media",
+      "Photography"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Brooklyn",
+    "state": "NY",
+    "lat": 40.6782,
+    "lng": -73.9442,
+    "wikiKey": "Mickalene_Thomas",
+    "commonsImage": "53 Street panorama vc.jpg"
+  },
+  {
+    "id": "mark-bradford",
+    "name": "Mark Bradford",
+    "birthYear": 1961,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Mixed Media"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "wikiKey": "Mark_Bradford",
+    "commonsImage": null
+  },
+  {
+    "id": "theaster-gates",
+    "name": "Theaster Gates",
+    "birthYear": 1973,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Installation",
+      "Social Practice"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "wikiKey": "Theaster_Gates",
+    "commonsImage": "Sanctum at Temple Church.JPG"
+  },
+  {
+    "id": "rashid-johnson",
+    "name": "Rashid Johnson",
+    "birthYear": 1977,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture",
+      "Photography"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Rashid_Johnson",
+    "commonsImage": "Shea Butter Three Ways - part 1.jpg"
+  },
+  {
+    "id": "titus-kaphar",
+    "name": "Titus Kaphar",
+    "birthYear": 1976,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "New Haven",
+    "state": "CT",
+    "lat": 41.3083,
+    "lng": -72.9279,
+    "wikiKey": "Titus_Kaphar",
+    "commonsImage": null
+  },
+  {
+    "id": "nick-cave",
+    "name": "Nick Cave",
+    "birthYear": 1959,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Performance",
+      "Textile"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "wikiKey": "Nick_Cave_(performance_artist)",
+    "commonsImage": "Nick cave, soundsuit, 2010 (verona, galleria studio la città) 01.jpg"
+  },
+  {
+    "id": "joyce-scott",
+    "name": "Joyce J. Scott",
+    "birthYear": 1948,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Beadwork"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Baltimore",
+    "state": "MD",
+    "lat": 39.2904,
+    "lng": -76.6122,
+    "wikiKey": "Joyce_J._Scott",
+    "commonsImage": "Bright Palms mosaic by Joyce J. Scott.jpg"
+  },
+  {
+    "id": "simone-leigh",
+    "name": "Simone Leigh",
+    "birthYear": 1967,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Ceramics"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Brooklyn",
+    "state": "NY",
+    "lat": 40.6782,
+    "lng": -73.9442,
+    "wikiKey": "Simone_Leigh",
+    "commonsImage": "Sculpture Brick House by Simone Leigh.jpg"
+  },
+  {
+    "id": "henry-taylor",
+    "name": "Henry Taylor",
+    "birthYear": 1958,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "wikiKey": "Henry_Taylor_(artist)",
+    "commonsImage": null
+  },
+  {
+    "id": "lynette-yiadom-boakye",
+    "name": "Lynette Yiadom-Boakye",
+    "birthYear": 1977,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "London",
+    "state": "",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "wikiKey": "Lynette_Yiadom-Boakye",
+    "commonsImage": null
+  },
+  {
+    "id": "deana-lawson",
+    "name": "Deana Lawson",
+    "birthYear": 1979,
+    "deathYear": null,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Brooklyn",
+    "state": "NY",
+    "lat": 40.6782,
+    "lng": -73.9442,
+    "wikiKey": "Deana_Lawson",
+    "commonsImage": null
+  },
+  {
+    "id": "toyin-ojih-odutola",
+    "name": "Toyin Ojih Odutola",
+    "birthYear": 1985,
+    "deathYear": null,
+    "medium": [
+      "Drawing"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "wikiKey": "Toyin_Ojih_Odutola",
+    "commonsImage": null
+  },
+  {
+    "id": "tschabalala-self",
+    "name": "Tschabalala Self",
+    "birthYear": 1990,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Mixed Media"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "New Haven",
+    "state": "CT",
+    "lat": 41.3083,
+    "lng": -72.9279,
+    "wikiKey": "Tschabalala_Self",
+    "commonsImage": null
+  },
+  {
+    "id": "jordan-casteel",
+    "name": "Jordan Casteel",
+    "birthYear": 1989,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "wikiKey": "Jordan_Casteel",
+    "commonsImage": "Jordan Casteel, MegaStarBrand's Louie and A-Thug, 2017.png"
+  },
+  {
+    "id": "derrick-adams",
+    "name": "Derrick Adams",
+    "birthYear": 1970,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Collage",
+      "Sculpture"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Brooklyn",
+    "state": "NY",
+    "lat": 40.6782,
+    "lng": -73.9442,
+    "wikiKey": "Derrick_Adams",
+    "commonsImage": null
+  },
+  {
+    "id": "hank-willis-thomas",
+    "name": "Hank Willis Thomas",
+    "birthYear": 1976,
+    "deathYear": null,
+    "medium": [
+      "Conceptual",
+      "Photography",
+      "Sculpture"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Brooklyn",
+    "state": "NY",
+    "lat": 40.6782,
+    "lng": -73.9442,
+    "wikiKey": "Hank_Willis_Thomas",
+    "commonsImage": "Endless Column, Hank Willis Thomas.jpg"
+  },
+  {
+    "id": "charles-gaines",
+    "name": "Charles Gaines",
+    "birthYear": 1944,
+    "deathYear": null,
+    "medium": [
+      "Drawing",
+      "Conceptual"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "wikiKey": "Charles_Gaines_(artist)",
+    "commonsImage": null
+  },
+  {
+    "id": "suzanne-jackson",
+    "name": "Suzanne Jackson",
+    "birthYear": 1944,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": "Savannah",
+    "state": "GA",
+    "lat": 32.0809,
+    "lng": -81.0912,
+    "wikiKey": "Suzanne_Jackson_(artist)",
+    "commonsImage": null
+  }
+]

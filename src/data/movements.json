@@ -1,0 +1,56 @@
+[
+  {
+    "key": "early-american",
+    "label": "Early American Masters",
+    "years": "1750–1900",
+    "yearStart": 1750,
+    "yearEnd": 1900,
+    "color": "#7a5c3e",
+    "description": "From the colonial-era portraitist Joshua Johnson to the Reconstruction-era landscape painters and sculptors who exhibited internationally, the first wave of Black American visual artists worked against systemic exclusion to forge careers in painting, sculpture, and photography. Many trained abroad, finding the freedom in Europe that was denied them at home."
+  },
+  {
+    "key": "harlem-renaissance",
+    "label": "Harlem Renaissance",
+    "years": "1918–1937",
+    "yearStart": 1918,
+    "yearEnd": 1937,
+    "color": "#c87a3c",
+    "description": "Centered in Harlem and rippling out through Black urban centers across America, this flowering of art, literature, and music reframed Black identity through a distinctly modernist lens. Painters and sculptors drew on African heritage, jazz rhythms, and everyday urban life to assert pride, beauty, and the right to self-representation."
+  },
+  {
+    "key": "wpa-social-realism",
+    "label": "WPA & Social Realism",
+    "years": "1930s–1940s",
+    "yearStart": 1933,
+    "yearEnd": 1949,
+    "color": "#6b7a3c",
+    "description": "The Federal Art Project of the WPA gave hundreds of Black artists their first reliable income, while parallel Black-led institutions like the South Side Community Art Center in Chicago became cultural anchors. The work bore witness to migration, labor, and the dignity of working-class Black life."
+  },
+  {
+    "key": "spiral-group",
+    "label": "Spiral Group",
+    "years": "1963–1965",
+    "yearStart": 1963,
+    "yearEnd": 1965,
+    "color": "#3c5c6b",
+    "description": "Founded in Romare Bearden's Manhattan studio at the height of the civil rights movement, Spiral was a small collective of fifteen Black artists who debated whether and how art should respond to the freedom struggle. Their landmark 1965 exhibition was rendered entirely in black and white."
+  },
+  {
+    "key": "black-arts-movement",
+    "label": "Black Arts Movement & AfriCOBRA",
+    "years": "1965–1976",
+    "yearStart": 1965,
+    "yearEnd": 1976,
+    "color": "#9c2f2f",
+    "description": "The cultural arm of the Black Power movement, BAM and the Chicago-born collective AfriCOBRA insisted on art made by, for, and about Black people. Cool-bright color, rhythmic pattern, and direct political address replaced the muted palettes of mainstream modernism."
+  },
+  {
+    "key": "contemporary",
+    "label": "Contemporary",
+    "years": "1980–present",
+    "yearStart": 1980,
+    "yearEnd": 2026,
+    "color": "#4a3c6b",
+    "description": "Today's generation of Black American artists works across every conceivable medium — painting, photography, sculpture, video, social practice, installation — and occupies the major museums and biennials that long excluded their predecessors. The conversation now spans memory, the archive, the body, abstraction, and the politics of representation itself."
+  }
+]
