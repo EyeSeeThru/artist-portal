@@ -1,5 +1,6 @@
 import { useState } from "react";
 import artistsData from "@/data/artists.json";
+import sourcesData from "@/data/sources.json";
 import { Artist } from "@/types";
 import { ArtistImage } from "@/components/ArtistImage";
 import { useArtistStore } from "@/hooks/use-artist";
@@ -55,7 +56,12 @@ export default function Gallery() {
             className="break-inside-avoid group cursor-pointer relative"
           >
             <div className="overflow-hidden rounded-xl border bg-card mb-3 aspect-[3/4] relative">
-              <ArtistImage artist={artist as Artist} width={600} className="w-full h-full transition-transform duration-700 group-hover:scale-105" />
+              <ArtistImage
+              artist={artist as Artist}
+              coverOverride={sourcesData.byArtist[artist.id]?.galleryCover}
+              width={600}
+              className="w-full h-full transition-transform duration-700 group-hover:scale-105"
+            />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
             </div>
             <div>

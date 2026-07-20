@@ -22,16 +22,35 @@ export interface Artwork {
   title: string;
   year?: string;
   medium?: string;
-  filename: string;
-  thumbUrl: string;
-  fullUrl: string;
   /** URL to the source page on the museum site */
   sourceUrl: string;
   /** Display name of the source, e.g. "Art Institute of Chicago" */
   source: string;
+  /** Either a Wikimedia thumbUrl or a museum IIIF URL */
+  thumbUrl: string;
+  /** Higher-resolution full image URL */
+  fullUrl: string;
   license: string;
   licenseUrl?: string;
   artist?: string;
+  attribution?: string;
+  width?: number;
+  height?: number;
+}
+
+export interface SourceBundle {
+  wikipediaImages: Artwork[];
+  artworks: Artwork[];
+  /** Picked gallery-cover image URL (a real artwork, not a portrait) */
+  galleryCover?: string | null;
+}
+
+export interface SourcesData {
+  generatedAt: string;
+  totalArtists: number;
+  totalWikimedia: number;
+  totalArtworks: number;
+  byArtist: Record<string, SourceBundle>;
 }
 
 export interface Movement {

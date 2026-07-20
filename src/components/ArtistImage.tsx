@@ -10,8 +10,14 @@ import movementsData from "@/data/movements.json";
  */
 const MIN_NATURAL_DIM = 96;
 
-function resolveImageSrc(artist: Artist, width: number): string | null {
-  // Priority: explicit imageUrl override → Commons Special:FilePath redirect.
+function resolveImageSrc(
+  artist: Artist,
+  width: number,
+  coverOverride?: string | null,
+): string | null {
+  // Priority: explicit gallery-cover from sources.json → explicit imageUrl
+  // override → Commons Special:FilePath redirect.
+  if (coverOverride) return coverOverride;
   if (artist.imageUrl) return artist.imageUrl;
   if (artist.commonsImage) return commonsThumbUrl(artist.commonsImage, width);
   return null;
@@ -21,10 +27,13 @@ export function ArtistImage({
   artist,
   width = 400,
   className = "",
+  coverOverride,
 }: {
   artist: Artist;
   width?: number;
   className?: string;
+  /** Optional override URL (e.g. a vetted artwork from sources.json) */
+  coverOverride?: string | null;
 }) {
   // Track three failure modes independently:
   //   - failed: the <img> errored (network/404/etc.)
@@ -34,7 +43,7 @@ export function ArtistImage({
   const [failed, setFailed] = useState(false);
   const [tooSmall, setTooSmall] = useState(false);
 
-  const src = resolveImageSrc(artist, width);
+  const src = resolveImageSrc(artist, width, coverOverride);
   const showImage = src && !failed && !tooSmall;
 
   const primaryMovement = artist.movements[0]

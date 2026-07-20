@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import { X, ExternalLink, Compass } from "lucide-react";
-import { Artist, Artwork } from "@/types";
+import { Artist, SourceBundle } from "@/types";
 import artistsData from "@/data/artists.json";
-import artworksData from "@/data/artworks.json";
+import sourcesData from "@/data/sources.json";
 import movementsData from "@/data/movements.json";
 import { useArtistStore } from "@/hooks/use-artist";
-import { fetchArtistSummary, fetchCommonsImageInfo, WikipediaSummary, CommonsImageInfo } from "@/lib/wikipedia";
+import { fetchArtistSummary, WikipediaSummary } from "@/lib/wikipedia";
 import { ArtistImage } from "./ArtistImage";
-import { FeaturedWorksStrip } from "./FeaturedWorksStrip";
 import { ArtworksStrip, ArtworksEmpty } from "./ArtworksStrip";
+import { WikipediaImagesStrip } from "./WikipediaImagesStrip";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -23,32 +23,26 @@ export function ArtistDetailPanel() {
     jumpToTrailEntry,
   } = useArtistStore();
   const [summary, setSummary] = useState<WikipediaSummary | null>(null);
-  const [imageInfo, setImageInfo] = useState<CommonsImageInfo | null>(null);
   const [loading, setLoading] = useState(false);
 
   const artist = artistsData.find((a) => a.id === selectedArtistId) as Artist | undefined;
   const trailIndex = trail.length > 0
     ? trail.findIndex((e) => e.artist.id === selectedArtistId)
     : -1;
-  const artworks = (selectedArtistId
-    ? (artworksData.byArtist as Record<string, Artwork[]>)[selectedArtistId] ?? []
-    : []);
+  const bundle: SourceBundle = selectedArtistId
+    ? sourcesData.byArtist[selectedArtistId] ?? { wikipediaImages: [], artworks: [] }
+    : { wikipediaImages: [], artworks: [] };
 
   useEffect(() => {
     if (!artist) return;
-    
+
     let isMounted = true;
     setLoading(true);
     setSummary(null);
-    setImageInfo(null);
 
-    Promise.all([
-      fetchArtistSummary(artist.wikiKey),
-      artist.commonsImage ? fetchCommonsImageInfo(artist.commonsImage) : Promise.resolve(null)
-    ]).then(([sum, img]) => {
+    fetchArtistSummary(artist.wikiKey).then((sum) => {
       if (isMounted) {
         setSummary(sum);
-        setImageInfo(img);
         setLoading(false);
       }
     });
@@ -66,9 +60,13 @@ export function ArtistDetailPanel() {
 
   if (!artist) return null;
 
+  // Wikipedia images first, then museum-API artworks. Show first 3 of each.
+  const wikipediaImages = bundle.wikipediaImages.slice(0, 3);
+  const artworks = bundle.artworks.slice(0, 3);
+
   return (
     <>
-      <div 
+      <div
         className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 transition-opacity"
         onClick={() => setSelectedArtistId(null)}
       />
@@ -109,7 +107,12 @@ export function ArtistDetailPanel() {
 
         <div className="flex-1 overflow-y-auto">
           <div className="relative h-72 md:h-96 w-full">
-            <ArtistImage artist={artist} width={800} className="absolute inset-0 w-full h-full" />
+            <ArtistImage
+              artist={artist}
+              coverOverride={bundle.galleryCover}
+              width={800}
+              className="absolute inset-0 w-full h-full"
+            />
             <button
               onClick={() => setSelectedArtistId(null)}
               className="absolute top-4 right-4 p-2 bg-background/80 backdrop-blur-md rounded-full text-foreground hover:bg-background transition-colors"
@@ -130,13 +133,15 @@ export function ArtistDetailPanel() {
               Wander to a related artist
             </Button>
 
-            {artist.featuredWorks && artist.featuredWorks.length > 0 && (
-              <FeaturedWorksStrip
-                works={artist.featuredWorks}
+            {/* Wikipedia article images — vetted by Wikipedia editors */}
+            {wikipediaImages.length > 0 && (
+              <WikipediaImagesStrip
+                images={wikipediaImages}
                 artistName={artist.name}
               />
             )}
 
+            {/* Museum-API artworks */}
             {artworks.length > 0 ? (
               <ArtworksStrip artworks={artworks} artistName={artist.name} />
             ) : (
@@ -185,9 +190,9 @@ export function ArtistDetailPanel() {
             </div>
 
             {summary && (
-              <a 
-                href={summary.contentUrl} 
-                target="_blank" 
+              <a
+                href={summary.contentUrl}
+                target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-sm font-medium hover:text-primary/80 transition-colors gap-1.5"
               >
@@ -196,31 +201,6 @@ export function ArtistDetailPanel() {
             )}
           </div>
         </div>
-
-        {(artist.commonsImage || artist.imageUrl) && (
-          <div className="p-4 border-t bg-muted/30 text-xs text-muted-foreground">
-            <p>
-              {loading ? (
-                <Skeleton className="h-3 w-64" />
-              ) : imageInfo ? (
-                <>
-                  Image: {imageInfo.artist || artist.name} · {imageInfo.licenseShortName || "Public Domain"} ·{" "}
-                  <a href={imageInfo.descriptionUrl} target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">
-                    Wikimedia Commons
-                  </a>
-                </>
-              ) : artist.imageAttribution ? (
-                artist.imageAttribution
-              ) : (
-                artist.imageUrl ? (
-                  <>Image: {artist.imageSource || "external source"} · {artist.imageLicense || ""}</>
-                ) : (
-                  "Image via Wikimedia Commons"
-                )
-              )}
-            </p>
-          </div>
-        )}
       </div>
     </>
   );

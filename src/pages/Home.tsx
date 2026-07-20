@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { useEffect, useState, useMemo } from "react";
 import { fetchArtistSummary, WikipediaSummary } from "@/lib/wikipedia";
 import artistsData from "@/data/artists.json";
+import sourcesData from "@/data/sources.json";
 import { ArtistImage } from "@/components/ArtistImage";
 import { LayoutGrid, Clock, Layers, MapPin, Shuffle } from "lucide-react";
 import { motion } from "framer-motion";
@@ -15,7 +16,10 @@ export default function Home() {
   // Deterministic daily featured artist — only from artists with a real image
   const featuredArtist = useMemo(() => {
     const withImage = artistsData.filter(
-      (a) => a.commonsImage || a.imageUrl,
+      (a) =>
+        a.commonsImage ||
+        a.imageUrl ||
+        sourcesData.byArtist[a.id]?.galleryCover,
     );
     const dayOfYear = Math.floor(
       (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) /
@@ -108,7 +112,12 @@ export default function Home() {
             onClick={openFeatured}
             className="text-left relative aspect-[4/5] md:aspect-square w-full rounded-2xl overflow-hidden border border-border/50 shadow-xl group focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
           >
-            <ArtistImage artist={featuredArtist} width={1000} className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" />
+            <ArtistImage
+              artist={featuredArtist}
+              coverOverride={sourcesData.byArtist[featuredArtist.id]?.galleryCover}
+              width={1000}
+              className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+            />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-8 md:p-12 text-white">
               <h2 className="font-serif text-4xl md:text-5xl font-medium mb-2">{featuredArtist.name}</h2>
               <p className="text-lg md:text-xl opacity-90 mb-4">{featuredArtist.birthYear}–{featuredArtist.deathYear || "present"}</p>

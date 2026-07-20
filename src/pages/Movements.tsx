@@ -1,5 +1,6 @@
 import movementsData from "@/data/movements.json";
 import artistsData from "@/data/artists.json";
+import sourcesData from "@/data/sources.json";
 import { ArtistImage } from "@/components/ArtistImage";
 import { useArtistStore } from "@/hooks/use-artist";
 import { motion } from "framer-motion";
@@ -50,7 +51,12 @@ export default function Movements() {
                     className="flex flex-col items-center gap-3 w-28 md:w-32 flex-shrink-0 group snap-start text-left"
                   >
                     <div className="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden border-2 border-transparent group-hover:border-primary/30 transition-colors shadow-sm">
-                      <ArtistImage artist={artist as any} width={200} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                      <ArtistImage
+                      artist={artist as any}
+                      coverOverride={sourcesData.byArtist[artist.id]?.galleryCover}
+                      width={200}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
                     </div>
                     <span className="font-serif text-sm leading-tight text-center group-hover:text-primary transition-colors">
                       {artist.name}
