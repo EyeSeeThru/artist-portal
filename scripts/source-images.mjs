@@ -121,44 +121,16 @@ async function tryWikipediaSummary(wikiKey) {
 }
 
 /**
- * Step 2: Wikimedia Commons category search. Picks the top result and
- * validates it via validateCommonsThumb.
+ * Step 3: Disabled — Commons text search by name is unreliable for
+ * biographical subjects. The top hits are often unrelated PDFs (yearbooks,
+ * copyright catalogs, biographies of different people) that happen to share
+ * one keyword in their text. The validation step can't tell subject vs.
+ * subject apart, so this path is removed.
+ *
+ * If you want to re-enable, add a filter for filename structure
+ * (e.g. require the filename to contain the artist's last name) AND a
+ * subject-confirmation step. Don't enable as-is.
  */
-async function tryCommonsSearch(name) {
-  const params = new URLSearchParams({
-    action: "query",
-    format: "json",
-    list: "search",
-    srnamespace: "6",
-    srlimit: "5",
-    srsearch: `${name} portrait`,
-    origin: "*",
-  });
-  try {
-    const res = await fetchWithRetry(
-      `https://commons.wikimedia.org/w/api.php?${params}`,
-    );
-    if (!res.ok) return null;
-    const data = await res.json();
-    const hits = data.query?.search ?? [];
-    for (const h of hits) {
-      // title is "File:Foo.jpg" — strip prefix
-      const filename = h.title.replace(/^File:/, "");
-      const v = await validateCommonsThumb(filename);
-      if (v.ok) {
-        return {
-          filename,
-          commonsUrl: `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(
-            filename.replace(/ /g, "_"),
-          )}`,
-        };
-      }
-    }
-    return null;
-  } catch {
-    return null;
-  }
-}
 
 /**
  * Step 3: Wikipedia REST pageimages — gives the lead image from the page,
@@ -213,17 +185,7 @@ async function sourceFor(artist) {
     };
   }
 
-  // 3. Commons category search (validated)
-  const commons = await tryCommonsSearch(artist.name);
-  if (commons) {
-    return {
-      kind: "commons-search",
-      commonsImage: commons.filename,
-      source: "Wikimedia Commons",
-      license: "varies (see Commons file page)",
-      attribution: `Image: Wikimedia Commons, ${commons.commonsUrl}`,
-    };
-  }
+  // 3. (was commons-search — removed, see tryCommonsSearch stub above)
 
   return null;
 }

@@ -14,7 +14,8 @@ When an artist has no `commonsImage`, `scripts/source-images.mjs` walks this lad
 
 1. **Wikipedia REST page summary** — `https://en.wikipedia.org/api/rest_v1/page/summary/{wikiKey}` returns `originalimage.source`. Wikipedia vets this upstream (filters disambig icons). License varies per image; the script records attribution pointing back to the Wikipedia article.
 2. **Wikipedia pageimages** — `?prop=pageimages&piprop=original` returns the lead image from a Wikipedia article. Same attribution pattern as above.
-3. **Wikimedia Commons category search** — `?action=query&list=search&srnamespace=6&srsearch={name}+portrait` finds file hits. Top result is validated by the audit script before being accepted.
+
+**Removed: Wikimedia Commons category search.** As of 2026-07-20 this path is disabled. It returned wrong subjects in 12 out of 12 cases — for biographical subjects the search engine ranks unrelated PDFs (yearbooks, copyright catalogs, biographies of different people) above actual portraits. The audit step couldn't tell apart, so any commons-search result was effectively a coin flip on whether it was the right person. If you want to re-enable it, you need both a filename-structure filter (require the artist's last name in the filename) and a subject-confirmation step (probably a Wikipedia check).
 
 Anything the ladder can't fill is left for manual sourcing — no AI-generated portraits, no scraped museum images without clear licensing.
 
@@ -53,15 +54,29 @@ Don't crank these up — it'll just 429 you for hours.
 
 ## Manual-fill list
 
-Artists the automated ladder couldn't source as of 2026-07-19:
+Artists the automated ladder couldn't source. The original 6 were never
+sourced; the other 12 were added on 2026-07-20 when the broken
+`commons-search` results were rolled back (see `sources.json` `_rollback_log`).
 
 | ID | Name |
 |---|---|
 | `ernest-crichlow` | Ernest Crichlow |
+| `emma-amos` | Emma Amos |
+| `reginald-gammon` | Reginald Gammon |
+| `william-majors` | William Majors |
 | `barbara-jones-hogu` | Barbara Jones-Hogu |
 | `wadsworth-jarrell` | Wadsworth Jarrell |
+| `gerald-williams` | Gerald Williams |
+| `nelson-stevens` | Nelson Stevens |
+| `carolyn-lawrence` | Carolyn Lawrence |
+| `benny-andrews` | Benny Andrews |
+| `dana-chandler` | Dana C. Chandler Jr. |
+| `murry-depillars` | Murry DePillars |
 | `senga-nengudi` | Senga Nengudi |
+| `kerry-james-marshall` | Kerry James Marshall |
+| `carrie-mae-weems` | Carrie Mae Weems |
 | `lynette-yiadom-boakye` | Lynette Yiadom-Boakye |
 | `deana-lawson` | Deana Lawson |
+| `charles-gaines` | Charles Gaines |
 
 To fill one manually: add `imageUrl`, `imageSource`, `imageLicense`, `imageAttribution` to the artist's entry in `src/data/artists.json` and append the same record to `src/data/sources.json` for auditability.
