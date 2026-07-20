@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
 import { X, ExternalLink, Compass } from "lucide-react";
-import { Artist } from "@/types";
+import { Artist, Artwork } from "@/types";
 import artistsData from "@/data/artists.json";
+import artworksData from "@/data/artworks.json";
 import movementsData from "@/data/movements.json";
 import { useArtistStore } from "@/hooks/use-artist";
 import { fetchArtistSummary, fetchCommonsImageInfo, WikipediaSummary, CommonsImageInfo } from "@/lib/wikipedia";
 import { ArtistImage } from "./ArtistImage";
 import { FeaturedWorksStrip } from "./FeaturedWorksStrip";
+import { ArtworksStrip, ArtworksEmpty } from "./ArtworksStrip";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -28,6 +30,9 @@ export function ArtistDetailPanel() {
   const trailIndex = trail.length > 0
     ? trail.findIndex((e) => e.artist.id === selectedArtistId)
     : -1;
+  const artworks = (selectedArtistId
+    ? (artworksData.byArtist as Record<string, Artwork[]>)[selectedArtistId] ?? []
+    : []);
 
   useEffect(() => {
     if (!artist) return;
@@ -130,6 +135,12 @@ export function ArtistDetailPanel() {
                 works={artist.featuredWorks}
                 artistName={artist.name}
               />
+            )}
+
+            {artworks.length > 0 ? (
+              <ArtworksStrip artworks={artworks} artistName={artist.name} />
+            ) : (
+              <ArtworksEmpty artistName={artist.name} />
             )}
 
             <div>

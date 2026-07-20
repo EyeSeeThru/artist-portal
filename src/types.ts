@@ -18,6 +18,19 @@ export interface Artist {
   featuredWorks?: string[];
 }
 
+export interface Artwork {
+  title: string;
+  filename: string;
+  thumbUrl: string;
+  fullUrl: string;
+  commonsUrl: string;
+  width: number;
+  height: number;
+  license: string;
+  licenseUrl?: string;
+  artist?: string;
+}
+
 export interface Movement {
   key: string;
   label: string;
