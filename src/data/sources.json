@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T11:42:13.873Z",
+  "generatedAt": "2026-07-20T12:06:21.357Z",
   "totalArtists": 90,
   "totalWikimedia": 158,
   "totalArtworks": 138,
@@ -82,7 +82,7 @@
     "patrick-reason": {
       "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": null
+      "galleryCover": "https://commons.wikimedia.org/wiki/Special:FilePath/Patrick%20Reason%20engraving.jpg?width=600"
     },
     "robert-duncanson": {
       "wikipediaImages": [
@@ -1133,7 +1133,7 @@
     "lois-mailou-jones": {
       "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": null
+      "galleryCover": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Ascent%20of%20Ethiopia%22%20-%20NARA%20-%20559088.jpg?width=600"
     },
     "archibald-motley": {
       "wikipediaImages": [
@@ -1721,7 +1721,7 @@
     "gwendolyn-knight": {
       "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": null
+      "galleryCover": "https://upload.wikimedia.org/wikipedia/en/6/69/Gwendolyn_Knight.jpg"
     },
     "charles-white": {
       "wikipediaImages": [],
@@ -1996,7 +1996,7 @@
     "john-biggers": {
       "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": null
+      "galleryCover": "https://upload.wikimedia.org/wikipedia/en/9/93/John_T._Biggers.jpg"
     },
     "samella-lewis": {
       "wikipediaImages": [
@@ -2227,7 +2227,7 @@
     "jeff-donaldson": {
       "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": null
+      "galleryCover": "https://upload.wikimedia.org/wikipedia/en/8/86/Photo_of_Jeff_Donaldson_%28artist%29.jpg"
     },
     "barbara-jones-hogu": {
       "wikipediaImages": [],
@@ -3579,7 +3579,7 @@
     "nick-cave": {
       "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": null
+      "galleryCover": "https://commons.wikimedia.org/wiki/Special:FilePath/Nick%20cave%2C%20soundsuit%2C%202010%20(verona%2C%20galleria%20studio%20la%20citt%C3%A0)%2001.jpg?width=600"
     },
     "joyce-scott": {
       "wikipediaImages": [

@@ -368,11 +368,22 @@ async function getArtworks(artistName) {
  *   3. Existing commonsImage / imageUrl as last resort
  */
 function pickGalleryCover(artist, bundle) {
-  return (
-    bundle.artworks?.[0]?.thumbUrl ??
-    bundle.wikipediaImages?.[0]?.thumbUrl ??
-    null
-  );
+  // 1. museum-API artwork (real artwork, not a portrait of the artist)
+  if (bundle.artworks?.[0]?.thumbUrl) return bundle.artworks[0].thumbUrl;
+  // 2. Wikipedia-article image (editorially vetted)
+  if (bundle.wikipediaImages?.[0]?.thumbUrl) return bundle.wikipediaImages[0].thumbUrl;
+  // 3. Fall back to the static artists.json fields (Wikipedia portrait,
+  //    Commons image filename). These are the best curated images we have
+  //    for this artist — better than no card image at all. The ArtistImage
+  //    component's fallback chain would render these anyway, but having
+  //    them in sources.json lets the cover picker be honest.
+  if (artist.commonsImage) {
+    // Convert raw filename to a proper Commons URL.
+    const fn = encodeURIComponent(artist.commonsImage);
+    return `https://commons.wikimedia.org/wiki/Special:FilePath/${fn}?width=600`;
+  }
+  if (artist.imageUrl) return artist.imageUrl;
+  return null;
 }
 
 // ---- main ----
