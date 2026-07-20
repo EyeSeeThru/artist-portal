@@ -3,6 +3,20 @@ import { Artist } from "@/types";
 import { commonsThumbUrl } from "@/lib/wikipedia";
 import movementsData from "@/data/movements.json";
 
+/**
+ * Minimum pixel dimensions we accept from a loaded <img>. Anything smaller
+ * is almost certainly a disambig icon or stub thumbnail from Wikipedia,
+ * even if the HTTP response is 200 + image/*. See IMAGE-SOURCING.md.
+ */
+const MIN_NATURAL_DIM = 96;
+
+function resolveImageSrc(artist: Artist, width: number): string | null {
+  // Priority: explicit imageUrl override → Commons Special:FilePath redirect.
+  if (artist.imageUrl) return artist.imageUrl;
+  if (artist.commonsImage) return commonsThumbUrl(artist.commonsImage, width);
+  return null;
+}
+
 export function ArtistImage({
   artist,
   width = 400,
@@ -12,7 +26,16 @@ export function ArtistImage({
   width?: number;
   className?: string;
 }) {
-  const [errored, setErrored] = useState(false);
+  // Track three failure modes independently:
+  //   - failed: the <img> errored (network/404/etc.)
+  //   - tooSmall: it loaded but the image is a disambig icon / stub
+  //   - until first successful render we can show the placeholder so the
+  //     layout doesn't shift when we swap.
+  const [failed, setFailed] = useState(false);
+  const [tooSmall, setTooSmall] = useState(false);
+
+  const src = resolveImageSrc(artist, width);
+  const showImage = src && !failed && !tooSmall;
 
   const primaryMovement = artist.movements[0]
     ? movementsData.find((m) => m.key === artist.movements[0])
@@ -25,13 +48,28 @@ export function ArtistImage({
       .join("")
       .slice(0, 2) || "·";
 
-  if (artist.commonsImage && !errored) {
+  if (showImage) {
     return (
       <img
-        src={commonsThumbUrl(artist.commonsImage, width)}
+        src={src}
         alt={artist.name}
         loading="lazy"
-        onError={() => setErrored(true)}
+        decoding="async"
+        referrerPolicy="no-referrer"
+        onError={() => setFailed(true)}
+        onLoad={(e) => {
+          const img = e.currentTarget;
+          // naturalWidth/Height are 0 until the image actually decodes.
+          // If still 0 here, something is wrong — fall back rather than
+          // render a broken icon.
+          if (
+            img.naturalWidth > 0 &&
+            (img.naturalWidth < MIN_NATURAL_DIM ||
+              img.naturalHeight < MIN_NATURAL_DIM)
+          ) {
+            setTooSmall(true);
+          }
+        }}
         className={`object-cover ${className}`}
       />
     );

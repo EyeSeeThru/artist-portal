@@ -1,0 +1,822 @@
+{
+  "generatedAt": "2026-07-20T10:13:20.700Z",
+  "config": {
+    "concurrency": 1,
+    "width": 400,
+    "minSize": 5000,
+    "gapMs": 1500,
+    "maxRetries": 3
+  },
+  "summary": {
+    "good": 50,
+    "missing": 0,
+    "wrong-type": 0,
+    "too-small": 0,
+    "error": 0,
+    "no-source": 40,
+    "total": 90,
+    "sourced": 50
+  },
+  "results": [
+    {
+      "artistId": "joshua-johnson",
+      "name": "Joshua Johnson",
+      "commonsImage": "Gentleman of the Shure Family by Joshua Johnson.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gentleman_of_the_Shure_Family_by_Joshua_Johnson.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Gentleman_of_the_Shure_Family_by_Joshua_Johnson.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 51444,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "patrick-reason",
+      "name": "Patrick Henry Reason",
+      "commonsImage": "Patrick Reason engraving.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Patrick_Reason_engraving.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Patrick_Reason_engraving.jpg/500px-Patrick_Reason_engraving.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 57700,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "robert-duncanson",
+      "name": "Robert S. Duncanson",
+      "commonsImage": "Landscape with Ruin by Robert Scott Duncanson - HNT.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Landscape_with_Ruin_by_Robert_Scott_Duncanson_-_HNT.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Landscape_with_Ruin_by_Robert_Scott_Duncanson_-_HNT.jpg/500px-Landscape_with_Ruin_by_Robert_Scott_Duncanson_-_HNT.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 66406,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "edward-bannister",
+      "name": "Edward Mitchell Bannister",
+      "commonsImage": "Edward Mitchell Bannister - Road to a House with a Red Roof - 2016.38.3 - Rhode Island School of Design Museum.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Edward_Mitchell_Bannister_-_Road_to_a_House_with_a_Red_Roof_-_2016.38.3_-_Rhode_Island_School_of_Design_Museum.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Edward_Mitchell_Bannister_-_Road_to_a_House_with_a_Red_Roof_-_2016.38.3_-_Rhode_Island_School_of_Design_Museum.jpg/500px-Edward_Mitchell_Bannister_-_Road_to_a_House_with_a_Red_Roof_-_2016.38.3_-_Rhode_Island_School_of_Design_Museum.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 50834,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "edmonia-lewis",
+      "name": "Edmonia Lewis",
+      "commonsImage": "The Death of Cleopatra by Edmonia Lewis - 1.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Death_of_Cleopatra_by_Edmonia_Lewis_-_1.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/The_Death_of_Cleopatra_by_Edmonia_Lewis_-_1.jpg/500px-The_Death_of_Cleopatra_by_Edmonia_Lewis_-_1.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 77183,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "grafton-tyler-brown",
+      "name": "Grafton Tyler Brown",
+      "commonsImage": "Grafton Tyler Brown - A Yellowstone Geyser - 2009.4329 - Museum of Fine Arts.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grafton_Tyler_Brown_-_A_Yellowstone_Geyser_-_2009.4329_-_Museum_of_Fine_Arts.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Grafton_Tyler_Brown_-_A_Yellowstone_Geyser_-_2009.4329_-_Museum_of_Fine_Arts.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 358466,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "henry-ossawa-tanner",
+      "name": "Henry Ossawa Tanner",
+      "commonsImage": "Henry Ossawa Tanner - The Banjo Lesson.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry_Ossawa_Tanner_-_The_Banjo_Lesson.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Henry_Ossawa_Tanner_-_The_Banjo_Lesson.jpg/500px-Henry_Ossawa_Tanner_-_The_Banjo_Lesson.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 102150,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "may-howard-jackson",
+      "name": "May Howard Jackson",
+      "commonsImage": "May Howard Jackson, Bust of Kelly Miller.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/May_Howard_Jackson%2C_Bust_of_Kelly_Miller.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/May_Howard_Jackson%2C_Bust_of_Kelly_Miller.jpg/500px-May_Howard_Jackson%2C_Bust_of_Kelly_Miller.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 48105,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "meta-vaux-warrick-fuller",
+      "name": "Meta Vaux Warrick Fuller",
+      "commonsImage": "Meta Vaux Warrick Fuller, Mary Turner, 1919.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Meta_Vaux_Warrick_Fuller%2C_Mary_Turner%2C_1919.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Meta_Vaux_Warrick_Fuller%2C_Mary_Turner%2C_1919.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 141536,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "william-edouard-scott",
+      "name": "William Edouard Scott",
+      "commonsImage": "Scott-Rainy Night.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Scott-Rainy_Night.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Scott-Rainy_Night.jpg/500px-Scott-Rainy_Night.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 66453,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "james-van-der-zee",
+      "name": "James Van Der Zee",
+      "commonsImage": "VDZ Wedding Day.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/VDZ_Wedding_Day.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/VDZ_Wedding_Day.jpg/500px-VDZ_Wedding_Day.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 96813,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "augusta-savage",
+      "name": "Augusta Savage",
+      "commonsImage": "Augusta Savage - Gamin - 2003.40 - Cleveland Museum of Art.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Augusta_Savage_-_Gamin_-_2003.40_-_Cleveland_Museum_of_Art.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Augusta_Savage_-_Gamin_-_2003.40_-_Cleveland_Museum_of_Art.jpg/500px-Augusta_Savage_-_Gamin_-_2003.40_-_Cleveland_Museum_of_Art.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 39984,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "palmer-hayden",
+      "name": "Palmer Hayden",
+      "commonsImage": "John Henry lies dead after beating the steam drill - painting by Palmer Hayden.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Henry_lies_dead_after_beating_the_steam_drill_-_painting_by_Palmer_Hayden.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/John_Henry_lies_dead_after_beating_the_steam_drill_-_painting_by_Palmer_Hayden.jpg/500px-John_Henry_lies_dead_after_beating_the_steam_drill_-_painting_by_Palmer_Hayden.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 87328,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "sargent-johnson",
+      "name": "Sargent Johnson",
+      "commonsImage": "Sargent Claude Johnson sculpture, Aquatic Park Center.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sargent_Claude_Johnson_sculpture%2C_Aquatic_Park_Center.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Sargent_Claude_Johnson_sculpture%2C_Aquatic_Park_Center.jpg/500px-Sargent_Claude_Johnson_sculpture%2C_Aquatic_Park_Center.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 42947,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "richmond-barthe",
+      "name": "Richmond Barthé",
+      "commonsImage": "Blackberry Woman SAAM-2001.6 4.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Blackberry_Woman_SAAM-2001.6_4.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Blackberry_Woman_SAAM-2001.6_4.jpg/500px-Blackberry_Woman_SAAM-2001.6_4.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 43079,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "aaron-douglas",
+      "name": "Aaron Douglas",
+      "commonsImage": "Aaron Douglas - NARA - 559198.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aaron_Douglas_-_NARA_-_559198.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Aaron_Douglas_-_NARA_-_559198.jpg/500px-Aaron_Douglas_-_NARA_-_559198.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 55849,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "james-lesesne-wells",
+      "name": "James Lesesne Wells",
+      "commonsImage": "Farmlands James Lesesne Wells print.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Farmlands_James_Lesesne_Wells_print.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Farmlands_James_Lesesne_Wells_print.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 100581,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "malvin-gray-johnson",
+      "name": "Malvin Gray Johnson",
+      "commonsImage": "'Roll Jordan Roll' by Malvin Gray Johnson, 1930.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/'Roll_Jordan_Roll'_by_Malvin_Gray_Johnson%2C_1930.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/%27Roll_Jordan_Roll%27_by_Malvin_Gray_Johnson%2C_1930.jpg/500px-%27Roll_Jordan_Roll%27_by_Malvin_Gray_Johnson%2C_1930.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 90073,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "william-h-johnson",
+      "name": "William H. Johnson",
+      "commonsImage": "William H. Johnson Self-Portrait.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/William_H._Johnson_Self-Portrait.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/William_H._Johnson_Self-Portrait.jpg/500px-William_H._Johnson_Self-Portrait.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 143072,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "lois-mailou-jones",
+      "name": "Loïs Mailou Jones",
+      "commonsImage": "\"Ascent of Ethiopia\" - NARA - 559088.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Ascent_of_Ethiopia%22_-_NARA_-_559088.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/%22Ascent_of_Ethiopia%22_-_NARA_-_559088.jpg/500px-%22Ascent_of_Ethiopia%22_-_NARA_-_559088.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 101883,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "archibald-motley",
+      "name": "Archibald Motley",
+      "commonsImage": "Blues by Archibald Motley.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Blues_by_Archibald_Motley.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Blues_by_Archibald_Motley.jpg/500px-Blues_by_Archibald_Motley.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 56574,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "hale-woodruff",
+      "name": "Hale Woodruff",
+      "commonsImage": "\"The Banjo Player\" - NARA - 559155.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%22The_Banjo_Player%22_-_NARA_-_559155.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/%22The_Banjo_Player%22_-_NARA_-_559155.jpg/500px-%22The_Banjo_Player%22_-_NARA_-_559155.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 75842,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "beauford-delaney",
+      "name": "Beauford Delaney",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "horace-pippin",
+      "name": "Horace Pippin",
+      "commonsImage": "John Brown Going to His Hanging by Horace Pippin.png",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Brown_Going_to_His_Hanging_by_Horace_Pippin.png?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/John_Brown_Going_to_His_Hanging_by_Horace_Pippin.png/500px-John_Brown_Going_to_His_Hanging_by_Horace_Pippin.png",
+      "status": 206,
+      "contentType": "image/png",
+      "sizeBytes": 371411,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "ellis-wilson",
+      "name": "Ellis Wilson",
+      "commonsImage": "\"Old Charleston Market\" - NARA - 559147.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Old_Charleston_Market%22_-_NARA_-_559147.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%22Old_Charleston_Market%22_-_NARA_-_559147.jpg/500px-%22Old_Charleston_Market%22_-_NARA_-_559147.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 76586,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "charles-alston",
+      "name": "Charles Alston",
+      "commonsImage": "\"OUT OF THE FRYING PAN - INTO THE FIRING LINE^\" - NARA - 535609.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%22OUT_OF_THE_FRYING_PAN_-_INTO_THE_FIRING_LINE%5E%22_-_NARA_-_535609.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/%22OUT_OF_THE_FRYING_PAN_-_INTO_THE_FIRING_LINE%5E%22_-_NARA_-_535609.jpg/500px-%22OUT_OF_THE_FRYING_PAN_-_INTO_THE_FIRING_LINE%5E%22_-_NARA_-_535609.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 87882,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "dox-thrash",
+      "name": "Dox Thrash",
+      "commonsImage": "For She Knows Not Sorrow SAAM-1974.28.330.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/For_She_Knows_Not_Sorrow_SAAM-1974.28.330.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/For_She_Knows_Not_Sorrow_SAAM-1974.28.330.jpg/500px-For_She_Knows_Not_Sorrow_SAAM-1974.28.330.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 91278,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "elizabeth-catlett",
+      "name": "Elizabeth Catlett",
+      "commonsImage": "Elizabeth Catlett I am the Black Woman 1947.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Elizabeth_Catlett_I_am_the_Black_Woman_1947.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Elizabeth_Catlett_I_am_the_Black_Woman_1947.jpg/500px-Elizabeth_Catlett_I_am_the_Black_Woman_1947.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 78786,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "jacob-lawrence",
+      "name": "Jacob Lawrence",
+      "commonsImage": "The migration gained in momentum - NARA - 559096.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_migration_gained_in_momentum_-_NARA_-_559096.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/The_migration_gained_in_momentum_-_NARA_-_559096.jpg/500px-The_migration_gained_in_momentum_-_NARA_-_559096.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 77969,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "norman-lewis",
+      "name": "Norman Lewis",
+      "commonsImage": "Alabama - Norman Lewis - Cleveland Museum of Art (29567660988).jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alabama_-_Norman_Lewis_-_Cleveland_Museum_of_Art_(29567660988).jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Alabama_-_Norman_Lewis_-_Cleveland_Museum_of_Art_%2829567660988%29.jpg/500px-Alabama_-_Norman_Lewis_-_Cleveland_Museum_of_Art_%2829567660988%29.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 40100,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "ernest-crichlow",
+      "name": "Ernest Crichlow",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "gwendolyn-knight",
+      "name": "Gwendolyn Knight",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "charles-white",
+      "name": "Charles White",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "margaret-burroughs",
+      "name": "Margaret Burroughs",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "eldzier-cortor",
+      "name": "Eldzier Cortor",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "hughie-lee-smith",
+      "name": "Hughie Lee-Smith",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "alma-thomas",
+      "name": "Alma Thomas",
+      "commonsImage": "Alma SAAM-1929.6.35 1.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alma_SAAM-1929.6.35_1.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Alma_SAAM-1929.6.35_1.jpg/500px-Alma_SAAM-1929.6.35_1.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 66452,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "john-biggers",
+      "name": "John T. Biggers",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "samella-lewis",
+      "name": "Samella Lewis",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "romare-bearden",
+      "name": "Romare Bearden",
+      "commonsImage": "\"After Church\" - NARA - 559046.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%22After_Church%22_-_NARA_-_559046.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/%22After_Church%22_-_NARA_-_559046.jpg/500px-%22After_Church%22_-_NARA_-_559046.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 48297,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "emma-amos",
+      "name": "Emma Amos",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "richard-mayhew",
+      "name": "Richard Mayhew",
+      "commonsImage": "Nyak, Richard Mayhew, Paintings in the San Francisco Museum of Modern Art, SFMOMA 10.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyak%2C_Richard_Mayhew%2C_Paintings_in_the_San_Francisco_Museum_of_Modern_Art%2C_SFMOMA_10.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Nyak%2C_Richard_Mayhew%2C_Paintings_in_the_San_Francisco_Museum_of_Modern_Art%2C_SFMOMA_10.jpg/500px-Nyak%2C_Richard_Mayhew%2C_Paintings_in_the_San_Francisco_Museum_of_Modern_Art%2C_SFMOMA_10.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 100856,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "reginald-gammon",
+      "name": "Reginald Gammon",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "felrath-hines",
+      "name": "Felrath Hines",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "alvin-hollingsworth",
+      "name": "Alvin Hollingsworth",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "william-majors",
+      "name": "William Majors",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "jeff-donaldson",
+      "name": "Jeff Donaldson",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "barbara-jones-hogu",
+      "name": "Barbara Jones-Hogu",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "wadsworth-jarrell",
+      "name": "Wadsworth Jarrell",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "jae-jarrell",
+      "name": "Jae Jarrell",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "gerald-williams",
+      "name": "Gerald Williams",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "nelson-stevens",
+      "name": "Nelson Stevens",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "carolyn-lawrence",
+      "name": "Carolyn Lawrence",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "betye-saar",
+      "name": "Betye Saar",
+      "commonsImage": "Betye Saar. Site Installations, 1989. A Cultural Presentation of the United States of America. - DPLA - 222f0c00dfd0660572338a39ac189546.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Betye_Saar._Site_Installations%2C_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f0c00dfd0660572338a39ac189546.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Betye_Saar._Site_Installations%2C_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f0c00dfd0660572338a39ac189546.jpg/500px-Betye_Saar._Site_Installations%2C_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f0c00dfd0660572338a39ac189546.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 62105,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "david-hammons",
+      "name": "David Hammons",
+      "commonsImage": "Hammons flag.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hammons_flag.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Hammons_flag.jpg/500px-Hammons_flag.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 85543,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "faith-ringgold",
+      "name": "Faith Ringgold",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "benny-andrews",
+      "name": "Benny Andrews",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "dana-chandler",
+      "name": "Dana C. Chandler Jr.",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "murry-depillars",
+      "name": "Murry DePillars",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "sam-gilliam",
+      "name": "Sam Gilliam",
+      "commonsImage": "Sam Gilliam Solar Canopy.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sam_Gilliam_Solar_Canopy.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Sam_Gilliam_Solar_Canopy.jpg/500px-Sam_Gilliam_Solar_Canopy.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 45526,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "howardena-pindell",
+      "name": "Howardena Pindell",
+      "commonsImage": "Howardeena Pindell painting \"Queens, Festival\".jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Howardeena_Pindell_painting_%22Queens%2C_Festival%22.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Howardeena_Pindell_painting_%22Queens%2C_Festival%22.jpg/500px-Howardeena_Pindell_painting_%22Queens%2C_Festival%22.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 101759,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "senga-nengudi",
+      "name": "Senga Nengudi",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "adrian-piper",
+      "name": "Adrian Piper",
+      "commonsImage": "AdrianPiper65AliceDownRbtHole.png",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/AdrianPiper65AliceDownRbtHole.png?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/AdrianPiper65AliceDownRbtHole.png",
+      "status": 206,
+      "contentType": "image/png",
+      "sizeBytes": 359111,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "lorraine-ogrady",
+      "name": "Lorraine O'Grady",
+      "commonsImage": "O'Grady as Mlle Bourgeoise Noire.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/O'Grady_as_Mlle_Bourgeoise_Noire.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/O%27Grady_as_Mlle_Bourgeoise_Noire.jpg/500px-O%27Grady_as_Mlle_Bourgeoise_Noire.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 77108,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "jean-michel-basquiat",
+      "name": "Jean-Michel Basquiat",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "kara-walker",
+      "name": "Kara Walker",
+      "commonsImage": "Tate Modern – Fons Americanus.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tate_Modern_%E2%80%93_Fons_Americanus.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Tate_Modern_%E2%80%93_Fons_Americanus.jpg/500px-Tate_Modern_%E2%80%93_Fons_Americanus.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 44332,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "kerry-james-marshall",
+      "name": "Kerry James Marshall",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "carrie-mae-weems",
+      "name": "Carrie Mae Weems",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "lorna-simpson",
+      "name": "Lorna Simpson",
+      "commonsImage": "Twenty Questions (A Sampler) 1986.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Twenty_Questions_(A_Sampler)_1986.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Twenty_Questions_%28A_Sampler%29_1986.jpg/500px-Twenty_Questions_%28A_Sampler%29_1986.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 19008,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "glenn-ligon",
+      "name": "Glenn Ligon",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "kehinde-wiley",
+      "name": "Kehinde Wiley",
+      "commonsImage": "Saint Adelaide, Kehinde Wiley 2014 - Stained Glass Museum.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Adelaide%2C_Kehinde_Wiley_2014_-_Stained_Glass_Museum.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Saint_Adelaide%2C_Kehinde_Wiley_2014_-_Stained_Glass_Museum.jpg/500px-Saint_Adelaide%2C_Kehinde_Wiley_2014_-_Stained_Glass_Museum.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 282851,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "amy-sherald",
+      "name": "Amy Sherald",
+      "commonsImage": "\"Equilibrium\" mural (2018; Amy Sherald), Parkway Theater (1915), 5 W. North Avenue, Baltimore, MD 21201 (45950088475).jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Equilibrium%22_mural_(2018%3B_Amy_Sherald)%2C_Parkway_Theater_(1915)%2C_5_W._North_Avenue%2C_Baltimore%2C_MD_21201_(45950088475).jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/%22Equilibrium%22_mural_%282018%3B_Amy_Sherald%29%2C_Parkway_Theater_%281915%29%2C_5_W._North_Avenue%2C_Baltimore%2C_MD_21201_%2845950088475%29.jpg/500px-%22Equilibrium%22_mural_%282018%3B_Amy_Sherald%29%2C_Parkway_Theater_%281915%29%2C_5_W._North_Avenue%2C_Baltimore%2C_MD_21201_%2845950088475%29.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 113137,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "mickalene-thomas",
+      "name": "Mickalene Thomas",
+      "commonsImage": "53 Street panorama vc.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/53_Street_panorama_vc.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/53_Street_panorama_vc.jpg/500px-53_Street_panorama_vc.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 33720,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "mark-bradford",
+      "name": "Mark Bradford",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "theaster-gates",
+      "name": "Theaster Gates",
+      "commonsImage": "Sanctum at Temple Church.JPG",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sanctum_at_Temple_Church.JPG?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Sanctum_at_Temple_Church.JPG/500px-Sanctum_at_Temple_Church.JPG",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 60302,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "rashid-johnson",
+      "name": "Rashid Johnson",
+      "commonsImage": "Shea Butter Three Ways - part 1.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shea_Butter_Three_Ways_-_part_1.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Shea_Butter_Three_Ways_-_part_1.jpg/500px-Shea_Butter_Three_Ways_-_part_1.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 30804,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "titus-kaphar",
+      "name": "Titus Kaphar",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "nick-cave",
+      "name": "Nick Cave",
+      "commonsImage": "Nick cave, soundsuit, 2010 (verona, galleria studio la città) 01.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nick_cave%2C_soundsuit%2C_2010_(verona%2C_galleria_studio_la_citt%C3%A0)_01.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Nick_cave%2C_soundsuit%2C_2010_%28verona%2C_galleria_studio_la_citt%C3%A0%29_01.jpg/500px-Nick_cave%2C_soundsuit%2C_2010_%28verona%2C_galleria_studio_la_citt%C3%A0%29_01.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 255963,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "joyce-scott",
+      "name": "Joyce J. Scott",
+      "commonsImage": "Bright Palms mosaic by Joyce J. Scott.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bright_Palms_mosaic_by_Joyce_J._Scott.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Bright_Palms_mosaic_by_Joyce_J._Scott.jpg/500px-Bright_Palms_mosaic_by_Joyce_J._Scott.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 105321,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "simone-leigh",
+      "name": "Simone Leigh",
+      "commonsImage": "Sculpture Brick House by Simone Leigh.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sculpture_Brick_House_by_Simone_Leigh.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sculpture_Brick_House_by_Simone_Leigh.jpg/500px-Sculpture_Brick_House_by_Simone_Leigh.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 76510,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "henry-taylor",
+      "name": "Henry Taylor",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "lynette-yiadom-boakye",
+      "name": "Lynette Yiadom-Boakye",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "deana-lawson",
+      "name": "Deana Lawson",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "toyin-ojih-odutola",
+      "name": "Toyin Ojih Odutola",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "tschabalala-self",
+      "name": "Tschabalala Self",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "jordan-casteel",
+      "name": "Jordan Casteel",
+      "commonsImage": "Jordan Casteel, MegaStarBrand's Louie and A-Thug, 2017.png",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_Casteel%2C_MegaStarBrand's_Louie_and_A-Thug%2C_2017.png?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Jordan_Casteel%2C_MegaStarBrand%27s_Louie_and_A-Thug%2C_2017.png/500px-Jordan_Casteel%2C_MegaStarBrand%27s_Louie_and_A-Thug%2C_2017.png",
+      "status": 206,
+      "contentType": "image/png",
+      "sizeBytes": 379676,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "derrick-adams",
+      "name": "Derrick Adams",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "hank-willis-thomas",
+      "name": "Hank Willis Thomas",
+      "commonsImage": "Endless Column, Hank Willis Thomas.jpg",
+      "probedUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Endless_Column%2C_Hank_Willis_Thomas.jpg?width=400",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Endless_Column%2C_Hank_Willis_Thomas.jpg/500px-Endless_Column%2C_Hank_Willis_Thomas.jpg",
+      "status": 206,
+      "contentType": "image/jpeg",
+      "sizeBytes": 96962,
+      "verdict": "good",
+      "attempts": 1
+    },
+    {
+      "artistId": "charles-gaines",
+      "name": "Charles Gaines",
+      "verdict": "no-source"
+    },
+    {
+      "artistId": "suzanne-jackson",
+      "name": "Suzanne Jackson",
+      "verdict": "no-source"
+    }
+  ]
+}
