@@ -20,12 +20,15 @@ export interface Artist {
 
 export interface Artwork {
   title: string;
+  year?: string;
+  medium?: string;
   filename: string;
   thumbUrl: string;
   fullUrl: string;
-  commonsUrl: string;
-  width: number;
-  height: number;
+  /** URL to the source page on the museum site */
+  sourceUrl: string;
+  /** Display name of the source, e.g. "Art Institute of Chicago" */
+  source: string;
   license: string;
   licenseUrl?: string;
   artist?: string;

@@ -1,27 +1,23 @@
 #!/usr/bin/env node
 /**
- * Per-artist artworks sourcing for ArtCanon.
+ * Per-artist artworks sourcing for ArtCanon, v2 — museum API edition.
  *
- * For each artist, queries Wikimedia Commons for category members (file
- * namespace) under the artist's name category, validates each via the
- * Special:FilePath HEAD probe, and writes metadata to:
+ * Strategy:
+ *   1. The Met Collection API — primary. Only `isPublicDomain: true` entries
+ *      expose image URLs, so this is a clean PD-only filter. Search by
+ *      artist name; post-filter by `artistDisplayName` to avoid false
+ *      keyword matches.
  *
- *   src/data/artworks.json   keyed by artistId
+ *   2. Art Institute of Chicago API — fallback. IIIF image URLs are served
+ *      publicly regardless of `is_public_domain`. Match on `artist_display`
+ *      containing the artist's full name.
  *
- * Each entry: { title, filename, thumbUrl, commonsUrl, license, attribution }
- *
- * Polite defaults: concurrency=1, 1500ms gap, retries with backoff on 429/503.
- *
- * Caveat: Wikimedia Commons categories for living/contemporary artists skew
- * toward documentary photos ("FirstName LastName, 2019"). The UI component
- * displays the first 6 results and links out to the full category — no need
- * to filter at the script level.
+ * Polite defaults: concurrency=1, 1500ms gap, retries on 429/503.
  *
  * Run:  node scripts/source-artworks.mjs
- *       node scripts/source-artworks.mjs --dry-run
  */
 
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
@@ -36,14 +32,12 @@ const args = Object.fromEntries(
   }),
 );
 const DRY_RUN = !!args["dry-run"];
-const CONCURRENCY = 1;
+const PER_ARTIST = 12;
 const GAP_MS = 1500;
 const MAX_RETRIES = 3;
-const MAX_ARTWORKS_PER_ARTIST = 24;
-const MIN_SIZE = 5000;
 
 const UA =
-  "ArtCanonArtworkSourcing/0.1 (https://github.com/EyeSeeThru/artist-portal; educational project)";
+  "ArtCanonArtworkSourcing/0.2 (https://github.com/EyeSeeThru/artist-portal; educational project)";
 
 const ARTISTS_PATH = path.join(ROOT, "src/data/artists.json");
 const ARTWORKS_PATH = path.join(ROOT, "src/data/artworks.json");
@@ -67,163 +61,142 @@ async function fetchWithRetry(url, opts = {}) {
   throw new Error(`Failed after ${MAX_RETRIES} retries: ${url}`);
 }
 
-async function validateCommonsFile(filename) {
-  const encoded = encodeURIComponent(filename.replace(/ /g, "_"));
-  const url = `https://commons.wikimedia.org/wiki/Special:FilePath/${encoded}?width=600`;
-  try {
-    const res = await fetchWithRetry(url, {
-      headers: { Range: "bytes=0-0", Accept: "image/*" },
-    });
-    if (res.status !== 200 && res.status !== 206) return null;
-    const ct = res.headers.get("content-type") ?? "";
-    if (!ct.startsWith("image/")) return null;
-    let size = null;
-    const cr = res.headers.get("content-range");
-    if (cr) {
-      const m = cr.match(/\/(\d+)$/);
-      if (m) size = Number(m[1]);
-    }
-    if (size == null) {
-      const cl = res.headers.get("content-length");
-      if (cl) size = Number(cl);
-    }
-    if (size != null && size < MIN_SIZE) return null;
-    return { sizeBytes: size, thumbUrl: res.url };
-  } catch {
-    return null;
-  }
-}
-
-async function fetchImageInfo(filename) {
-  const params = new URLSearchParams({
-    action: "query",
-    format: "json",
-    prop: "imageinfo",
-    iiprop: "url|extmetadata",
-    iiurlwidth: "600",
-    titles: `File:${filename}`,
-  });
-  try {
-    const res = await fetchWithRetry(
-      `https://commons.wikimedia.org/w/api.php?${params}`,
-    );
-    if (!res.ok) return null;
-    const data = await res.json();
-    const pages = data.query?.pages ?? {};
-    const page = Object.values(pages)[0];
-    const info = page?.imageinfo?.[0];
-    if (!info) return null;
-    const meta = info.extmetadata ?? {};
-    const stripHtml = (s) => (s ?? "").replace(/<[^>]+>/g, "").trim();
-    return {
-      thumbUrl: info.thumburl ?? info.url,
-      fullUrl: info.url,
-      descriptionUrl: info.descriptionurl,
-      width: info.thumbwidth ?? info.width,
-      height: info.thumbheight ?? info.height,
-      licenseShortName: meta.LicenseShortName?.value
-        ? stripHtml(meta.LicenseShortName.value)
-        : undefined,
-      licenseUrl: meta.LicenseUrl?.value,
-      artist: meta.Artist?.value ? stripHtml(meta.Artist.value) : undefined,
-    };
-  } catch {
-    return null;
-  }
+function normalizeName(s) {
+  return s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9 ]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 /**
- * Find an artist's Commons category. We try a few name variants.
- * Returns the canonical category title or null.
+ * Search Met by artist name and return real artworks (PD-only, name-matched).
  */
-async function findArtistCategory(artist) {
-  const variants = [
-    artist.name,
-    `${artist.name} (artist)`,
-    artist.name.replace(/ /g, "_"),
-  ];
-  for (const v of variants) {
-    const params = new URLSearchParams({
-      action: "query",
-      format: "json",
-      list: "search",
-      srnamespace: "14", // Category namespace
-      srlimit: "1",
-      srsearch: v,
-      origin: "*",
-    });
-    try {
-      const res = await fetchWithRetry(
-        `https://commons.wikimedia.org/w/api.php?${params}`,
-      );
-      if (!res.ok) continue;
-      const data = await res.json();
-      const hit = data.query?.search?.[0];
-      if (hit && hit.title.toLowerCase().includes(artist.name.toLowerCase().split(" ").pop())) {
-        return hit.title.replace(/^Category:/, "");
-      }
-    } catch {
-      continue;
-    }
-  }
-  return null;
-}
-
-/**
- * Pull category members (files) from a category.
- */
-async function listCategoryFiles(categoryTitle) {
-  const params = new URLSearchParams({
-    action: "query",
-    format: "json",
-    list: "categorymembers",
-    cmtitle: `Category:${categoryTitle}`,
-    cmtype: "file",
-    cmlimit: String(MAX_ARTWORKS_PER_ARTIST * 2), // over-fetch since we'll filter
-  });
+async function searchMet(artistName) {
+  const q = encodeURIComponent(artistName);
+  let searchRes;
   try {
-    const res = await fetchWithRetry(
-      `https://commons.wikimedia.org/w/api.php?${params}`,
-    );
-    if (!res.ok) return [];
-    const data = await res.json();
-    return (data.query?.categorymembers ?? []).map((m) =>
-      m.title.replace(/^File:/, ""),
+    searchRes = await fetchWithRetry(
+      `https://collectionapi.metmuseum.org/public/collection/v1/search?q=${q}&hasImages=true`,
     );
   } catch {
     return [];
   }
+  if (!searchRes.ok) return [];
+  let body;
+  try {
+    body = await searchRes.json();
+  } catch {
+    return [];
+  }
+  const objectIDs = Array.isArray(body?.objectIDs) ? body.objectIDs : [];
+  if (objectIDs.length === 0) return [];
+
+  const target = normalizeName(artistName);
+  const results = [];
+  for (const id of objectIDs.slice(0, PER_ARTIST * 2)) {
+    let r;
+    try {
+      r = await fetchWithRetry(
+        `https://collectionapi.metmuseum.org/public/collection/v1/objects/${id}`,
+      );
+    } catch {
+      continue;
+    }
+    if (!r.ok) continue;
+    let obj;
+    try {
+      obj = await r.json();
+    } catch {
+      continue;
+    }
+    if (!obj.isPublicDomain) continue;
+    if (!obj.primaryImageSmall && !obj.primaryImage) continue;
+    const displayName = normalizeName(obj.artistDisplayName ?? "");
+    if (!displayName.includes(target) && !target.includes(displayName)) continue;
+    results.push({
+      title: obj.title,
+      year: obj.objectDate,
+      medium: obj.medium,
+      thumbUrl: obj.primaryImageSmall,
+      fullUrl: obj.primaryImage,
+      source: "The Metropolitan Museum of Art",
+      sourceUrl: obj.objectURL,
+      license: "Public Domain (CC0)",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+      artist: obj.artistDisplayName,
+    });
+    if (results.length >= PER_ARTIST) break;
+    await sleep(GAP_MS);
+  }
+  return results;
 }
 
 /**
- * Pull category members (files) from a category.
+ * Search Art Institute of Chicago by artist name and return IIIF image URLs.
  */
-async function sourceArtworksFor(artist) {
-  const category = await findArtistCategory(artist);
-  if (!category) return [];
-  const filenames = await listCategoryFiles(category);
-  if (filenames.length === 0) return [];
+async function searchAIC(artistName) {
+  const params = new URLSearchParams();
+  params.set("q", artistName);
+  params.append("query[bool][must][][match][artist_display]", artistName);
+  params.set(
+    "fields",
+    "id,title,artist_display,is_public_domain,image_id,date_display,medium_display,artist_title",
+  );
+  params.set("limit", String(PER_ARTIST * 2));
 
-  const artworks = [];
-  for (const filename of filenames) {
-    if (artworks.length >= MAX_ARTWORKS_PER_ARTIST) break;
-    const info = await fetchImageInfo(filename);
-    if (!info) continue;
-    artworks.push({
-      title: filename,
-      filename,
-      thumbUrl: info.thumbUrl,
-      fullUrl: info.fullUrl,
-      commonsUrl: info.descriptionUrl,
-      width: info.width,
-      height: info.height,
-      license: info.licenseShortName ?? "Unknown",
-      licenseUrl: info.licenseUrl,
-      artist: info.artist ?? artist.name,
-    });
-    if (artworks.length < MAX_ARTWORKS_PER_ARTIST) await sleep(GAP_MS);
+  let r;
+  try {
+    r = await fetchWithRetry(
+      `https://api.artic.edu/api/v1/artworks/search?${params}`,
+    );
+  } catch {
+    return [];
   }
-  return artworks;
+  if (!r.ok) return [];
+  let body;
+  try {
+    body = await r.json();
+  } catch {
+    return [];
+  }
+  const data = Array.isArray(body?.data) ? body.data : [];
+
+  const target = normalizeName(artistName);
+  const baseIiif = "https://www.artic.edu/iiif/2";
+  const results = [];
+  for (const obj of data) {
+    if (!obj.image_id) continue;
+    const display = normalizeName(obj.artist_display ?? obj.artist_title ?? "");
+    if (!display.includes(target)) continue;
+    results.push({
+      title: obj.title,
+      year: obj.date_display,
+      medium: obj.medium_display,
+      thumbUrl: `${baseIiif}/${obj.image_id}/full/600,/0/default.jpg`,
+      fullUrl: `${baseIiif}/${obj.image_id}/full/1686,/0/default.jpg`,
+      source: "Art Institute of Chicago",
+      sourceUrl: `https://www.artic.edu/artworks/${obj.id}`,
+      license: obj.is_public_domain ? "Public Domain (CC0)" : "Art Institute of Chicago (open access)",
+      licenseUrl: "https://www.artic.edu/terms",
+      artist: (obj.artist_display ?? obj.artist_title ?? "").split("\n")[0],
+    });
+    if (results.length >= PER_ARTIST) break;
+  }
+  return results;
+}
+
+async function sourceFor(artist) {
+  const met = await searchMet(artist.name);
+  if (met.length >= 3) return { source: "met", artworks: met };
+  const aic = await searchAIC(artist.name);
+  // Merge Met first, AIC second, dedupe by title
+  const seen = new Set(met.map((a) => a.title));
+  const merged = [...met, ...aic.filter((a) => !seen.has(a.title))].slice(0, PER_ARTIST);
+  const source = met.length > 0 ? "met+aic" : aic.length > 0 ? "aic" : "none";
+  return { source, artworks: merged };
 }
 
 // ---- main ----
@@ -231,30 +204,34 @@ const raw = await readFile(ARTISTS_PATH, "utf8");
 const artists = JSON.parse(raw);
 
 console.log(
-  `Sourcing artworks for ${artists.length} artists (concurrency=${CONCURRENCY}, gap=${GAP_MS}ms)${DRY_RUN ? " [DRY RUN]" : ""}…\n`,
+  `Sourcing artworks for ${artists.length} artists via Met + AIC APIs…\n`,
 );
 
-const artworksByArtist = {};
-let cursor = 0;
+const byArtist = {};
+const sourceCounts = {};
 let totalArtworks = 0;
+let cursor = 0;
 for (const artist of artists) {
   cursor++;
   process.stdout.write(`  [${cursor}/${artists.length}] ${artist.name}… `);
   try {
-    const artworks = await sourceArtworksFor(artist);
-    artworksByArtist[artist.id] = artworks;
+    const { source, artworks } = await sourceFor(artist);
+    byArtist[artist.id] = artworks;
+    sourceCounts[source] = (sourceCounts[source] ?? 0) + 1;
     totalArtworks += artworks.length;
-    process.stdout.write(`✓ ${artworks.length} artworks\n`);
+    process.stdout.write(`✓ ${artworks.length} (${source})\n`);
   } catch (err) {
+    byArtist[artist.id] = [];
+    sourceCounts["error"] = (sourceCounts["error"] ?? 0) + 1;
     process.stdout.write(`✗ error: ${err.message ?? err}\n`);
-    artworksByArtist[artist.id] = [];
   }
   if (cursor < artists.length) await sleep(GAP_MS);
 }
 
-const withArtworks = Object.values(artworksByArtist).filter((a) => a.length > 0).length;
+const withArtworks = Object.values(byArtist).filter((a) => a.length > 0).length;
 console.log(
-  `\nSourced ${totalArtworks} artworks across ${withArtworks}/${artists.length} artists.\n`,
+  `\nSourced ${totalArtworks} artworks across ${withArtworks}/${artists.length} artists.`,
+  `Sources: ${JSON.stringify(sourceCounts)}\n`,
 );
 
 if (DRY_RUN) {
@@ -269,11 +246,10 @@ await writeFile(
       generatedAt: new Date().toISOString(),
       totalArtists: artists.length,
       totalArtworks,
-      byArtist: artworksByArtist,
+      byArtist,
     },
     null,
     2,
   ) + "\n",
 );
-
 console.log(`Wrote ${path.relative(ROOT, ARTWORKS_PATH)}`);

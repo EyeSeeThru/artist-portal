@@ -17,7 +17,7 @@ function ArtworkThumb({
       onClick={onClick}
       className="group relative h-24 w-24 md:h-28 md:w-28 flex-shrink-0 overflow-hidden rounded border border-border bg-muted transition-all hover:ring-2 hover:ring-primary/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
       aria-label={`Enlarge ${artwork.title}`}
-      title={artwork.title}
+      title={`${artwork.title}${artwork.year ? ` (${artwork.year})` : ""}`}
     >
       <img
         src={artwork.thumbUrl}
@@ -74,31 +74,41 @@ function Lightbox({
           src={artwork.fullUrl}
           alt={artwork.title}
           className="max-h-[80vh] max-w-full rounded object-contain shadow-2xl"
+          referrerPolicy="no-referrer"
         />
         <div className="max-w-3xl text-center text-xs text-white/80">
-          {artwork.title} · {artwork.license}
-          {artwork.licenseUrl && (
-            <>
-              {" · "}
-              <a
-                href={artwork.licenseUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:text-white"
-              >
-                License
-              </a>
-            </>
+          <div className="font-medium text-white">{artwork.title}</div>
+          {(artwork.year || artwork.medium) && (
+            <div className="mt-1 text-white/60">
+              {[artwork.year, artwork.medium].filter(Boolean).join(" · ")}
+            </div>
           )}
-          {" · "}
-          <a
-            href={artwork.commonsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 underline hover:text-white"
-          >
-            Wikimedia Commons <ExternalLink className="h-3 w-3" />
-          </a>
+          <div className="mt-2">
+            {artwork.artist && <span>{artwork.artist} · </span>}
+            {artwork.license}
+            {artwork.licenseUrl && (
+              <>
+                {" · "}
+                <a
+                  href={artwork.licenseUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-white"
+                >
+                  License
+                </a>
+              </>
+            )}
+            {" · "}
+            <a
+              href={artwork.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 underline hover:text-white"
+            >
+              View on {artwork.source} <ExternalLink className="h-3 w-3" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -116,16 +126,12 @@ export function ArtworksStrip({
   if (!artworks.length) return null;
   const SAMPLE = 3;
   const sample = artworks.slice(0, SAMPLE);
-  const hidden = artworks.length - sample.length;
-  const commonsCategoryUrl = `https://commons.wikimedia.org/wiki/Category:${encodeURIComponent(
-    artistName.replace(/ /g, "_"),
-  )}`;
   return (
     <>
       <div className="space-y-2">
         <div className="flex items-center justify-between">
           <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
-            Public-domain artworks
+            Other artworks
           </p>
           <span className="text-xs text-muted-foreground tabular-nums">
             {artworks.length}
@@ -134,34 +140,15 @@ export function ArtworksStrip({
         <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1">
           {sample.map((artwork) => (
             <ArtworkThumb
-              key={artwork.filename}
+              key={artwork.fullUrl}
               artwork={artwork}
               onClick={() => setActive(artwork)}
             />
           ))}
         </div>
         <p className="text-[10px] text-muted-foreground/70 italic">
-          Click to enlarge.{" "}
-          {hidden > 0 && (
-            <a
-              href={commonsCategoryUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:text-muted-foreground"
-            >
-              See all {artworks.length} on Commons →
-            </a>
-          )}
-          {hidden <= 0 && (
-            <a
-              href={commonsCategoryUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:text-muted-foreground"
-            >
-              Browse on Commons
-            </a>
-          )}
+          From {Array.from(new Set(artworks.map((a) => a.source))).join(", ")}.
+          Click to enlarge.
         </p>
       </div>
       {active && <Lightbox artwork={active} onClose={() => setActive(null)} />}
@@ -178,23 +165,15 @@ export function ArtworksEmpty({ artistName }: { artistName: string }) {
   return (
     <div className="space-y-2">
       <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
-        Public-domain artworks
+        Other artworks
       </p>
-      <a
-        href={`https://commons.wikimedia.org/wiki/Category:${encodeURIComponent(
-          artistName.replace(/ /g, "_"),
-        )}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center gap-3 rounded border border-dashed border-border bg-muted/30 p-4 text-xs text-muted-foreground transition-colors hover:bg-muted/50"
-      >
+      <div className="flex items-center gap-3 rounded border border-dashed border-border bg-muted/30 p-4 text-xs text-muted-foreground">
         <ImageIcon className="h-5 w-5 shrink-0 opacity-60" />
         <span>
-          No artworks pre-sourced yet. Browse{" "}
-          <span className="underline">{artistName}</span>'s Commons category to
-          find more.
+          No artworks currently sourced for{" "}
+          <span className="font-medium">{artistName}</span>.
         </span>
-      </a>
+      </div>
     </div>
   );
 }
