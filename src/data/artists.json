@@ -465,7 +465,11 @@
     "lat": 40.8116,
     "lng": -73.9465,
     "wikiKey": "Beauford_Delaney",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/BeaufordDelaney1952.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Beauford Delaney"
   },
   {
     "id": "horace-pippin",
@@ -639,7 +643,11 @@
     "lat": 47.6062,
     "lng": -122.3321,
     "wikiKey": "Gwendolyn_Knight",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/69/Gwendolyn_Knight.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Gwendolyn Knight"
   },
   {
     "id": "charles-white",
@@ -660,7 +668,11 @@
     "lat": 41.8781,
     "lng": -87.6298,
     "wikiKey": "Charles_Wilbert_White",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Charles_White_1950.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Charles Wilbert White"
   },
   {
     "id": "margaret-burroughs",
@@ -679,7 +691,11 @@
     "lat": 41.8781,
     "lng": -87.6298,
     "wikiKey": "Margaret_Taylor-Burroughs",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/de/Margaret_Taylor-Burroughs.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Margaret Taylor-Burroughs"
   },
   {
     "id": "eldzier-cortor",
@@ -698,7 +714,11 @@
     "lat": 41.8781,
     "lng": -87.6298,
     "wikiKey": "Eldzier_Cortor",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Portrait_of_Eldzier_Cortor_LCCN2004662751.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Eldzier Cortor"
   },
   {
     "id": "hughie-lee-smith",
@@ -716,7 +736,11 @@
     "lat": 42.3314,
     "lng": -83.0458,
     "wikiKey": "Hughie_Lee-Smith",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0a/Hughie_Lee-Smith.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Hughie Lee-Smith"
   },
   {
     "id": "alma-thomas",
@@ -756,7 +780,11 @@
     "lat": 29.7604,
     "lng": -95.3698,
     "wikiKey": "John_T._Biggers",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/93/John_T._Biggers.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, John T. Biggers"
   },
   {
     "id": "samella-lewis",
@@ -776,7 +804,11 @@
     "lat": 34.0522,
     "lng": -118.2437,
     "wikiKey": "Samella_Lewis",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Samella_Lewis%2C_1984.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Samella Lewis"
   },
   {
     "id": "romare-bearden",
@@ -817,7 +849,11 @@
     "lat": 40.7128,
     "lng": -74.006,
     "wikiKey": "Emma_Amos",
-    "commonsImage": null
+    "commonsImage": "Biographical and portrait cyclopedia of Chautauqua County, New York (IA chautauquacounty00dill).pdf",
+    "imageUrl": null,
+    "imageSource": "Wikimedia Commons",
+    "imageLicense": "varies (see Commons file page)",
+    "imageAttribution": "Image: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Biographical_and_portrait_cyclopedia_of_Chautauqua_County%2C_New_York_(IA_chautauquacounty00dill).pdf"
   },
   {
     "id": "richard-mayhew",
@@ -854,7 +890,11 @@
     "lat": 40.7128,
     "lng": -74.006,
     "wikiKey": "Reginald_Gammon",
-    "commonsImage": null
+    "commonsImage": "The Bombay Gazette, 14 November 1862 (IA dli.granth.32740).pdf",
+    "imageUrl": null,
+    "imageSource": "Wikimedia Commons",
+    "imageLicense": "varies (see Commons file page)",
+    "imageAttribution": "Image: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:The_Bombay_Gazette%2C_14_November_1862_(IA_dli.granth.32740).pdf"
   },
   {
     "id": "felrath-hines",
@@ -872,7 +912,11 @@
     "lat": 40.7128,
     "lng": -74.006,
     "wikiKey": "Felrath_Hines",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1d/Felrath_Hines.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Felrath Hines"
   },
   {
     "id": "alvin-hollingsworth",
@@ -891,7 +935,11 @@
     "lat": 40.8116,
     "lng": -73.9465,
     "wikiKey": "Alvin_Hollingsworth",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Alvin_Hollingsworth%2C_New_York_Amsterdam_News_1977_12_03_pg32.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Alvin Hollingsworth"
   },
   {
     "id": "william-majors",
@@ -909,7 +957,11 @@
     "lat": 40.7128,
     "lng": -74.006,
     "wikiKey": "William_Majors",
-    "commonsImage": null
+    "commonsImage": "Portrait of Major General, Sir Thomas Picton, G.C.B (4671787).jpg",
+    "imageUrl": null,
+    "imageSource": "Wikimedia Commons",
+    "imageLicense": "varies (see Commons file page)",
+    "imageAttribution": "Image: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Portrait_of_Major_General%2C_Sir_Thomas_Picton%2C_G.C.B_(4671787).jpg"
   },
   {
     "id": "jeff-donaldson",
@@ -927,7 +979,11 @@
     "lat": 41.8781,
     "lng": -87.6298,
     "wikiKey": "Jeff_Donaldson_(artist)",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/Photo_of_Jeff_Donaldson_%28artist%29.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Jeff Donaldson (artist)"
   },
   {
     "id": "barbara-jones-hogu",
@@ -984,7 +1040,11 @@
     "lat": 41.8781,
     "lng": -87.6298,
     "wikiKey": "Jae_Jarrell",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jae_Jarrell_examining_her_work_at_the_Brooklyn_Museum.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Jae Jarrell"
   },
   {
     "id": "gerald-williams",
@@ -1002,7 +1062,11 @@
     "lat": 41.8781,
     "lng": -87.6298,
     "wikiKey": "Gerald_Williams_(artist)",
-    "commonsImage": null
+    "commonsImage": "Group portrait of CCC Co. 531, Temecula, Callifornia (3226016875).jpg",
+    "imageUrl": null,
+    "imageSource": "Wikimedia Commons",
+    "imageLicense": "varies (see Commons file page)",
+    "imageAttribution": "Image: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Group_portrait_of_CCC_Co._531%2C_Temecula%2C_Callifornia_(3226016875).jpg"
   },
   {
     "id": "nelson-stevens",
@@ -1020,7 +1084,11 @@
     "lat": 42.1015,
     "lng": -72.5898,
     "wikiKey": "Nelson_Stevens",
-    "commonsImage": null
+    "commonsImage": "Nelson Nathan Stevens family, Seattle, ca 1918 (MOHAI 3059).jpg",
+    "imageUrl": null,
+    "imageSource": "Wikimedia Commons",
+    "imageLicense": "varies (see Commons file page)",
+    "imageAttribution": "Image: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Nelson_Nathan_Stevens_family%2C_Seattle%2C_ca_1918_(MOHAI_3059).jpg"
   },
   {
     "id": "carolyn-lawrence",
@@ -1038,7 +1106,11 @@
     "lat": 41.8781,
     "lng": -87.6298,
     "wikiKey": "Carolyn_Mims_Lawrence",
-    "commonsImage": null
+    "commonsImage": "Carolyn Larabell at AAAS 2025 02.jpg",
+    "imageUrl": null,
+    "imageSource": "Wikimedia Commons",
+    "imageLicense": "varies (see Commons file page)",
+    "imageAttribution": "Image: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Carolyn_Larabell_at_AAAS_2025_02.jpg"
   },
   {
     "id": "betye-saar",
@@ -1099,7 +1171,11 @@
     "lat": 40.8116,
     "lng": -73.9465,
     "wikiKey": "Faith_Ringgold",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Faith_Ringgold%2C_The_Day%2C_1988_%28cropped%29.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Faith Ringgold"
   },
   {
     "id": "benny-andrews",
@@ -1118,7 +1194,11 @@
     "lat": 40.7128,
     "lng": -74.006,
     "wikiKey": "Benny_Andrews",
-    "commonsImage": null
+    "commonsImage": "Catalog of Copyright Entries 1947 Renewal Registrations-Literature, Art, Film Jan-Dec 3D Ser Vol 1 Pt 14A (IA catalogofcopyrig3114libr).pdf",
+    "imageUrl": null,
+    "imageSource": "Wikimedia Commons",
+    "imageLicense": "varies (see Commons file page)",
+    "imageAttribution": "Image: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Catalog_of_Copyright_Entries_1947_Renewal_Registrations-Literature%2C_Art%2C_Film_Jan-Dec_3D_Ser_Vol_1_Pt_14A_(IA_catalogofcopyrig3114libr).pdf"
   },
   {
     "id": "dana-chandler",
@@ -1137,7 +1217,11 @@
     "lat": 42.3601,
     "lng": -71.0589,
     "wikiKey": "Dana_C._Chandler_Jr.",
-    "commonsImage": null
+    "commonsImage": "A portrait catalogue of the books published by Houghton, Mifflin and company; with a sketch of the firm, brief descriptions of the various departments, and some account of the origin and character of the literary enterprises undertaken.djvu",
+    "imageUrl": null,
+    "imageSource": "Wikimedia Commons",
+    "imageLicense": "varies (see Commons file page)",
+    "imageAttribution": "Image: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:A_portrait_catalogue_of_the_books_published_by_Houghton%2C_Mifflin_and_company%3B_with_a_sketch_of_the_firm%2C_brief_descriptions_of_the_various_departments%2C_and_some_account_of_the_origin_and_character_of_the_literary_enterprises_undertaken.djvu"
   },
   {
     "id": "murry-depillars",
@@ -1156,7 +1240,11 @@
     "lat": 37.5407,
     "lng": -77.436,
     "wikiKey": "Murry_DePillars",
-    "commonsImage": null
+    "commonsImage": "The assassination of Abraham Lincoln (IA assassinationxxxxxx00linc).pdf",
+    "imageUrl": null,
+    "imageSource": "Wikimedia Commons",
+    "imageLicense": "varies (see Commons file page)",
+    "imageAttribution": "Image: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:The_assassination_of_Abraham_Lincoln_(IA_assassinationxxxxxx00linc).pdf"
   },
   {
     "id": "sam-gilliam",
@@ -1271,7 +1359,11 @@
     "lat": 40.7128,
     "lng": -74.006,
     "wikiKey": "Jean-Michel_Basquiat",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Jean-Michel_Basquiat_passport_%28cropped%29.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Jean-Michel Basquiat"
   },
   {
     "id": "kara-walker",
@@ -1309,7 +1401,11 @@
     "lat": 41.8781,
     "lng": -87.6298,
     "wikiKey": "Kerry_James_Marshall",
-    "commonsImage": null
+    "commonsImage": "South African Portrait Gallery 1897.pdf",
+    "imageUrl": null,
+    "imageSource": "Wikimedia Commons",
+    "imageLicense": "varies (see Commons file page)",
+    "imageAttribution": "Image: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:South_African_Portrait_Gallery_1897.pdf"
   },
   {
     "id": "carrie-mae-weems",
@@ -1328,7 +1424,11 @@
     "lat": 43.0481,
     "lng": -76.1474,
     "wikiKey": "Carrie_Mae_Weems",
-    "commonsImage": null
+    "commonsImage": "Emersonian - (Emerson College yearbook) (IA emersonianemerso1911unse).pdf",
+    "imageUrl": null,
+    "imageSource": "Wikimedia Commons",
+    "imageLicense": "varies (see Commons file page)",
+    "imageAttribution": "Image: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Emersonian_-_(Emerson_College_yearbook)_(IA_emersonianemerso1911unse).pdf"
   },
   {
     "id": "lorna-simpson",
@@ -1368,7 +1468,11 @@
     "lat": 40.7128,
     "lng": -74.006,
     "wikiKey": "Glenn_Ligon",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Glenn_Ligon_Interview_at_Camden_Arts_Centre_6m24s_%28cropped%29.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Glenn Ligon"
   },
   {
     "id": "kehinde-wiley",
@@ -1443,7 +1547,11 @@
     "lat": 34.0522,
     "lng": -118.2437,
     "wikiKey": "Mark_Bradford",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/MarkBradfordPortrait4.jpg/3840px-MarkBradfordPortrait4.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Mark Bradford"
   },
   {
     "id": "theaster-gates",
@@ -1502,7 +1610,11 @@
     "lat": 41.3083,
     "lng": -72.9279,
     "wikiKey": "Titus_Kaphar",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Titus_Kaphar_at_CitizenUCon17_-_Reckoning_With_History_-_Panel_Discussion.png",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Titus Kaphar"
   },
   {
     "id": "nick-cave",
@@ -1578,7 +1690,11 @@
     "lat": 34.0522,
     "lng": -118.2437,
     "wikiKey": "Henry_Taylor_(artist)",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Henry_Taylor_painting_in_studio.JPG/1920px-Henry_Taylor_painting_in_studio.JPG",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Henry Taylor (artist)"
   },
   {
     "id": "lynette-yiadom-boakye",
@@ -1632,7 +1748,11 @@
     "lat": 40.7128,
     "lng": -74.006,
     "wikiKey": "Toyin_Ojih_Odutola",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/08/Toyin_Odutola_%28Nigerian%2C_born_1985%29%2C_Lonely_Chamber_%28T.O.%29%2C_2011%2C_pen_ink_and_marker_on_paper%2C_12_X_9_inches.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Toyin Ojih Odutola"
   },
   {
     "id": "tschabalala-self",
@@ -1651,7 +1771,11 @@
     "lat": 41.3083,
     "lng": -72.9279,
     "wikiKey": "Tschabalala_Self",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/TschabalalaSelf.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Tschabalala Self"
   },
   {
     "id": "jordan-casteel",
@@ -1689,7 +1813,11 @@
     "lat": 40.6782,
     "lng": -73.9442,
     "wikiKey": "Derrick_Adams",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Derrick_Adams%2C_multidisciplinary_artist_in_2019_%2833398613818%29_%28cropped%29.jpg",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Derrick Adams"
   },
   {
     "id": "hank-willis-thomas",
@@ -1728,7 +1856,11 @@
     "lat": 34.0522,
     "lng": -118.2437,
     "wikiKey": "Charles_Gaines_(artist)",
-    "commonsImage": null
+    "commonsImage": "Edmund Pendleton Gaines, head-and-shoulders portrait, right profile LCCN2007676901.jpg",
+    "imageUrl": null,
+    "imageSource": "Wikimedia Commons",
+    "imageLicense": "varies (see Commons file page)",
+    "imageAttribution": "Image: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Edmund_Pendleton_Gaines%2C_head-and-shoulders_portrait%2C_right_profile_LCCN2007676901.jpg"
   },
   {
     "id": "suzanne-jackson",
@@ -1746,6 +1878,10 @@
     "lat": 32.0809,
     "lng": -81.0912,
     "wikiKey": "Suzanne_Jackson_(artist)",
-    "commonsImage": null
+    "commonsImage": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Suzanne_Jackson_at_Wormsloe_2018_%28cropped%29.JPG",
+    "imageSource": "Wikipedia",
+    "imageLicense": "varies (see Wikipedia article)",
+    "imageAttribution": "Image: Wikipedia, Suzanne Jackson (artist)"
   }
 ]

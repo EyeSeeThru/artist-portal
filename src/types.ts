@@ -11,6 +11,10 @@ export interface Artist {
   lng: number;
   wikiKey: string;
   commonsImage: string | null;
+  imageUrl?: string | null; // direct image URL override (used when sourced from a museum / Wikipedia thumbnail, not Commons file)
+  imageSource?: string; // human-readable source name, e.g. "The Met Open Access"
+  imageLicense?: string; // e.g. "CC0", "Public Domain"
+  imageAttribution?: string; // e.g. "Image: The Metropolitan Museum of Art, Open Access"
   featuredWorks?: string[];
 }
 

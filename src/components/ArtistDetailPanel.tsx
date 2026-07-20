@@ -130,7 +130,7 @@ export function ArtistDetailPanel() {
           </div>
         </div>
 
-        {artist.commonsImage && (
+        {(artist.commonsImage || artist.imageUrl) && (
           <div className="p-4 border-t bg-muted/30 text-xs text-muted-foreground">
             <p>
               {loading ? (
@@ -142,8 +142,14 @@ export function ArtistDetailPanel() {
                     Wikimedia Commons
                   </a>
                 </>
+              ) : artist.imageAttribution ? (
+                artist.imageAttribution
               ) : (
-                "Image via Wikimedia Commons"
+                artist.imageUrl ? (
+                  <>Image: {artist.imageSource || "external source"} · {artist.imageLicense || ""}</>
+                ) : (
+                  "Image via Wikimedia Commons"
+                )
               )}
             </p>
           </div>
