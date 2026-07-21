@@ -1835,5 +1835,5850 @@
     "imageSource": "Wikipedia",
     "imageLicense": "varies (see Wikipedia article)",
     "imageAttribution": "Image: Wikipedia, Suzanne Jackson (artist)"
+  },
+  {
+    "id": "panteha-abareshi",
+    "name": "Panteha Abareshi",
+    "birthYear": 1999,
+    "deathYear": null,
+    "medium": [
+      "Multidisciplinary"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Panteha_Abareshi",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "nina-chanel-abney",
+    "name": "Nina Chanel Abney",
+    "birthYear": 1982,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Nina_Chanel_Abney",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "blanch-ackers",
+    "name": "Blanch Ackers",
+    "birthYear": 1914,
+    "deathYear": 2003,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Blanch_Ackers",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "terry-adkins",
+    "name": "Terry Adkins",
+    "birthYear": 1953,
+    "deathYear": 2014,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Terry_Adkins",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "mequitta-ahuja",
+    "name": "Mequitta Ahuja",
+    "birthYear": 1976,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Installation"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Mequitta_Ahuja",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "larry-d-alexander",
+    "name": "Larry D. Alexander",
+    "birthYear": 1953,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Larry_D._Alexander",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "laylah-ali",
+    "name": "Laylah Ali",
+    "birthYear": 1968,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Laylah_Ali",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "jules-t-allen",
+    "name": "Jules T. Allen",
+    "birthYear": 1947,
+    "deathYear": null,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Jules_T._Allen",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "tina-allen",
+    "name": "Tina Allen",
+    "birthYear": 1949,
+    "deathYear": 2008,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Tina_Allen",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "steve-r-allen",
+    "name": "Steve R. Allen",
+    "birthYear": 1954,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Steve_R._Allen",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "amalia-amaki",
+    "name": "Amalia Amaki",
+    "birthYear": 1959,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Amalia_Amaki",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "edgar-arceneaux",
+    "name": "Edgar Arceneaux",
+    "birthYear": 1972,
+    "deathYear": null,
+    "medium": [
+      "Drawing"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Edgar_Arceneaux",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "nellie-ashford",
+    "name": "Nellie Ashford",
+    "birthYear": 1943,
+    "deathYear": null,
+    "medium": [
+      "Folk Art"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Nellie_Ashford",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "james-atkins",
+    "name": "James Atkins",
+    "birthYear": 1941,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "James_Atkins_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "ellsworth-augustus-ausby",
+    "name": "Ellsworth Augustus Ausby",
+    "birthYear": 1942,
+    "deathYear": 2011,
+    "medium": [
+      "Painting",
+      "Sculpture",
+      "Performance"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Ellsworth_Augustus_Ausby",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "roland-ayers",
+    "name": "Roland Ayers",
+    "birthYear": 1932,
+    "deathYear": 2014,
+    "medium": [
+      "Printmaking"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Roland_Ayers",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "radcliffe-bailey",
+    "name": "Radcliffe Bailey",
+    "birthYear": 1968,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Collage"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Radcliffe_Bailey",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "kyle-baker",
+    "name": "Kyle Baker",
+    "birthYear": 1965,
+    "deathYear": null,
+    "medium": [
+      "Cartoonist"
+    ],
+    "movements": [
+      "spiral-group"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Kyle_Baker",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "matt-baker",
+    "name": "Matt Baker",
+    "birthYear": 1921,
+    "deathYear": 1959,
+    "medium": [
+      "Comic"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Matt_Baker_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "rushern-baker-iv",
+    "name": "Rushern Baker IV",
+    "birthYear": 1987,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Rushern_Baker_IV",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "james-presley-ball",
+    "name": "James Presley Ball",
+    "birthYear": 1825,
+    "deathYear": 1904,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "James_Presley_Ball",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "alvin-baltrop",
+    "name": "Alvin Baltrop",
+    "birthYear": 1948,
+    "deathYear": 2004,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Alvin_Baltrop",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "henry-bannarn",
+    "name": "Henry Bannarn",
+    "birthYear": 1910,
+    "deathYear": 1965,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Henry_Bannarn",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "ernie-barnes",
+    "name": "Ernie Barnes",
+    "birthYear": 1938,
+    "deathYear": 2009,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Ernie_Barnes",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "c-m-battey",
+    "name": "C. M. Battey",
+    "birthYear": 1873,
+    "deathYear": 1927,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "C._M._Battey",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "mary-enoch-elizabeth-baxter",
+    "name": "Mary Enoch Elizabeth Baxter",
+    "birthYear": 1981,
+    "deathYear": null,
+    "medium": [
+      "Multidisciplinary"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Mary_Enoch_Elizabeth_Baxter",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "alice-beasley",
+    "name": "Alice Beasley",
+    "birthYear": 1945,
+    "deathYear": null,
+    "medium": [
+      "Quilt"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Alice_Beasley",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "kevin-beasley",
+    "name": "Kevin Beasley",
+    "birthYear": 1985,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Performance"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Kevin_Beasley",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "arthello-beck",
+    "name": "Arthello Beck",
+    "birthYear": 1941,
+    "deathYear": 2004,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Arthello_Beck",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "arthur-p-bedou",
+    "name": "Arthur P. Bedou",
+    "birthYear": 1882,
+    "deathYear": 1966,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Arthur_P._Bedou",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "darrin-bell",
+    "name": "Darrin Bell",
+    "birthYear": 1975,
+    "deathYear": null,
+    "medium": [
+      "Cartoonist"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Darrin_Bell",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "mary-a-bell",
+    "name": "Mary A. Bell",
+    "birthYear": 1873,
+    "deathYear": 1941,
+    "medium": [
+      "Illustration"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Mary_A._Bell",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "dawoud-bey",
+    "name": "Dawoud Bey",
+    "birthYear": 1953,
+    "deathYear": null,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Dawoud_Bey",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "sharif-bey",
+    "name": "Sharif Bey",
+    "birthYear": 1974,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Sharif_Bey",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "sanford-biggers",
+    "name": "Sanford Biggers",
+    "birthYear": 1970,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Sanford_Biggers",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "gene-bilbrew",
+    "name": "Gene Bilbrew",
+    "birthYear": 1923,
+    "deathYear": 1974,
+    "medium": [
+      "Cartoonist"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Gene_Bilbrew",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "camille-billops",
+    "name": "Camille Billops",
+    "birthYear": 1933,
+    "deathYear": 2019,
+    "medium": [
+      "Painting",
+      "Sculpture",
+      "Printmaking"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Camille_Billops",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "mcarthur-binion",
+    "name": "McArthur Binion",
+    "birthYear": 1946,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "McArthur_Binion",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "robert-blackburn",
+    "name": "Robert Blackburn",
+    "birthYear": 1920,
+    "deathYear": 2003,
+    "medium": [
+      "Printmaking"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Robert_Blackburn_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "betty-blayton",
+    "name": "Betty Blayton",
+    "birthYear": 1937,
+    "deathYear": 2016,
+    "medium": [
+      "Painting",
+      "Printmaking"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Betty_Blayton_Taylor",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "lula-mae-blocton",
+    "name": "Lula Mae Blocton",
+    "birthYear": 1947,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Lula_Mae_Blocton",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "chakaia-booker",
+    "name": "Chakaia Booker",
+    "birthYear": 1953,
+    "deathYear": null,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Chakaia_Booker",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "edythe-boone",
+    "name": "Edythe Boone",
+    "birthYear": 1938,
+    "deathYear": null,
+    "medium": [
+      "Mural"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Edythe_Boone",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "charles-boyce",
+    "name": "Charles Boyce",
+    "birthYear": 1949,
+    "deathYear": null,
+    "medium": [
+      "Cartoonist"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Charles_Boyce",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "peter-bradley",
+    "name": "Peter Bradley",
+    "birthYear": 1940,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Peter_Bradley_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "james-brantley",
+    "name": "James Brantley",
+    "birthYear": 1945,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "James_Brantley",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "moe-brooker",
+    "name": "Moe Brooker",
+    "birthYear": 1940,
+    "deathYear": 2022,
+    "medium": [
+      "Painting",
+      "Printmaking"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Moe_Brooker",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "frank-j-brown",
+    "name": "Frank J. Brown",
+    "birthYear": 1956,
+    "deathYear": 2020,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Frank_J._Brown",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "frederick-j-brown",
+    "name": "Frederick J. Brown",
+    "birthYear": 1945,
+    "deathYear": 2012,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Frederick_J._Brown",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "robert-brown",
+    "name": "Robert Brown",
+    "birthYear": 1936,
+    "deathYear": 2007,
+    "medium": [
+      "Cartoonist"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Robert_Brown_(cartoonist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "samuel-joseph-brown",
+    "name": "Samuel Joseph Brown",
+    "birthYear": 1907,
+    "deathYear": 1994,
+    "medium": [
+      "Printmaking",
+      "Watercolor"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Samuel_Joseph_Brown",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "donna-bruton",
+    "name": "Donna Bruton",
+    "birthYear": 1954,
+    "deathYear": 2012,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Donna_Bruton",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "beverly-buchanan",
+    "name": "Beverly Buchanan",
+    "birthYear": 1940,
+    "deathYear": 2015,
+    "medium": [
+      "Painting",
+      "Sculpture"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Beverly_Buchanan",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "selma-burke",
+    "name": "Selma Burke",
+    "birthYear": 1900,
+    "deathYear": 1995,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Selma_Burke",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "calvin-burnett",
+    "name": "Calvin Burnett",
+    "birthYear": 1921,
+    "deathYear": 2007,
+    "medium": [
+      "Illustration"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Calvin_Burnett_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "pauline-powell-burns",
+    "name": "Pauline Powell Burns",
+    "birthYear": 1872,
+    "deathYear": 1912,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Pauline_Powell_Burns",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "john-bush",
+    "name": "John Bush",
+    "birthYear": null,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "John_Bush_(provincial_soldier)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "bisa-butler",
+    "name": "Bisa Butler",
+    "birthYear": 1973,
+    "deathYear": null,
+    "medium": [
+      "Quilt"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Bisa_Butler",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "robert-butler",
+    "name": "Robert Butler",
+    "birthYear": 1943,
+    "deathYear": 2014,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Robert_Butler_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "e-simms-campbell",
+    "name": "E. Simms Campbell",
+    "birthYear": 1906,
+    "deathYear": 1971,
+    "medium": [
+      "Cartoonist"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "E._Simms_Campbell",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "cicely-carew",
+    "name": "Cicely Carew",
+    "birthYear": 1982,
+    "deathYear": null,
+    "medium": [
+      "Mixed Media"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Cicely_Carew",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "fred-carter",
+    "name": "Fred Carter",
+    "birthYear": 1938,
+    "deathYear": 2023,
+    "medium": [
+      "Cartoonist"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Fred_Carter_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "bernie-casey",
+    "name": "Bernie Casey",
+    "birthYear": 1939,
+    "deathYear": 2017,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Bernie_Casey",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "michael-ray-charles",
+    "name": "Michael Ray Charles",
+    "birthYear": 1967,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Michael_Ray_Charles",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "barbara-chase-riboud",
+    "name": "Barbara Chase-Riboud",
+    "birthYear": 1936,
+    "deathYear": null,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Barbara_Chase-Riboud",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "jamour-chames",
+    "name": "Jamour Chames",
+    "birthYear": 1989,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Jamour_Chames",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "don-hogan-charles",
+    "name": "Don Hogan Charles",
+    "birthYear": 1938,
+    "deathYear": 2017,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Don_Hogan_Charles",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "caitlin-cherry",
+    "name": "Caitlin Cherry",
+    "birthYear": 1987,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Caitlin_Cherry",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "claude-clark",
+    "name": "Claude Clark",
+    "birthYear": 1915,
+    "deathYear": 2001,
+    "medium": [
+      "Painting",
+      "Printmaking"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Claude_Clark",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "edward-clark",
+    "name": "Edward Clark",
+    "birthYear": 1926,
+    "deathYear": 2019,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Edward_Clark_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "sonya-clark",
+    "name": "Sonya Clark",
+    "birthYear": 1967,
+    "deathYear": null,
+    "medium": [
+      "Textile",
+      "Multidisciplinary"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Sonya_Clark",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "willie-cole",
+    "name": "Willie Cole",
+    "birthYear": 1955,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Willie_Cole",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "robert-colescott",
+    "name": "Robert Colescott",
+    "birthYear": 1925,
+    "deathYear": 2009,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Robert_Colescott",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "houston-conwill",
+    "name": "Houston Conwill",
+    "birthYear": 1947,
+    "deathYear": 2016,
+    "medium": [
+      "Multidisciplinary"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Houston_Conwill",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "pamela-council",
+    "name": "Pamela Council",
+    "birthYear": 1986,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Multidisciplinary"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Pamela_Council",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "adger-cowans",
+    "name": "Adger Cowans",
+    "birthYear": 1936,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Photography"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Adger_Cowans",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "ralston-crawford",
+    "name": "Ralston Crawford",
+    "birthYear": 1906,
+    "deathYear": 1978,
+    "medium": [
+      "Painting",
+      "Photography"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Ralston_Crawford",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "allan-crite",
+    "name": "Allan Crite",
+    "birthYear": 1910,
+    "deathYear": 2007,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Allan_Crite",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "njideka-akunyili-crosby",
+    "name": "Njideka Akunyili Crosby",
+    "birthYear": 1983,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Njideka_Akunyili_Crosby",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "emilio-cruz",
+    "name": "Emilio Cruz",
+    "birthYear": 1938,
+    "deathYear": 2004,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Emilio_Cruz_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "frank-e-cummings-iii",
+    "name": "Frank E. Cummings III",
+    "birthYear": 1938,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Frank_E._Cummings_III",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "michael-cummings",
+    "name": "Michael Cummings",
+    "birthYear": 1945,
+    "deathYear": null,
+    "medium": [
+      "Textile"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Michael_Cummings_(quilter)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "ulysses-davis",
+    "name": "Ulysses Davis",
+    "birthYear": 1913,
+    "deathYear": 1990,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Ulysses_Davis_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "bing-davis",
+    "name": "Bing Davis",
+    "birthYear": 1937,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Bing_Davis",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "charles-c-dawson",
+    "name": "Charles C. Dawson",
+    "birthYear": 1889,
+    "deathYear": 1981,
+    "medium": [
+      "Painting",
+      "Printmaking",
+      "Illustration"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Charles_C._Dawson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "roy-decarava",
+    "name": "Roy DeCarava",
+    "birthYear": 1919,
+    "deathYear": 2009,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Roy_DeCarava",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "nadine-m-delawrence",
+    "name": "Nadine M. DeLawrence",
+    "birthYear": 1953,
+    "deathYear": 1992,
+    "medium": [
+      "Sculpture",
+      "Installation"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Nadine_M._DeLawrence",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "xiomara-de-oliver",
+    "name": "Xiomara De Oliver",
+    "birthYear": 1967,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Xiomara_De_Oliver",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "woody-de-othello",
+    "name": "Woody De Othello",
+    "birthYear": 1991,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Ceramics"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Woody_De_Othello",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "louis-delsarte",
+    "name": "Louis Delsarte",
+    "birthYear": 1944,
+    "deathYear": 2020,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Louis_Delsarte",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "richard-w-dempsey",
+    "name": "Richard W. Dempsey",
+    "birthYear": 1909,
+    "deathYear": 1987,
+    "medium": [
+      "Painting",
+      "Illustration"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Richard_W._Dempsey",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "joseph-clinton-devillis",
+    "name": "Joseph Clinton Devillis",
+    "birthYear": 1878,
+    "deathYear": 1912,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Joseph_Clinton_Devillis",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "terry-dixon",
+    "name": "Terry Dixon",
+    "birthYear": 1969,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Multidisciplinary"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Terry_Dixon_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "emory-douglas",
+    "name": "Emory Douglas",
+    "birthYear": 1943,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Emory_Douglas",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "john-e-dowell-jr",
+    "name": "John E. Dowell Jr.",
+    "birthYear": 1941,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Printmaking"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "John_E._Dowell_Jr.",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "david-driskell",
+    "name": "David Driskell",
+    "birthYear": 1931,
+    "deathYear": 2020,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "David_Driskell",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "robert-seldon-duncanson",
+    "name": "Robert Seldon Duncanson",
+    "birthYear": 1821,
+    "deathYear": 1872,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Robert_Seldon_Duncanson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "edward-dwight",
+    "name": "Edward Dwight",
+    "birthYear": 1933,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Edward_Dwight",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "torkwase-dyson",
+    "name": "Torkwase Dyson",
+    "birthYear": 1973,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Torkwase_Dyson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "walter-edmonds",
+    "name": "Walter Edmonds",
+    "birthYear": 1938,
+    "deathYear": 2011,
+    "medium": [
+      "Mural"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Walter_Edmonds_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "william-edmondson",
+    "name": "William Edmondson",
+    "birthYear": 1874,
+    "deathYear": 1951,
+    "medium": [
+      "Sculpture",
+      "Folk Art"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "William_Edmondson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "allan-l-edmunds",
+    "name": "Allan L. Edmunds",
+    "birthYear": 1949,
+    "deathYear": null,
+    "medium": [
+      "Printmaking"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Allan_L._Edmunds",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "melvin-edwards",
+    "name": "Melvin Edwards",
+    "birthYear": 1937,
+    "deathYear": 2026,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Melvin_Edwards",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "janiva-ellis",
+    "name": "Janiva Ellis",
+    "birthYear": 1987,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Janiva_Ellis",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "walter-ellison",
+    "name": "Walter Ellison",
+    "birthYear": 1899,
+    "deathYear": 1977,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Walter_Ellison",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "minnie-evans",
+    "name": "Minnie Evans",
+    "birthYear": 1892,
+    "deathYear": 1987,
+    "medium": [
+      "Folk Art"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Minnie_Evans",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "fred-eversley",
+    "name": "Fred Eversley",
+    "birthYear": 1941,
+    "deathYear": null,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Fred_Eversley",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "lola-flash",
+    "name": "Lola Flash",
+    "birthYear": 1959,
+    "deathYear": null,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Lola_Flash",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "halim-flowers",
+    "name": "Halim Flowers",
+    "birthYear": 1980,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Halim_Flowers",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "latoya-ruby-frazier",
+    "name": "LaToya Ruby Frazier",
+    "birthYear": 1982,
+    "deathYear": null,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "LaToya_Ruby_Frazier",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "george-gadson",
+    "name": "George Gadson",
+    "birthYear": 1953,
+    "deathYear": null,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "George_Gadson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "reginald-k-kevin-gee",
+    "name": "Reginald K (Kevin) Gee",
+    "birthYear": 1964,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "spiral-group"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Reginald_K_(Kevin)_Gee",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "herbert-gentry",
+    "name": "Herbert Gentry",
+    "birthYear": 1919,
+    "deathYear": 2003,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Herbert_Gentry",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "wilda-gerideau-squires",
+    "name": "Wilda Gerideau-Squires",
+    "birthYear": 1946,
+    "deathYear": null,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Wilda_Gerideau-Squires",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "robert-a-gilbert",
+    "name": "Robert A. Gilbert",
+    "birthYear": 1870,
+    "deathYear": 1942,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Robert_A._Gilbert",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "leah-gilliam",
+    "name": "Leah Gilliam",
+    "birthYear": 1967,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Leah_Gilliam",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "russell-t-gordon",
+    "name": "Russell T. Gordon",
+    "birthYear": 1936,
+    "deathYear": 2013,
+    "medium": [
+      "Printmaking"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Russell_T._Gordon",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "rex-goreleigh",
+    "name": "Rex Goreleigh",
+    "birthYear": 1902,
+    "deathYear": 1986,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Rex_Goreleigh",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "billy-graham",
+    "name": "Billy Graham",
+    "birthYear": 1935,
+    "deathYear": 1999,
+    "medium": [
+      "Comic"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Billy_Graham_(comics)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "deborah-grant",
+    "name": "Deborah Grant",
+    "birthYear": 1968,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Deborah_Grant_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "todd-gray",
+    "name": "Todd Gray",
+    "birthYear": 1954,
+    "deathYear": null,
+    "medium": [
+      "Photography",
+      "Performance",
+      "Installation"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Todd_Gray_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "renee-green",
+    "name": "Renee Green",
+    "birthYear": 1959,
+    "deathYear": null,
+    "medium": [
+      "Installation"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Renee_Green",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "lauren-halsey",
+    "name": "Lauren Halsey",
+    "birthYear": 1987,
+    "deathYear": null,
+    "medium": [
+      "Installation"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Lauren_Halsey",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "ed-hamilton",
+    "name": "Ed Hamilton",
+    "birthYear": 1947,
+    "deathYear": null,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Ed_Hamilton",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "patrick-earl-hammie",
+    "name": "Patrick Earl Hammie",
+    "birthYear": 1981,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Patrick_Earl_Hammie",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "austin-hansen",
+    "name": "Austin Hansen",
+    "birthYear": 1910,
+    "deathYear": 1996,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Austin_Hansen",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "john-wesley-hardrick",
+    "name": "John Wesley Hardrick",
+    "birthYear": 1891,
+    "deathYear": 1948,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "John_Wesley_Hardrick",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "edwin-harleston",
+    "name": "Edwin Harleston",
+    "birthYear": 1882,
+    "deathYear": 1931,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Edwin_Harleston",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "elise-forrest-harleston",
+    "name": "Elise Forrest Harleston",
+    "birthYear": 1891,
+    "deathYear": 1970,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Elise_Forrest_Harleston",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "jerry-harris",
+    "name": "Jerry Harris",
+    "birthYear": 1945,
+    "deathYear": 2016,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Jerry_Harris_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "john-t-harris",
+    "name": "John T. Harris",
+    "birthYear": 1908,
+    "deathYear": 1972,
+    "medium": [
+      "Painting",
+      "Printmaking"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "John_T._Harris_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "kira-lynn-harris",
+    "name": "Kira Lynn Harris",
+    "birthYear": 1963,
+    "deathYear": null,
+    "medium": [
+      "Multidisciplinary"
+    ],
+    "movements": [
+      "spiral-group"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Kira_Lynn_Harris",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "lawrence-harris",
+    "name": "Lawrence Harris",
+    "birthYear": 1937,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Lawrence_Harris",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "ilana-harris-babou",
+    "name": "Ilana Harris-Babou",
+    "birthYear": 1991,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Installation"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Ilana_Harris-Babou",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "marren-hassenger",
+    "name": "Marren Hassenger",
+    "birthYear": 1947,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Performance",
+      "Installation"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Maren_Hassinger",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "donte-k-hayes",
+    "name": "Donté K. Hayes",
+    "birthYear": 1975,
+    "deathYear": null,
+    "medium": [
+      "Ceramics"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Donté_K._Hayes",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "barkley-hendricks",
+    "name": "Barkley Hendricks",
+    "birthYear": 1945,
+    "deathYear": 2017,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Barkley_Hendricks",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "nestor-hernandez",
+    "name": "Nestor Hernández",
+    "birthYear": 1961,
+    "deathYear": 2006,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Nestor_Hernández",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "george-herriman",
+    "name": "George Herriman",
+    "birthYear": 1880,
+    "deathYear": 1944,
+    "medium": [
+      "Cartoonist"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "George_Herriman",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "latoya-m-hobbs",
+    "name": "LaToya M. Hobbs",
+    "birthYear": 1988,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Printmaking",
+      "Mixed Media"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "LaToya_M._Hobbs",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "humbert-howard",
+    "name": "Humbert Howard",
+    "birthYear": null,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Ceramics"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Humbert_Howard",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "william-howard",
+    "name": "William Howard",
+    "birthYear": null,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "William_Howard_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "bryce-hudson",
+    "name": "Bryce Hudson",
+    "birthYear": 1979,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Bryce_Hudson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "julien-hudson",
+    "name": "Julien Hudson",
+    "birthYear": 1811,
+    "deathYear": 1844,
+    "medium": [
+      "Painting",
+      "Sculpture"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Julien_Hudson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "david-huffman",
+    "name": "David Huffman",
+    "birthYear": 1963,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "spiral-group"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "David_Huffman_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "edward-ellis-hughes",
+    "name": "Edward Ellis Hughes",
+    "birthYear": 1940,
+    "deathYear": 2017,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Edward_Ellis_Hughes",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "richard-hunt",
+    "name": "Richard Hunt",
+    "birthYear": 1935,
+    "deathYear": 2023,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Richard_Hunt_(sculptor)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "clementine-hunter",
+    "name": "Clementine Hunter",
+    "birthYear": 1886,
+    "deathYear": 1988,
+    "medium": [
+      "Folk Art"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Clementine_Hunter",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "bill-hutson",
+    "name": "Bill Hutson",
+    "birthYear": 1936,
+    "deathYear": 2022,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Bill_Hutson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "oliver-lee-jackson",
+    "name": "Oliver Lee Jackson",
+    "birthYear": 1935,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture",
+      "Printmaking"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Oliver_Lee_Jackson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "tomashi-jackson",
+    "name": "Tomashi Jackson",
+    "birthYear": 1980,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture",
+      "Video",
+      "Textile",
+      "Multidisciplinary"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Tomashi_Jackson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "steffani-jemison",
+    "name": "Steffani Jemison",
+    "birthYear": 1981,
+    "deathYear": null,
+    "medium": [
+      "Video",
+      "Performance"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Steffani_Jemison",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "wilmer-angier-jennings",
+    "name": "Wilmer Angier Jennings",
+    "birthYear": 1910,
+    "deathYear": 1990,
+    "medium": [
+      "Painting",
+      "Printmaking"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Wilmer_Angier_Jennings",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "annette-p-jimerson",
+    "name": "Annette P. Jimerson",
+    "birthYear": 1966,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Annette_P._Jimerson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "leroy-johnson",
+    "name": "LeRoy Johnson",
+    "birthYear": 1937,
+    "deathYear": 1922,
+    "medium": [
+      "Multidisciplinary"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "LeRoy_Johnson_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "martina-johnson-allen",
+    "name": "Martina Johnson-Allen",
+    "birthYear": 1947,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture",
+      "Printmaking"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Martina_Johnson-Allen",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "calvin-b-jones",
+    "name": "Calvin B. Jones",
+    "birthYear": 1934,
+    "deathYear": 2010,
+    "medium": [
+      "Painting",
+      "Mural"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Calvin_B._Jones",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "ida-e-jones",
+    "name": "Ida E. Jones",
+    "birthYear": 1874,
+    "deathYear": 1959,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Ida_E._Jones_(painter)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "jennie-c-jones",
+    "name": "Jennie C. Jones",
+    "birthYear": 1968,
+    "deathYear": null,
+    "medium": [
+      "Multidisciplinary"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Jennie_C._Jones",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "lawrence-a-jones",
+    "name": "Lawrence A. Jones",
+    "birthYear": 1910,
+    "deathYear": 1996,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Lawrence_Arthur_Jones",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "samuel-levi-jones",
+    "name": "Samuel Levi Jones",
+    "birthYear": 1978,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Samuel_Levi_Jones",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "seitu-jones",
+    "name": "Seitu Jones",
+    "birthYear": 1951,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Multidisciplinary"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Seitu_Jones",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "eddie-jack-jordan",
+    "name": "Eddie Jack Jordan",
+    "birthYear": 1925,
+    "deathYear": 1999,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Eddie_Jack_Jordan_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "ronald-joseph",
+    "name": "Ronald Joseph",
+    "birthYear": 1910,
+    "deathYear": 1992,
+    "medium": [
+      "Printmaking"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Ronald_Joseph_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "richard-gordon-kendall",
+    "name": "Richard Gordon Kendall",
+    "birthYear": 1933,
+    "deathYear": 2008,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Richard_Gordon_Kendall",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "autumn-knight",
+    "name": "Autumn Knight",
+    "birthYear": 1980,
+    "deathYear": null,
+    "medium": [
+      "Performance",
+      "Installation"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Autumn_Knight",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "doyle-lane",
+    "name": "Doyle Lane",
+    "birthYear": 1923,
+    "deathYear": 2002,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Doyle_Lane",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "claude-lawrence",
+    "name": "Claude Lawrence",
+    "birthYear": 1944,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Claude_Lawrence",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "carolyn-lazard",
+    "name": "Carolyn Lazard",
+    "birthYear": 1987,
+    "deathYear": null,
+    "medium": [
+      "Conceptual"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Carolyn_Lazard",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "nate-lewis",
+    "name": "Nate Lewis",
+    "birthYear": 1985,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Nate_Lewis_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "joe-louis-light",
+    "name": "Joe Louis Light",
+    "birthYear": 1934,
+    "deathYear": 2005,
+    "medium": [
+      "Painting",
+      "Sculpture"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Joe_Louis_Light",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "james-little",
+    "name": "James Little",
+    "birthYear": 1952,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "James_Little_(painter)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "willie-little",
+    "name": "Willie Little",
+    "birthYear": 1961,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture",
+      "Multidisciplinary"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Willie_Little",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "tom-lloyd",
+    "name": "Tom Lloyd",
+    "birthYear": 1929,
+    "deathYear": 1996,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Tom_Lloyd_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "edward-l-loper-sr",
+    "name": "Edward L. Loper, Sr.",
+    "birthYear": 1916,
+    "deathYear": 2011,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Edward_L._Loper,_Sr.",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "whitfield-lovell",
+    "name": "Whitfield Lovell",
+    "birthYear": 1960,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Whitfield_Lovell",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "alvin-d-loving",
+    "name": "Alvin D. Loving",
+    "birthYear": 1935,
+    "deathYear": 2005,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Alvin_D._Loving",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "eric-n-mack",
+    "name": "Eric N. Mack",
+    "birthYear": 1987,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture",
+      "Installation"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Eric_N._Mack",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "gwendolyn-ann-magee",
+    "name": "Gwendolyn Ann Magee",
+    "birthYear": 1943,
+    "deathYear": 2011,
+    "medium": [
+      "Quilt"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Gwendolyn_Ann_Magee",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "clarence-major",
+    "name": "Clarence Major",
+    "birthYear": 1936,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Clarence_Major",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "eugene-j-martin",
+    "name": "Eugene J. Martin",
+    "birthYear": 1938,
+    "deathYear": 2005,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Eugene_J._Martin",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "louise-martin",
+    "name": "Louise Martin",
+    "birthYear": 1911,
+    "deathYear": 1995,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Louise_Martin_(photographer)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "valerie-maynard",
+    "name": "Valerie Maynard",
+    "birthYear": 1937,
+    "deathYear": 2022,
+    "medium": [
+      "Painting",
+      "Sculpture",
+      "Printmaking"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Valerie_Maynard",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "ealy-mays",
+    "name": "Ealy Mays",
+    "birthYear": 1959,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Ealy_Mays",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "lester-julian-merriweather",
+    "name": "Lester Julian Merriweather",
+    "birthYear": 1978,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Lester_Julian_Merriweather",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "william-mcbride-artist",
+    "name": "William McBride (artist)",
+    "birthYear": 1912,
+    "deathYear": 2000,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "William_McBride_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "howard-mccalebb",
+    "name": "Howard McCalebb",
+    "birthYear": 1947,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Howard_McCalebb",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "hugo-mccloud",
+    "name": "Hugo McCloud",
+    "birthYear": 1980,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Hugo_McCloud",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "charles-mcgill",
+    "name": "Charles McGill",
+    "birthYear": 1964,
+    "deathYear": 2017,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "spiral-group"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Charles_McGill",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "julie-mehretu",
+    "name": "Julie Mehretu",
+    "birthYear": 1970,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Printmaking"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Julie_Mehretu",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "yvonne-cole-meo",
+    "name": "Yvonne Cole Meo",
+    "birthYear": 1923,
+    "deathYear": 2016,
+    "medium": [
+      "Sculpture",
+      "Printmaking"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Yvonne_Cole_Meo",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "troy-michie",
+    "name": "Troy Michie",
+    "birthYear": 1985,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture",
+      "Collage",
+      "Installation"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Troy_Michie",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "sam-middleton",
+    "name": "Sam Middleton",
+    "birthYear": 1927,
+    "deathYear": 2015,
+    "medium": [
+      "Mixed Media"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Sam_Middleton",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "nicole-miller",
+    "name": "Nicole Miller",
+    "birthYear": 1982,
+    "deathYear": null,
+    "medium": [
+      "Video"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Nicole_Miller_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "joe-minter",
+    "name": "Joe Minter",
+    "birthYear": 1943,
+    "deathYear": null,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Joe_Minter",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "dean-mitchell",
+    "name": "Dean Mitchell",
+    "birthYear": 1957,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Dean_Mitchell",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "evangeline-montgomery",
+    "name": "Evangeline Montgomery",
+    "birthYear": 1930,
+    "deathYear": null,
+    "medium": [
+      "Printmaking"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Evangeline_Montgomery",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "scipio-moorhead",
+    "name": "Scipio Moorhead",
+    "birthYear": null,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Scipio_Moorhead",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "barbara-tyson-mosley",
+    "name": "Barbara Tyson Mosley",
+    "birthYear": 1950,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Barbara_Tyson_Mosley",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "charles-franklin-moss",
+    "name": "Charles Franklin Moss",
+    "birthYear": 1878,
+    "deathYear": 1961,
+    "medium": [
+      "Painting",
+      "Photography"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Charles_Franklin_Moss",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "zora-j-murff",
+    "name": "Zora J. Murff",
+    "birthYear": 1987,
+    "deathYear": null,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Zora_J._Murff",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "wangechi-mutu",
+    "name": "Wangechi Mutu",
+    "birthYear": 1972,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Wangechi_Mutu",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "gus-nall",
+    "name": "Gus Nall",
+    "birthYear": 1919,
+    "deathYear": 1995,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Gus_Nall",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "harold-newton",
+    "name": "Harold Newton",
+    "birthYear": 1934,
+    "deathYear": 1994,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Harold_Newton",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "odili-donald-odita",
+    "name": "Odili Donald Odita",
+    "birthYear": 1966,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Odili_Donald_Odita",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "mary-lovelace-oneal",
+    "name": "Mary Lovelace O'Neal",
+    "birthYear": 1942,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Mary_Lovelace_O'Neal",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "turtel-onli",
+    "name": "Turtel Onli",
+    "birthYear": 1952,
+    "deathYear": null,
+    "medium": [
+      "Cartoonist"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Turtel_Onli",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "jackie-ormes",
+    "name": "Jackie Ormes",
+    "birthYear": 1911,
+    "deathYear": 1985,
+    "medium": [
+      "Cartoonist"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Jackie_Ormes",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "john-outterbridge",
+    "name": "John Outterbridge",
+    "birthYear": 1933,
+    "deathYear": 2020,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "John_Outterbridge",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "joe-overstreet",
+    "name": "Joe Overstreet",
+    "birthYear": 1933,
+    "deathYear": 2019,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Joe_Overstreet",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "jennifer-packer",
+    "name": "Jennifer Packer",
+    "birthYear": 1985,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Jennifer_Packer",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "norman-parish",
+    "name": "Norman Parish",
+    "birthYear": 1937,
+    "deathYear": 2013,
+    "medium": [
+      "Painting",
+      "Mural"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Norman_Parish",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "gordon-parks",
+    "name": "Gordon Parks",
+    "birthYear": 1912,
+    "deathYear": 2006,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Gordon_Parks",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "sandra-payne",
+    "name": "Sandra Payne",
+    "birthYear": 1951,
+    "deathYear": 2021,
+    "medium": [
+      "Sculpture",
+      "Conceptual"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Sandra_Payne_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "adam-pendleton",
+    "name": "Adam Pendleton",
+    "birthYear": 1984,
+    "deathYear": null,
+    "medium": [
+      "Conceptual"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Adam_Pendleton",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "cecelia-pedescleaux",
+    "name": "Cecelia Pedescleaux",
+    "birthYear": 1945,
+    "deathYear": null,
+    "medium": [
+      "Quilt"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Cecelia_Pedescleaux",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "janet-taylor-pickett",
+    "name": "Janet Taylor Pickett",
+    "birthYear": 1948,
+    "deathYear": null,
+    "medium": [
+      "Mixed Media"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Janet_Taylor_Pickett",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "delilah-pierce",
+    "name": "Delilah Pierce",
+    "birthYear": 1904,
+    "deathYear": 1992,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Delilah_Pierce",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "earle-m-pilgrim",
+    "name": "Earle M. Pilgrim",
+    "birthYear": 1923,
+    "deathYear": 1976,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Earle_M._Pilgrim",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "jefferson-pinder",
+    "name": "Jefferson Pinder",
+    "birthYear": 1970,
+    "deathYear": null,
+    "medium": [
+      "Performance"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Jefferson_Pinder",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "jerry-pinkney",
+    "name": "Jerry Pinkney",
+    "birthYear": 1939,
+    "deathYear": 2021,
+    "medium": [
+      "Illustration"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Jerry_Pinkney",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "rose-piper",
+    "name": "Rose Piper",
+    "birthYear": 1917,
+    "deathYear": 2005,
+    "medium": [
+      "Painting",
+      "Textile"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Rose_Piper",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "william-pleasant-jr",
+    "name": "William Pleasant Jr.",
+    "birthYear": 1928,
+    "deathYear": 1997,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "William_Pleasant_Jr.",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "p-h-polk",
+    "name": "P. H. Polk",
+    "birthYear": 1898,
+    "deathYear": 1984,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "P._H._Polk",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "stephanie-pogue",
+    "name": "Stephanie Pogue",
+    "birthYear": 1944,
+    "deathYear": 2002,
+    "medium": [
+      "Printmaking"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Stephanie_Pogue",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "carl-robert-pope",
+    "name": "Carl Robert Pope",
+    "birthYear": 1961,
+    "deathYear": null,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Carl_Robert_Pope",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "william-pope-l",
+    "name": "William Pope.L",
+    "birthYear": 1955,
+    "deathYear": null,
+    "medium": [
+      "Conceptual"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "William_Pope.L",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "charles-ethan-porter",
+    "name": "Charles Ethan Porter",
+    "birthYear": 1847,
+    "deathYear": 1923,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Charles_Ethan_Porter",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "harriet-powers",
+    "name": "Harriet Powers",
+    "birthYear": 1837,
+    "deathYear": 1910,
+    "medium": [
+      "Folk Art"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Harriet_Powers",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "walter-price-artist",
+    "name": "Walter Price (artist)",
+    "birthYear": 1989,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Walter_Price_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "martin-puryear",
+    "name": "Martin Puryear",
+    "birthYear": 1941,
+    "deathYear": null,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Martin_Puryear",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "mavis-pusey",
+    "name": "Mavis Pusey",
+    "birthYear": 1928,
+    "deathYear": 2019,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Mavis_Pusey",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "bob-ragland",
+    "name": "Bob Ragland",
+    "birthYear": 1938,
+    "deathYear": 2021,
+    "medium": [
+      "Painting",
+      "Sculpture"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Bob_Ragland",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "helen-evans-ramsaran",
+    "name": "Helen Evans Ramsaran",
+    "birthYear": 1943,
+    "deathYear": null,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Helen_Evans_Ramsaran",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "john-rhoden",
+    "name": "John Rhoden",
+    "birthYear": 1916,
+    "deathYear": 2001,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "John_Rhoden",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "earle-wilton-richardson",
+    "name": "Earle Wilton Richardson",
+    "birthYear": 1912,
+    "deathYear": 1935,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Earle_Wilton_Richardson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "taft-richardson-jr",
+    "name": "Taft Richardson Jr.",
+    "birthYear": 1943,
+    "deathYear": 2008,
+    "medium": [
+      "Folk Art"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Taft_Richardson_Jr.",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "haywood-rivers",
+    "name": "Haywood Rivers",
+    "birthYear": 1922,
+    "deathYear": 2001,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Haywood_Rivers",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "amber-robles-gordon",
+    "name": "Amber Robles-Gordon",
+    "birthYear": 1977,
+    "deathYear": null,
+    "medium": [
+      "Installation"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Amber_Robles-Gordon",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "arthur-rose-sr",
+    "name": "Arthur Rose Sr.",
+    "birthYear": 1921,
+    "deathYear": 1995,
+    "medium": [
+      "Multidisciplinary"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Arthur_Rose_Sr.",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "bayete-ross-smith",
+    "name": "Bayeté Ross Smith",
+    "birthYear": 1976,
+    "deathYear": null,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Bayeté_Ross_Smith",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "alison-saar",
+    "name": "Alison Saar",
+    "birthYear": 1956,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Alison_Saar",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "synthia-saint-james",
+    "name": "Synthia Saint James",
+    "birthYear": 1949,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Synthia_Saint_James",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "charles-l-sallee-jr",
+    "name": "Charles L. Sallée Jr.",
+    "birthYear": 1923,
+    "deathYear": 2006,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Charles_L._Sallée_Jr.",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "reginald-sanders",
+    "name": "Reginald Sanders",
+    "birthYear": 1921,
+    "deathYear": 2001,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Reginald_Sanders",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "raymond-saunders",
+    "name": "Raymond Saunders",
+    "birthYear": 1934,
+    "deathYear": 2025,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Raymond_Saunders_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "dread-scott",
+    "name": "Dread Scott",
+    "birthYear": 1965,
+    "deathYear": null,
+    "medium": [
+      "Photography",
+      "Video",
+      "Performance",
+      "Installation"
+    ],
+    "movements": [
+      "spiral-group"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Dread_Scott",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "john-t-scott",
+    "name": "John T. Scott",
+    "birthYear": 1940,
+    "deathYear": 2007,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "John_T._Scott",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "lorenzo-scott",
+    "name": "Lorenzo Scott",
+    "birthYear": 1934,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Lorenzo_Scott",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "charles-searles",
+    "name": "Charles Searles",
+    "birthYear": 1937,
+    "deathYear": 2004,
+    "medium": [
+      "Painting",
+      "Sculpture"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Charles_Searles",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "charles-sebree",
+    "name": "Charles Sebree",
+    "birthYear": 1914,
+    "deathYear": 1985,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Charles_Sebree",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "thomas-sills",
+    "name": "Thomas Sills",
+    "birthYear": 1914,
+    "deathYear": 2000,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Thomas_Sills",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "gary-simmons",
+    "name": "Gary Simmons",
+    "birthYear": 1964,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "spiral-group"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Gary_Simmons_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "merton-simpson",
+    "name": "Merton Simpson",
+    "birthYear": 1928,
+    "deathYear": 2013,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Merton_Simpson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "william-simpson",
+    "name": "William Simpson",
+    "birthYear": 1818,
+    "deathYear": 1872,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "William_Simpson_(portrait_artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "ferrari-sheppard",
+    "name": "Ferrari Sheppard",
+    "birthYear": 1983,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Ferrari_Sheppard",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "cauleen-smith",
+    "name": "Cauleen Smith",
+    "birthYear": 1967,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Cauleen_Smith",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "leslie-smith-iii",
+    "name": "Leslie Smith III",
+    "birthYear": 1985,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Leslie_Smith_III",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "vincent-d-smith",
+    "name": "Vincent D. Smith",
+    "birthYear": 1929,
+    "deathYear": 2003,
+    "medium": [
+      "Painting",
+      "Printmaking"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Vincent_Dacosta_Smith",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "william-e-smith",
+    "name": "William E. Smith",
+    "birthYear": 1913,
+    "deathYear": 1997,
+    "medium": [
+      "Painting",
+      "Printmaking"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "William_E._Smith_(Artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "sylvia-snowden",
+    "name": "Sylvia Snowden",
+    "birthYear": 1942,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Sylvia_Snowden",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "carroll-sockwell",
+    "name": "Carroll Sockwell",
+    "birthYear": 1943,
+    "deathYear": 1992,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Carroll_Sockwell",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "jeff-sonhouse",
+    "name": "Jeff Sonhouse",
+    "birthYear": 1968,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Jeff_Sonhouse",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "vaughn-spann",
+    "name": "Vaughn Spann",
+    "birthYear": 1992,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Printmaking"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Vaughn_Spann",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "mitchell-squire",
+    "name": "Mitchell Squire",
+    "birthYear": 1958,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Performance",
+      "Installation"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Mitchell_Squire",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "renee-stout",
+    "name": "Renee Stout",
+    "birthYear": 1958,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Renee_Stout",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "lou-stovall",
+    "name": "Lou Stovall",
+    "birthYear": 1937,
+    "deathYear": 2023,
+    "medium": [
+      "Printmaking"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Lou_Stovall",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "tavares-strachan",
+    "name": "Tavares Strachan",
+    "birthYear": 1979,
+    "deathYear": null,
+    "medium": [
+      "Conceptual"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Tavares_Strachan",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "thelma-johnson-streat",
+    "name": "Thelma Johnson Streat",
+    "birthYear": 1911,
+    "deathYear": 1959,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Thelma_Johnson_Streat",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "martine-syms",
+    "name": "Martine Syms",
+    "birthYear": 1988,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Martine_Syms",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "ron-tarver",
+    "name": "Ron Tarver",
+    "birthYear": 1957,
+    "deathYear": null,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Ron_Tarver",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "mary-lee-tate",
+    "name": "Mary Lee Tate",
+    "birthYear": 1893,
+    "deathYear": 1939,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Mary_Lee_Tate",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "u-s-grant-tayes",
+    "name": "U.S. Grant Tayes",
+    "birthYear": 1885,
+    "deathYear": 1972,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "U.S._Grant_Tayes",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "bob-thompson",
+    "name": "Bob Thompson",
+    "birthYear": 1937,
+    "deathYear": 1966,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Bob_Thompson_(painter)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "mildred-thompson",
+    "name": "Mildred Thompson",
+    "birthYear": 1935,
+    "deathYear": 2003,
+    "medium": [
+      "Painting",
+      "Sculpture",
+      "Printmaking"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Mildred_Thompson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "yvonne-edwards-tucker",
+    "name": "Yvonne Edwards Tucker",
+    "birthYear": 1941,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Yvonne_Edwards_Tucker",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "adejoke-tugbiyele",
+    "name": "Adejoke Tugbiyele",
+    "birthYear": 1977,
+    "deathYear": null,
+    "medium": [
+      "Sculpture",
+      "Multidisciplinary"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Adejoke_Tugbiyele",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "morrie-turner",
+    "name": "Morrie Turner",
+    "birthYear": 1923,
+    "deathYear": 2014,
+    "medium": [
+      "Cartoonist"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Morrie_Turner",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "leo-twiggs",
+    "name": "Leo Twiggs",
+    "birthYear": 1934,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Leo_Twiggs",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "william-walker",
+    "name": "William Walker",
+    "birthYear": 1927,
+    "deathYear": 2011,
+    "medium": [
+      "Mural"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "William_Walker_(muralist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "laura-wheeler-waring",
+    "name": "Laura Wheeler Waring",
+    "birthYear": 1887,
+    "deathYear": 1948,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Laura_Wheeler_Waring",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "e-m-washington",
+    "name": "E. M. Washington",
+    "birthYear": 1962,
+    "deathYear": null,
+    "medium": [
+      "Printmaking"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "E._M._Washington",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "cullen-washington-jr",
+    "name": "Cullen Washington, Jr.",
+    "birthYear": 1972,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "black-arts-movement"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Cullen_Washington_Jr.",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "james-w-washington-jr",
+    "name": "James W. Washington, Jr.",
+    "birthYear": 1908,
+    "deathYear": 2000,
+    "medium": [
+      "Painting",
+      "Sculpture"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "James_W._Washington,_Jr.",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "howard-n-watson",
+    "name": "Howard N. Watson",
+    "birthYear": 1929,
+    "deathYear": 2022,
+    "medium": [
+      "Painting",
+      "Watercolor"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Howard_N._Watson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "richard-j-watson",
+    "name": "Richard J. Watson",
+    "birthYear": 1946,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Printmaking"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Richard_J._Watson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "lewis-watts",
+    "name": "Lewis Watts",
+    "birthYear": 1946,
+    "deathYear": null,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Lewis_Watts",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "joyce-wellman",
+    "name": "Joyce Wellman",
+    "birthYear": 1949,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Printmaking"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Joyce_Wellman",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "pheoris-west",
+    "name": "Pheoris West",
+    "birthYear": 1950,
+    "deathYear": 2021,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Pheoris_West",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "jack-whitten",
+    "name": "Jack Whitten",
+    "birthYear": 1939,
+    "deathYear": 2018,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Jack_Whitten",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "moses-williams",
+    "name": "Moses Williams",
+    "birthYear": 1777,
+    "deathYear": 1830,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Moses_Williams_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "william-t-williams",
+    "name": "William T. Williams",
+    "birthYear": 1942,
+    "deathYear": null,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "William_T._Williams",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "deborah-willis",
+    "name": "Deborah Willis",
+    "birthYear": 1948,
+    "deathYear": null,
+    "medium": [
+      "Photography"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Deborah_Willis_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "fred-wilson",
+    "name": "Fred Wilson",
+    "birthYear": 1954,
+    "deathYear": null,
+    "medium": [
+      "Conceptual"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Fred_Wilson_(artist)",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "wilmer-wilson-iv",
+    "name": "Wilmer Wilson IV",
+    "birthYear": 1989,
+    "deathYear": null,
+    "medium": [
+      "Photography",
+      "Performance"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Wilmer_Wilson_IV",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "john-woodrow-wilson",
+    "name": "John Woodrow Wilson",
+    "birthYear": 1922,
+    "deathYear": 2015,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "John_Woodrow_Wilson",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "beulah-woodard",
+    "name": "Beulah Woodard",
+    "birthYear": 1895,
+    "deathYear": 1955,
+    "medium": [
+      "Sculpture"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Beulah_Woodard",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "richard-wyatt-jr",
+    "name": "Richard Wyatt, Jr.",
+    "birthYear": 1955,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Mural"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Richard_Wyatt,_Jr.",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "richard-yarde",
+    "name": "Richard Yarde",
+    "birthYear": 1939,
+    "deathYear": 2011,
+    "medium": [
+      "Watercolor"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Richard_Yarde",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "joseph-yoakum",
+    "name": "Joseph Yoakum",
+    "birthYear": 1890,
+    "deathYear": 1972,
+    "medium": [
+      "Landscape"
+    ],
+    "movements": [
+      "early-american"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Joseph_Yoakum",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "kenneth-victor-young",
+    "name": "Kenneth Victor Young",
+    "birthYear": 1933,
+    "deathYear": 2017,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Kenneth_Victor_Young",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "purvis-young",
+    "name": "Purvis Young",
+    "birthYear": 1943,
+    "deathYear": 2010,
+    "medium": [
+      "Painting"
+    ],
+    "movements": [
+      "wpa-social-realism"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Purvis_Young",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
+  },
+  {
+    "id": "brenna-youngblood",
+    "name": "Brenna Youngblood",
+    "birthYear": 1979,
+    "deathYear": null,
+    "medium": [
+      "Painting",
+      "Sculpture"
+    ],
+    "movements": [
+      "contemporary"
+    ],
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "wikiKey": "Brenna_Youngblood",
+    "commonsImage": null,
+    "_source": "wikipedia-list-extract"
   }
 ]
