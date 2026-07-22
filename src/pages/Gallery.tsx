@@ -14,10 +14,11 @@ export default function Gallery() {
   const allMedia = Array.from(new Set(artistsData.flatMap(a => a.medium))).sort();
   const commonMedia = ["Painting", "Sculpture", "Photography", "Printmaking", "Installation", "Mixed Media"];
   
+  const lastName = (n: string) => n.replace(/\s*\([^)]*\)\s*$/, "").trim().split(/\s+/).slice(-1)[0];
   const filteredArtists = (selectedMedium
     ? artistsData.filter(a => a.medium.includes(selectedMedium))
     : artistsData
-  ).slice().sort((a, b) => a.name.localeCompare(b.name));
+  ).slice().sort((a, b) => lastName(a.name).localeCompare(lastName(b.name)));
 
   return (
     <motion.div 

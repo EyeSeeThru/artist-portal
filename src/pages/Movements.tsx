@@ -24,10 +24,11 @@ export default function Movements() {
 
       <div className="space-y-24">
         {movementsData.map((movement) => {
+          const lastName = (n: string) => n.replace(/\s*\([^)]*\)\s*$/, "").trim().split(/\s+/).slice(-1)[0];
           const movementArtists = artistsData
             .filter(a => a.movements.includes(movement.key))
             .slice()
-            .sort((a, b) => a.name.localeCompare(b.name));
+            .sort((a, b) => lastName(a.name).localeCompare(lastName(b.name)));
           
           if (movementArtists.length === 0) return null;
 
