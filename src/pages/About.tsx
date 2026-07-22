@@ -15,7 +15,7 @@ export default function About() {
           About
         </p>
         <h1 className="font-serif text-4xl md:text-5xl font-medium leading-tight">
-          A growing archive of Black American visual artists.
+          A growing archive of Black visual artists.
         </h1>
       </header>
 
