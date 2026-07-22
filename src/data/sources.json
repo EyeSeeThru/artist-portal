@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T15:51:17.534Z",
+  "generatedAt": "2026-07-22T18:49:48.815Z (patched: duplicate-image cleanup + cover repick)",
   "totalArtists": 393,
   "totalWikimedia": 383,
   "totalArtworks": 254,
@@ -2499,19 +2499,7 @@
       "galleryCover": null
     },
     "murry-depillars": {
-      "wikipediaImages": [
-        {
-          "title": "NormanRockwell.jpeg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:NormanRockwell.jpeg",
-          "width": 200,
-          "height": 250,
-          "license": "Public domain",
-          "attribution": "United States Bureau of Reclamation",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [
         {
           "title": "Angel in the Morning",
@@ -3116,20 +3104,7 @@
       "galleryCover": "https://www.artic.edu/iiif/2/d94d0e3d-5d89-ce07-ee0f-7fa6d8def8ab/full/600,/0/default.jpg"
     },
     "carrie-mae-weems": {
-      "wikipediaImages": [
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "attribution": "David Vignoni / ICON KING",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [
         {
           "title": "Black and Tanned Your Whipped Wind of Change Howled Low Blowing Itself - Ha - Smack into the Middle of Duke Ellington's Orchestra Billie Heard It Too & Cried Strange Fruit Tears",
@@ -3715,20 +3690,7 @@
       "galleryCover": null
     },
     "deana-lawson": {
-      "wikipediaImages": [
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "attribution": "David Vignoni / ICON KING",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [
         {
           "title": "Cortez",
@@ -4210,17 +4172,6 @@
     "steve-r-allen": {
       "wikipediaImages": [
         {
-          "title": "NormanRockwell.jpeg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:NormanRockwell.jpeg",
-          "width": 200,
-          "height": 250,
-          "license": "Public domain",
-          "attribution": "United States Bureau of Reclamation",
-          "source": "Wikimedia Commons"
-        },
-        {
           "title": "SteveRAllen.jpg",
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/SteveRAllen.jpg",
           "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/SteveRAllen.jpg",
@@ -4234,7 +4185,7 @@
         }
       ],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg"
+      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/4/4a/SteveRAllen.jpg"
     },
     "amalia-amaki": {
       "wikipediaImages": [],
@@ -4535,20 +4486,9 @@
       "galleryCover": null
     },
     "alice-beasley": {
-      "wikipediaImages": [
-        {
-          "title": "Quilt03.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Quilt03.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Quilt03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quilt03.jpg",
-          "width": 369,
-          "height": 325,
-          "license": "Public domain",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/8/88/Quilt03.jpg"
+      "galleryCover": null
     },
     "kevin-beasley": {
       "wikipediaImages": [],
@@ -4635,20 +4575,7 @@
       "galleryCover": null
     },
     "dawoud-bey": {
-      "wikipediaImages": [
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "attribution": "David Vignoni / ICON KING",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [
         {
           "title": "Candida and Her Mother, Celia, II",
@@ -4791,22 +4718,9 @@
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/d/d5/%22Women_Bind_and_Dominate_Male_Maid%22_1.jpg"
     },
     "camille-billops": {
-      "wikipediaImages": [
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "attribution": "David Vignoni / ICON KING",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png"
+      "galleryCover": null
     },
     "mcarthur-binion": {
       "wikipediaImages": [],
@@ -4960,21 +4874,9 @@
       "galleryCover": null
     },
     "james-brantley": {
-      "wikipediaImages": [
-        {
-          "title": "NormanRockwell.jpeg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:NormanRockwell.jpeg",
-          "width": 200,
-          "height": 250,
-          "license": "Public domain",
-          "attribution": "United States Bureau of Reclamation",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg"
+      "galleryCover": null
     },
     "moe-brooker": {
       "wikipediaImages": [],
@@ -4982,34 +4884,9 @@
       "galleryCover": null
     },
     "frank-j-brown": {
-      "wikipediaImages": [
-        {
-          "title": "Auguste Rodin - Penseur.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Auguste_Rodin_-_Penseur.png/960px-Auguste_Rodin_-_Penseur.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Auguste_Rodin_-_Penseur.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Auguste_Rodin_-_Penseur.png",
-          "width": 600,
-          "height": 842,
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-          "attribution": "retouche par Walké",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Kleed- Stichting Nationaal Museum van Wereldculturen - RV-5899-18 (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kleed-_Stichting_Nationaal_Museum_van_Wereldculturen_-_RV-5899-18_%28cropped%29.jpg/960px-Kleed-_Stichting_Nationaal_Museum_van_Wereldculturen_-_RV-5899-18_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Kleed-_Stichting_Nationaal_Museum_van_Wereldculturen_-_RV-5899-18_%28cropped%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kleed-_Stichting_Nationaal_Museum_van_Wereldculturen_-_RV-5899-18_(cropped).jpg",
-          "width": 600,
-          "height": 325,
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "attribution": "Unknown authorUnknown author",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Auguste_Rodin_-_Penseur.png/960px-Auguste_Rodin_-_Penseur.png"
+      "galleryCover": null
     },
     "frederick-j-brown": {
       "wikipediaImages": [],
@@ -5777,21 +5654,9 @@
       "galleryCover": null
     },
     "woody-de-othello": {
-      "wikipediaImages": [
-        {
-          "title": "NormanRockwell.jpeg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:NormanRockwell.jpeg",
-          "width": 200,
-          "height": 250,
-          "license": "Public domain",
-          "attribution": "United States Bureau of Reclamation",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg"
+      "galleryCover": null
     },
     "louis-delsarte": {
       "wikipediaImages": [],
@@ -5804,21 +5669,9 @@
       "galleryCover": null
     },
     "joseph-clinton-devillis": {
-      "wikipediaImages": [
-        {
-          "title": "NormanRockwell.jpeg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:NormanRockwell.jpeg",
-          "width": 200,
-          "height": 250,
-          "license": "Public domain",
-          "attribution": "United States Bureau of Reclamation",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg"
+      "galleryCover": null
     },
     "terry-dixon": {
       "wikipediaImages": [],
@@ -6275,22 +6128,9 @@
       "galleryCover": null
     },
     "russell-t-gordon": {
-      "wikipediaImages": [
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "attribution": "David Vignoni / ICON KING",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png"
+      "galleryCover": null
     },
     "rex-goreleigh": {
       "wikipediaImages": [],
@@ -6303,22 +6143,9 @@
       "galleryCover": null
     },
     "deborah-grant": {
-      "wikipediaImages": [
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "attribution": "David Vignoni / ICON KING",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png"
+      "galleryCover": null
     },
     "todd-gray": {
       "wikipediaImages": [
@@ -6710,21 +6537,9 @@
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/2/2f/David_Huffman_at_Berkeley_Art_Museum.jpg"
     },
     "edward-ellis-hughes": {
-      "wikipediaImages": [
-        {
-          "title": "NormanRockwell.jpeg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:NormanRockwell.jpeg",
-          "width": 200,
-          "height": 250,
-          "license": "Public domain",
-          "attribution": "United States Bureau of Reclamation",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg"
+      "galleryCover": null
     },
     "richard-hunt": {
       "wikipediaImages": [
@@ -7314,33 +7129,9 @@
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/7/75/Al_in_Kerhonkson_studio_2002.jpg"
     },
     "eric-n-mack": {
-      "wikipediaImages": [
-        {
-          "title": "Auguste Rodin - Penseur.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Auguste_Rodin_-_Penseur.png/960px-Auguste_Rodin_-_Penseur.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Auguste_Rodin_-_Penseur.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Auguste_Rodin_-_Penseur.png",
-          "width": 600,
-          "height": 842,
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-          "attribution": "retouche par Walké",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "title": "NormanRockwell.jpeg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:NormanRockwell.jpeg",
-          "width": 200,
-          "height": 250,
-          "license": "Public domain",
-          "attribution": "United States Bureau of Reclamation",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Auguste_Rodin_-_Penseur.png/960px-Auguste_Rodin_-_Penseur.png"
+      "galleryCover": null
     },
     "gwendolyn-ann-magee": {
       "wikipediaImages": [],
@@ -7581,18 +7372,6 @@
           "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
           "attribution": "Galerie Magazine",
           "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "attribution": "David Vignoni / ICON KING",
-          "source": "Wikimedia Commons"
         }
       ],
       "artworks": [
@@ -7649,29 +7428,6 @@
     "scipio-moorhead": {
       "wikipediaImages": [
         {
-          "title": "Kleed- Stichting Nationaal Museum van Wereldculturen - RV-5899-18 (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kleed-_Stichting_Nationaal_Museum_van_Wereldculturen_-_RV-5899-18_%28cropped%29.jpg/960px-Kleed-_Stichting_Nationaal_Museum_van_Wereldculturen_-_RV-5899-18_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Kleed-_Stichting_Nationaal_Museum_van_Wereldculturen_-_RV-5899-18_%28cropped%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kleed-_Stichting_Nationaal_Museum_van_Wereldculturen_-_RV-5899-18_(cropped).jpg",
-          "width": 600,
-          "height": 325,
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "attribution": "Unknown authorUnknown author",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "title": "NormanRockwell.jpeg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:NormanRockwell.jpeg",
-          "width": 200,
-          "height": 250,
-          "license": "Public domain",
-          "attribution": "United States Bureau of Reclamation",
-          "source": "Wikimedia Commons"
-        },
-        {
           "title": "Phillis Wheatley frontispiece.jpg",
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Phillis_Wheatley_frontispiece.jpg",
           "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Phillis_Wheatley_frontispiece.jpg",
@@ -7684,24 +7440,12 @@
         }
       ],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kleed-_Stichting_Nationaal_Museum_van_Wereldculturen_-_RV-5899-18_%28cropped%29.jpg/960px-Kleed-_Stichting_Nationaal_Museum_van_Wereldculturen_-_RV-5899-18_%28cropped%29.jpg"
+      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Phillis_Wheatley_frontispiece.jpg"
     },
     "barbara-tyson-mosley": {
-      "wikipediaImages": [
-        {
-          "title": "NormanRockwell.jpeg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:NormanRockwell.jpeg",
-          "width": 200,
-          "height": 250,
-          "license": "Public domain",
-          "attribution": "United States Bureau of Reclamation",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg"
+      "galleryCover": null
     },
     "charles-franklin-moss": {
       "wikipediaImages": [
@@ -8590,29 +8334,6 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "attribution": "Michael Barera",
           "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "attribution": "David Vignoni / ICON KING",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Portrait of Betye Saar. Site Installations, 1989. A Cultural Presentation of the United States of America. - DPLA - 222f r.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Portrait_of_Betye_Saar._Site_Installations%2C_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f_r.jpg/960px-Portrait_of_Betye_Saar._Site_Installations%2C_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f_r.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Portrait_of_Betye_Saar._Site_Installations%2C_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f_r.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Betye_Saar._Site_Installations,_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f_r.jpg",
-          "width": 600,
-          "height": 795,
-          "license": "Public domain",
-          "attribution": "Lezley Saar",
-          "source": "Wikimedia Commons"
         }
       ],
       "artworks": [
@@ -8993,21 +8714,9 @@
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/A_1975_Sockwell_Organic_Abstraction.jpg/960px-A_1975_Sockwell_Organic_Abstraction.jpg"
     },
     "jeff-sonhouse": {
-      "wikipediaImages": [
-        {
-          "title": "NormanRockwell.jpeg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:NormanRockwell.jpeg",
-          "width": 200,
-          "height": 250,
-          "license": "Public domain",
-          "attribution": "United States Bureau of Reclamation",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NormanRockwell.jpeg"
+      "galleryCover": null
     },
     "vaughn-spann": {
       "wikipediaImages": [],
