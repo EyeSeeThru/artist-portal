@@ -49,7 +49,7 @@ export default function Home() {
         <div className="lg:col-span-5 flex flex-col justify-center space-y-8">
           <div>
             <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-tight font-medium mb-6">
-              Black Visual Artist Archive.
+              Black Visual Artists Archive
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
               Explore the lives, movements, and masterworks of Black American visual artists spanning two and a half centuries. A contemplative archive drawn from Wikipedia.

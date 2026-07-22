@@ -24,7 +24,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <header className="sticky top-0 z-30 border-b border-border/40 bg-background/80 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center gap-4 md:gap-6">
           <Link href="/" className="font-serif text-2xl tracking-tight font-medium shrink-0">
-            Artist Portal
+            BVAA
           </Link>
 
           <div className="hidden md:flex flex-1 justify-center">
@@ -60,7 +60,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
                 <div className="mt-8 flex flex-col gap-6">
                   <Link href="/" className="font-serif text-2xl font-medium">
-                    Artist Portal
+                    BVAA
                   </Link>
                   <ArtistSearch
                     variant="mobile"
@@ -92,7 +92,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       {location !== "/map" && (
         <footer className="border-t border-border/40 bg-muted/20 mt-auto">
           <div className="max-w-7xl mx-auto px-4 md:px-8 py-8 text-center md:text-left text-sm text-muted-foreground flex flex-col md:flex-row justify-between items-center gap-4">
-            <p>© {new Date().getFullYear()} Artist Portal.</p>
+            <p>© {new Date().getFullYear()} BVAA.</p>
             <p className="max-w-md text-center md:text-right text-xs leading-relaxed opacity-80">
               Artist biographies are sourced from Wikipedia. Gallery cards and detail-page artwork images are drawn from Wikipedia's open-access media, the Metropolitan Museum of Art's Open Access collection (CC0), and the Art Institute of Chicago's API. Each image retains its source attribution and license.
             </p>
