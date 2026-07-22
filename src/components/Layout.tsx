@@ -16,6 +16,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
     { href: "/timeline", label: "Timeline" },
     { href: "/movements", label: "Movements" },
     { href: "/map", label: "Map" },
+    { href: "/about", label: "About" },
   ];
 
   return (
