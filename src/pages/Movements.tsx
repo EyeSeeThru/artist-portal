@@ -24,7 +24,10 @@ export default function Movements() {
 
       <div className="space-y-24">
         {movementsData.map((movement) => {
-          const movementArtists = artistsData.filter(a => a.movements.includes(movement.key));
+          const movementArtists = artistsData
+            .filter(a => a.movements.includes(movement.key))
+            .slice()
+            .sort((a, b) => a.name.localeCompare(b.name));
           
           if (movementArtists.length === 0) return null;
 

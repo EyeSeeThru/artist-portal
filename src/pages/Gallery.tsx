@@ -14,9 +14,10 @@ export default function Gallery() {
   const allMedia = Array.from(new Set(artistsData.flatMap(a => a.medium))).sort();
   const commonMedia = ["Painting", "Sculpture", "Photography", "Printmaking", "Installation", "Mixed Media"];
   
-  const filteredArtists = selectedMedium 
+  const filteredArtists = (selectedMedium
     ? artistsData.filter(a => a.medium.includes(selectedMedium))
-    : artistsData;
+    : artistsData
+  ).slice().sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <motion.div 
