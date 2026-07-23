@@ -63,7 +63,12 @@ export function ArtistDetailPanel() {
   if (!artist) return null;
 
   // Wikipedia images first, then museum-API artworks. Show first 3 of each.
-  const wikipediaImages = bundle.wikipediaImages.slice(0, 3);
+  // Prepend the lead portrait (Wikipedia's picked pageImage) so it appears
+  // first in the "From Wikipedia" strip when available.
+  const wikipediaAll = bundle.wikipediaPortrait
+    ? [bundle.wikipediaPortrait, ...bundle.wikipediaImages]
+    : bundle.wikipediaImages;
+  const wikipediaImages = wikipediaAll.slice(0, 4);
   const artworks = bundle.artworks.slice(0, 3);
 
   return (

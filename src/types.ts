@@ -40,6 +40,8 @@ export interface Artwork {
 
 export interface SourceBundle {
   wikipediaImages: Artwork[];
+  /** Lead portrait (Wikipedia's picked pageImage) when one exists. */
+  wikipediaPortrait?: Artwork;
   artworks: Artwork[];
   /** Picked gallery-cover image URL (a real artwork, not a portrait) */
   galleryCover?: string | null;

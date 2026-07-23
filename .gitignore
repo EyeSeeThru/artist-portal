@@ -1,6 +1,7 @@
-node_modules/
-dist/
+*.local
+.DS_Store
 .env
 .env.local
-.DS_Store
-*.local
+dist/
+node_modules/
+scripts/.tmp/
