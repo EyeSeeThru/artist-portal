@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T15:29:16.953Z",
+  "generatedAt": "2026-07-23T15:43:04.402Z",
   "totalArtists": 393,
   "totalWikimedia": 383,
   "totalArtworks": 254,
@@ -3620,20 +3620,7 @@
       "galleryCover": "https://www.artic.edu/iiif/2/d94d0e3d-5d89-ce07-ee0f-7fa6d8def8ab/full/600,/0/default.jpg"
     },
     "carrie-mae-weems": {
-      "wikipediaImages": [
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "artist": "David Vignoni / ICON KING",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [
         {
           "title": "Black and Tanned Your Whipped Wind of Change Howled Low Blowing Itself - Ha - Smack into the Middle of Duke Ellington's Orchestra Billie Heard It Too & Cried Strange Fruit Tears",
@@ -4374,20 +4361,7 @@
       "galleryCover": null
     },
     "deana-lawson": {
-      "wikipediaImages": [
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "artist": "David Vignoni / ICON KING",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [
         {
           "title": "Cortez",
@@ -5433,32 +5407,9 @@
       }
     },
     "darrin-bell": {
-      "wikipediaImages": [
-        {
-          "title": "Pulitzer Medal - obverse.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Pulitzer_Medal_-_obverse.png/960px-Pulitzer_Medal_-_obverse.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Pulitzer_Medal_-_obverse.png",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Pulitzer_Medal_-_obverse.png",
-          "width": 600,
-          "height": 598,
-          "license": "Public domain",
-          "artist": "Daniel Chester French (1850–1931)",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Pulitzer Medal - reverse.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Pulitzer_Medal_-_reverse.png/960px-Pulitzer_Medal_-_reverse.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Pulitzer_Medal_-_reverse.png",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Pulitzer_Medal_-_reverse.png",
-          "width": 600,
-          "height": 592,
-          "license": "Public domain",
-          "artist": "Daniel Chester French (1850–1931)",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
-      "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Pulitzer_Medal_-_obverse.png/960px-Pulitzer_Medal_-_obverse.png"
+      "galleryCover": null
     },
     "mary-a-bell": {
       "wikipediaImages": [],
@@ -5466,20 +5417,7 @@
       "galleryCover": null
     },
     "dawoud-bey": {
-      "wikipediaImages": [
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "artist": "David Vignoni / ICON KING",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [
         {
           "title": "Candida and Her Mother, Celia, II",
@@ -5634,20 +5572,7 @@
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/d/d5/%22Women_Bind_and_Dominate_Male_Maid%22_1.jpg"
     },
     "camille-billops": {
-      "wikipediaImages": [
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "artist": "David Vignoni / ICON KING",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
       "galleryCover": null
     },
@@ -5813,18 +5738,6 @@
     },
     "frank-j-brown": {
       "wikipediaImages": [
-        {
-          "title": "Auguste Rodin - Penseur.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Auguste_Rodin_-_Penseur.png/960px-Auguste_Rodin_-_Penseur.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Auguste_Rodin_-_Penseur.png",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Auguste_Rodin_-_Penseur.png",
-          "width": 600,
-          "height": 842,
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-          "artist": "retouche par Walké",
-          "source": "Wikimedia Commons"
-        },
         {
           "title": "Kleed- Stichting Nationaal Museum van Wereldculturen - RV-5899-18 (cropped).jpg",
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kleed-_Stichting_Nationaal_Museum_van_Wereldculturen_-_RV-5899-18_%28cropped%29.jpg/960px-Kleed-_Stichting_Nationaal_Museum_van_Wereldculturen_-_RV-5899-18_%28cropped%29.jpg",
@@ -7639,20 +7552,7 @@
       }
     },
     "russell-t-gordon": {
-      "wikipediaImages": [
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "artist": "David Vignoni / ICON KING",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
       "galleryCover": null
     },
@@ -7667,20 +7567,7 @@
       "galleryCover": null
     },
     "deborah-grant": {
-      "wikipediaImages": [
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "artist": "David Vignoni / ICON KING",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
       "galleryCover": null
     },
@@ -8870,20 +8757,7 @@
       }
     },
     "eric-n-mack": {
-      "wikipediaImages": [
-        {
-          "title": "Auguste Rodin - Penseur.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Auguste_Rodin_-_Penseur.png/960px-Auguste_Rodin_-_Penseur.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Auguste_Rodin_-_Penseur.png",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Auguste_Rodin_-_Penseur.png",
-          "width": 600,
-          "height": 842,
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-          "artist": "retouche par Walké",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
       "galleryCover": null
     },
@@ -9149,18 +9023,6 @@
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
           "artist": "Columbia GSAPP",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "artist": "David Vignoni / ICON KING",
           "source": "Wikimedia Commons"
         },
         {
@@ -10355,18 +10217,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "artist": "Michael Barera",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Nuvola apps package graphics.png",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nuvola_apps_package_graphics.png",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nuvola_apps_package_graphics.png",
-          "width": 128,
-          "height": 128,
-          "license": "LGPL",
-          "licenseUrl": "http://www.gnu.org/licenses/lgpl.html",
-          "artist": "David Vignoni / ICON KING",
           "source": "Wikimedia Commons"
         },
         {

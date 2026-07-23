@@ -8,7 +8,7 @@ import movementsData from "@/data/movements.json";
  * is almost certainly a disambig icon or stub thumbnail from Wikipedia,
  * even if the HTTP response is 200 + image/*. See IMAGE-SOURCING.md.
  */
-const MIN_NATURAL_DIM = 96;
+const MIN_NATURAL_DIM = 300;
 
 function resolveImageSrc(
   artist: Artist,

@@ -238,7 +238,9 @@ async function fetchWikipediaContext(wikiKey) {
   };
 }
 
-// Fetch imageinfo for a Commons file, validating it serves a real image.
+// Fetch imageinfo for a Commons file, validating it serves a real image
+// AND that the image isn't a UI-icon-sized thumbnail. Returns null if the
+// image is too small to be useful as a portrait or artwork thumbnail.
 async function getCommonsImageInfo(filename) {
   const encoded = encodeURIComponent(filename.replace(/ /g, "_"));
   const probeUrl = `https://commons.wikimedia.org/wiki/Special:FilePath/${encoded}?width=600`;
@@ -263,6 +265,20 @@ async function getCommonsImageInfo(filename) {
   if (!info) return null;
   const meta = info.extmetadata ?? {};
   const stripHtml = (s) => (s ?? "").replace(/<[^>]+>/g, "").trim();
+
+  // Reject UI icons / stub placeholders by physical size. These always
+  // come back from the API as ~128x128 because that's their native
+  // size on Commons. Real portraits and artworks are at least 400px
+  // on their longest side. We use the requested-thumbnail size which
+  // is consistent regardless of original aspect ratio.
+  const tw = info.thumbwidth ?? info.width ?? 0;
+  const th = info.thumbheight ?? info.height ?? 0;
+  if (tw > 0 && th > 0) {
+    const minSide = Math.min(tw, th);
+    const minSidePx = 300;
+    if (minSide < minSidePx) return null;
+  }
+
   return {
     thumbUrl: info.thumburl ?? info.url,
     fullUrl: info.url,
