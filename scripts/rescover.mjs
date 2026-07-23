@@ -79,9 +79,24 @@ async function fetchJson(url) {
 
 // Wikipedia-side "this image filename is a known noise token" filter.
 // The legacy script only filtered Commons-metadata noise; this catches
-// Wikipedia UI chrome that the API still returns inside `prop=images`.
+// Wikipedia UI chrome that the API still returns inside `prop=images`,
+// AND known-leak filenames that propagate across articles via template
+// cross-references and Wikipedia UI cross-links.
 function isNoiseImage(filename) {
   const f = filename.toLowerCase();
+  // Known-leak filenames from prior audits: these files get embedded in
+  // unrelated artists' Wikipedia articles via template / cross-reference
+  // mechanics and look indistinguishable from real artwork by filename
+  // alone. Hard-deny these specific filenames.
+  const HARD_DENY_FILENAMES = [
+    "normanrockwell.jpeg", // white-American illustrator, leaks via "See also"
+    "nuvola_apps_package_graphics.png", // KDE/Linux UI icon, leaks via stub marker
+    "auguste_rodin_-_penseur.png", // French sculptor's work, not Black artists'
+  ];
+  for (const blocked of HARD_DENY_FILENAMES) {
+    if (f === blocked) return true;
+  }
+
   // Wikipedia / Wikimedia UI icon and meta-image signatures
   const deny = [
     "oojs_ui_icon",
