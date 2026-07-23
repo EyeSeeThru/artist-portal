@@ -22,6 +22,11 @@ interface ArtistStore {
   clearTrail: () => void;
   jumpToTrailEntry: (index: number) => void;
   selectRandom: () => void;
+
+  // Cross-view scroll targets
+  timelineScrollYear: number | null;
+  requestTimelineScroll: (year: number) => void;
+  consumeTimelineScroll: () => number | null;
 }
 
 const TRAIL_STORAGE_KEY = "artcanon:trail:v1";
@@ -112,5 +117,16 @@ export const useArtistStore = create<ArtistStore>((set, get) => ({
     if (!pick) return;
     get().pushTrail(pick);
     set({ selectedArtistId: pick.id });
+  },
+
+  // Cross-view scroll: set a target year that Timeline listens for and
+  // consumes on mount / when changed.
+  timelineScrollYear: null,
+  requestTimelineScroll: (year) => set({ timelineScrollYear: year }),
+  consumeTimelineScroll: () => {
+    const y = get().timelineScrollYear;
+    if (y === null) return null;
+    set({ timelineScrollYear: null });
+    return y;
   },
 }));

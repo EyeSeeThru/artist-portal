@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import artistsData from "@/data/artists.json";
+import movementsData from "@/data/movements.json";
 import sourcesData from "@/data/sources.json";
 import { Artist } from "@/types";
 import { ArtistImage } from "@/components/ArtistImage";
@@ -12,16 +13,25 @@ export default function Gallery() {
   const [selectedMedium, setSelectedMedium] = useState<string | null>(null);
 
   const allMedia = Array.from(new Set(artistsData.flatMap(a => a.medium))).sort();
+  void allMedia; // available for future filters
   const commonMedia = ["Painting", "Sculpture", "Photography", "Printmaking", "Installation", "Mixed Media"];
-  
+
   const lastName = (n: string) => n.replace(/\s*\([^)]*\)\s*$/, "").trim().split(/\s+/).slice(-1)[0];
+
+  // Precompute a quick movement-key → color lookup
+  const movementColorByKey = useMemo(() => {
+    const m: Record<string, string> = {};
+    for (const mv of movementsData) m[mv.key] = mv.color;
+    return m;
+  }, []);
+
   const filteredArtists = (selectedMedium
     ? artistsData.filter(a => a.medium.includes(selectedMedium))
     : artistsData
   ).slice().sort((a, b) => lastName(a.name).localeCompare(lastName(b.name)));
 
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -30,17 +40,17 @@ export default function Gallery() {
       <div className="mb-12">
         <h1 className="font-serif text-4xl font-medium mb-6">Gallery</h1>
         <div className="flex flex-wrap gap-2">
-          <Badge 
-            variant={selectedMedium === null ? "default" : "outline"} 
+          <Badge
+            variant={selectedMedium === null ? "default" : "outline"}
             className="cursor-pointer text-sm py-1.5 px-4 font-normal"
             onClick={() => setSelectedMedium(null)}
           >
             All
           </Badge>
           {commonMedia.map(medium => (
-            <Badge 
+            <Badge
               key={medium}
-              variant={selectedMedium === medium ? "default" : "outline"} 
+              variant={selectedMedium === medium ? "default" : "outline"}
               className="cursor-pointer text-sm py-1.5 px-4 font-normal"
               onClick={() => setSelectedMedium(medium)}
             >
@@ -51,28 +61,41 @@ export default function Gallery() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        {filteredArtists.map((artist) => (
-          <div
-            key={artist.id}
-            onClick={() => setSelectedArtistId(artist.id)}
-            className="group cursor-pointer relative"
-          >
-            <div className="overflow-hidden rounded-xl border bg-card mb-3 aspect-[3/4] relative">
-              <ArtistImage
-              artist={artist as Artist}
-              coverOverride={sourcesData.byArtist[artist.id]?.galleryCover}
-              width={600}
-              className="w-full h-full transition-transform duration-700 group-hover:scale-105"
-            />
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
+        {filteredArtists.map((artist) => {
+          const primaryMovement = artist.movements[0];
+          const dotColor = primaryMovement ? movementColorByKey[primaryMovement] : undefined;
+          return (
+            <div
+              key={artist.id}
+              onClick={() => setSelectedArtistId(artist.id)}
+              className="group cursor-pointer relative"
+            >
+              <div className="overflow-hidden rounded-xl border bg-card mb-3 aspect-[3/4] relative">
+                <ArtistImage
+                  artist={artist as Artist}
+                  coverOverride={sourcesData.byArtist[artist.id]?.galleryCover}
+                  width={600}
+                  className="w-full h-full transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
+                {/* Movement color dot — top-left corner */}
+                {dotColor && (
+                  <span
+                    className="absolute top-2 left-2 w-3 h-3 rounded-full ring-2 ring-background/80 shadow"
+                    style={{ backgroundColor: dotColor }}
+                    aria-label={primaryMovement}
+                    title={primaryMovement}
+                  />
+                )}
+              </div>
+              <div>
+                <h3 className="font-serif text-xl font-medium group-hover:text-primary transition-colors">{artist.name}</h3>
+                <p className="text-sm text-muted-foreground mb-1">{artist.birthYear}–{artist.deathYear || "present"}</p>
+                <p className="text-xs text-muted-foreground opacity-80">{artist.medium.slice(0, 2).join(", ")}</p>
+              </div>
             </div>
-            <div>
-              <h3 className="font-serif text-xl font-medium group-hover:text-primary transition-colors">{artist.name}</h3>
-              <p className="text-sm text-muted-foreground mb-1">{artist.birthYear}–{artist.deathYear || "present"}</p>
-              <p className="text-xs text-muted-foreground opacity-80">{artist.medium.slice(0, 2).join(", ")}</p>
-            </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </motion.div>
   );

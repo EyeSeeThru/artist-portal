@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { useEffect, useState, useMemo } from "react";
 import { fetchArtistSummary, WikipediaSummary } from "@/lib/wikipedia";
 import artistsData from "@/data/artists.json";
+import movementsData from "@/data/movements.json";
 import sourcesData from "@/data/sources.json";
 import { ArtistImage } from "@/components/ArtistImage";
 import { LayoutGrid, Clock, Layers, MapPin, Shuffle } from "lucide-react";
@@ -13,7 +14,11 @@ export default function Home() {
   const [summary, setSummary] = useState<WikipediaSummary | null>(null);
   const { setSelectedArtistId, pushTrail, selectRandom } = useArtistStore();
 
-  // Deterministic daily featured artist — only from artists with a real image
+  // Deterministic daily featured artist. Strategy:
+  //   1. Pick a movement round-robin (movement index = dayOfYear % 6) so
+  //      no single movement dominates the Home page across days.
+  //   2. From that movement, pick the artist at index = dayOfYear % count.
+  //      Falls back to the full image pool if the chosen movement has none.
   const featuredArtist = useMemo(() => {
     const withImage = artistsData.filter(
       (a) =>
@@ -21,11 +26,16 @@ export default function Home() {
         a.imageUrl ||
         sourcesData.byArtist[a.id]?.galleryCover,
     );
+    if (withImage.length === 0) return artistsData[0];
     const dayOfYear = Math.floor(
       (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) /
         86400000,
     );
-    return withImage[dayOfYear % withImage.length];
+    const movementIdx = dayOfYear % movementsData.length;
+    const movementKey = movementsData[movementIdx].key;
+    const fromMovement = withImage.filter((a) => a.movements.includes(movementKey));
+    const pool = fromMovement.length > 0 ? fromMovement : withImage;
+    return pool[dayOfYear % pool.length];
   }, []);
 
   useEffect(() => {

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { X, ExternalLink, Compass } from "lucide-react";
+import { X, ExternalLink, Compass, Clock, Layers } from "lucide-react";
+import { Link } from "wouter";
 import { Artist, SourceBundle } from "@/types";
 import artistsData from "@/data/artists.json";
 import sourcesData from "@/data/sources.json";
@@ -21,6 +22,7 @@ export function ArtistDetailPanel() {
     wanderFromCurrent,
     clearTrail,
     jumpToTrailEntry,
+    requestTimelineScroll,
   } = useArtistStore();
   const [summary, setSummary] = useState<WikipediaSummary | null>(null);
   const [loading, setLoading] = useState(false);
@@ -132,6 +134,41 @@ export function ArtistDetailPanel() {
               <Compass className="w-4 h-4" />
               Wander to a related artist
             </Button>
+
+            {/* Cross-view shortcuts — only when we have the data */}
+            {(typeof artist.birthYear === "number" || artist.movements.length > 0) && (
+              <div className="flex flex-wrap gap-2">
+                {typeof artist.birthYear === "number" && (
+                  <Link
+                    href="/timeline"
+                    onClick={() => {
+                      requestTimelineScroll(artist.birthYear!);
+                      setSelectedArtistId(null);
+                    }}
+                  >
+                    <Button variant="secondary" size="sm" className="gap-2">
+                      <Clock className="w-3.5 h-3.5" />
+                      View on Timeline
+                    </Button>
+                  </Link>
+                )}
+                {artist.movements[0] && (() => {
+                  const primaryMovement = movementsData.find(m => m.key === artist.movements[0]);
+                  const label = primaryMovement?.label ?? artist.movements[0].replace(/-/g, " ");
+                  return (
+                    <Link
+                      href={`/movements#${artist.movements[0]}`}
+                      onClick={() => setSelectedArtistId(null)}
+                    >
+                      <Button variant="secondary" size="sm" className="gap-2">
+                        <Layers className="w-3.5 h-3.5" />
+                        Other {label} artists
+                      </Button>
+                    </Link>
+                  );
+                })()}
+              </div>
+            )}
 
             {/* Wikipedia article images — vetted by Wikipedia editors */}
             {wikipediaImages.length > 0 && (
