@@ -5,10 +5,10 @@ export interface Artist {
   deathYear: number | null;
   medium: string[];
   movements: string[];
-  city: string;
-  state: string;
-  lat: number;
-  lng: number;
+  city: string | null;
+  state: string | null;
+  lat: number | null;
+  lng: number | null;
   wikiKey: string;
   commonsImage: string | null;
   imageUrl?: string | null; // direct image URL override (used when sourced from a museum / Wikipedia thumbnail, not Commons file)

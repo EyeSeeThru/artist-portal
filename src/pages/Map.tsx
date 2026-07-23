@@ -71,7 +71,7 @@ export default function MapView() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
         />
-        {artistsData.map(artist => {
+        {artistsData.filter(a => typeof a.lat === "number" && typeof a.lng === "number").map(artist => {
           const movement = movementsData.find(m => m.key === artist.movements[0]);
           const color = movement?.color || "#000";
           const jitterLat = artist.lat + getJitter(artist.id + "lat");
@@ -92,7 +92,7 @@ export default function MapView() {
               <Popup className="font-sans">
                 <div className="p-1 space-y-2">
                   <h3 className="font-serif text-lg font-bold m-0">{artist.name}</h3>
-                  <p className="text-xs text-muted-foreground m-0">{artist.city}, {artist.state}</p>
+                  <p className="text-xs text-muted-foreground m-0">{artist.city ?? "Location unknown"}, {artist.state ?? ""}</p>
                   <Button 
                     size="sm" 
                     className="w-full mt-2"

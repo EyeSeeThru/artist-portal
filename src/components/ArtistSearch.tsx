@@ -37,8 +37,8 @@ function scoreMatch(query: string, artist: Artist): SearchMatch | null {
     return { artist, matchedField: "movement", matchedValue: mov?.label || movementKey };
   }
 
-  if (artist.city.toLowerCase().includes(q)) {
-    return { artist, matchedField: "city", matchedValue: `${artist.city}, ${artist.state}` };
+  if (artist.city && artist.city.toLowerCase().includes(q)) {
+    return { artist, matchedField: "city", matchedValue: `${artist.city}, ${artist.state ?? ""}` };
   }
 
   return null;
@@ -254,7 +254,7 @@ export function ArtistSearch({
                             </Badge>
                           )}
                           <span className="truncate">
-                            {a.medium.slice(0, 2).join(", ")} · {a.city}, {a.state}
+                            {a.medium.slice(0, 2).join(", ")}{a.city ? ` · ${a.city}${a.state ? `, ${a.state}` : ""}` : ""}
                           </span>
                         </div>
                         {match.matchedField !== "name" && (
