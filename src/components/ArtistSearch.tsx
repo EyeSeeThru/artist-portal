@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Search, X } from "lucide-react";
 import artistsData from "@/data/artists.json";
 import movementsData from "@/data/movements.json";
+import descriptionsData from "@/data/descriptions.json";
 import { Artist } from "@/types";
 import { useArtistStore } from "@/hooks/use-artist";
 import { Kbd } from "@/components/ui/kbd";
@@ -39,6 +40,12 @@ function scoreMatch(query: string, artist: Artist): SearchMatch | null {
 
   if (artist.city && artist.city.toLowerCase().includes(q)) {
     return { artist, matchedField: "city", matchedValue: `${artist.city}, ${artist.state ?? ""}` };
+  }
+
+  // Wikipedia biographical summary (if present in descriptions.json)
+  const desc = descriptionsData?.byArtist?.[artist.id]?.extract?.toLowerCase();
+  if (desc && desc.includes(q)) {
+    return { artist, matchedField: "city", matchedValue: "Wikipedia biography" };
   }
 
   return null;
