@@ -43,6 +43,10 @@ export interface SourceBundle {
   /** Lead portrait (Wikipedia's picked pageImage) when one exists. */
   wikipediaPortrait?: Artwork;
   artworks: Artwork[];
+  /** Open-API artworks (LoC + Rijksmuseum) — sourced by
+   *  scripts/source-open-artworks.mjs. Kept separate from `artworks` so
+   *  re-runs of source-artworks.mjs don't trample them. */
+  artworksLoR?: Artwork[];
   /** Picked gallery-cover image URL (a real artwork, not a portrait) */
   galleryCover?: string | null;
 }
