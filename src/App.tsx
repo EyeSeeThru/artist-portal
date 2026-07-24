@@ -9,7 +9,6 @@ import Home from "@/pages/Home";
 import Gallery from "@/pages/Gallery";
 import Timeline from "@/pages/Timeline";
 import Movements from "@/pages/Movements";
-import MapView from "@/pages/Map";
 import About from "@/pages/About";
 import NotFound from "@/pages/not-found";
 import { ThemeProvider } from "@/lib/theme-provider";
@@ -24,7 +23,6 @@ function Router() {
         <Route path="/gallery" component={Gallery} />
         <Route path="/timeline" component={Timeline} />
         <Route path="/movements" component={Movements} />
-        <Route path="/map" component={MapView} />
         <Route path="/about" component={About} />
         <Route component={NotFound} />
       </Switch>

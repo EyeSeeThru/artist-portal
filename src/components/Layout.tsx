@@ -15,7 +15,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
     { href: "/gallery", label: "Gallery" },
     { href: "/timeline", label: "Timeline" },
     { href: "/movements", label: "Movements" },
-    { href: "/map", label: "Map" },
     { href: "/about", label: "About" },
   ];
 
@@ -89,16 +88,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
         {children}
       </main>
 
-      {location !== "/map" && (
-        <footer className="border-t border-border/40 bg-muted/20 mt-auto">
-          <div className="max-w-7xl mx-auto px-4 md:px-8 py-8 text-center md:text-left text-sm text-muted-foreground flex flex-col md:flex-row justify-between items-center gap-4">
-            <p>© {new Date().getFullYear()} BVAA.</p>
-            <p className="max-w-md text-center md:text-right text-xs leading-relaxed opacity-80">
-              Artist biographies are sourced from Wikipedia. Gallery cards and detail-page artwork images are drawn from Wikipedia's open-access media, the Metropolitan Museum of Art's Open Access collection (CC0), and the Art Institute of Chicago's API. Each image retains its source attribution and license.
-            </p>
-          </div>
-        </footer>
-      )}
+      <footer className="border-t border-border/40 bg-muted/20 mt-auto">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 py-8 text-center md:text-left text-sm text-muted-foreground flex flex-col md:flex-row justify-between items-center gap-4">
+          <p>© {new Date().getFullYear()} BVAA.</p>
+          <p className="max-w-md text-center md:text-right text-xs leading-relaxed opacity-80">
+            Artist biographies are sourced from Wikipedia. Gallery cards and detail-page artwork images are drawn from Wikipedia's open-access media, the Metropolitan Museum of Art's Open Access collection (CC0), and the Art Institute of Chicago's API. Each image retains its source attribution and license.
+          </p>
+        </div>
+      </footer>
 
       <ArtistDetailPanel />
     </div>

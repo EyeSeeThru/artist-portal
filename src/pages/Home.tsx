@@ -5,7 +5,7 @@ import artistsData from "@/data/artists.json";
 import movementsData from "@/data/movements.json";
 import sourcesData from "@/data/sources.json";
 import { ArtistImage } from "@/components/ArtistImage";
-import { LayoutGrid, Clock, Layers, MapPin, Shuffle } from "lucide-react";
+import { LayoutGrid, Clock, Layers, Shuffle } from "lucide-react";
 import { motion } from "framer-motion";
 import { useArtistStore } from "@/hooks/use-artist";
 import { Button } from "@/components/ui/button";
@@ -88,14 +88,6 @@ export default function Home() {
               <div>
                 <h3 className="font-medium text-lg">Movements</h3>
                 <p className="text-sm text-muted-foreground">By era and collective</p>
-              </div>
-            </Link>
-
-            <Link href="/map" className="group p-6 rounded-xl border bg-card hover:bg-accent/50 transition-colors flex flex-col gap-3">
-              <MapPin className="w-6 h-6 text-primary/60 group-hover:text-primary transition-colors" />
-              <div>
-                <h3 className="font-medium text-lg">Map</h3>
-                <p className="text-sm text-muted-foreground">Geographic origins</p>
               </div>
             </Link>
           </div>

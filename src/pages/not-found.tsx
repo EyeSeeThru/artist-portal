@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { Compass, Search, MapPin, Clock, Layers } from "lucide-react";
+import { Compass, Search, Clock, Layers } from "lucide-react";
 
 export default function NotFound() {
   return (
@@ -53,14 +53,6 @@ export default function NotFound() {
           <div>
             <h3 className="font-medium text-lg">Movements</h3>
             <p className="text-sm text-muted-foreground">By era and collective</p>
-          </div>
-        </Link>
-
-        <Link href="/map" className="group p-6 rounded-xl border bg-card hover:bg-accent/50 transition-colors flex flex-col gap-3 sm:col-span-2">
-          <MapPin className="w-6 h-6 text-primary/60 group-hover:text-primary transition-colors" />
-          <div>
-            <h3 className="font-medium text-lg">Map</h3>
-            <p className="text-sm text-muted-foreground">Geographic origins of artists</p>
           </div>
         </Link>
       </div>

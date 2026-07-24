@@ -122,15 +122,6 @@ export default function About() {
                 Social Realism, Spiral Group, Black Arts Movement, and more).
               </span>
             </li>
-            <li className="flex gap-3">
-              <span className="text-primary/60 shrink-0 mt-1">•</span>
-              <span>
-                <Link href="/map" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary font-medium">
-                  Map
-                </Link>{" "}
-                &mdash; geographic view of where artists lived and worked.
-              </span>
-            </li>
           </ul>
         </section>
 
