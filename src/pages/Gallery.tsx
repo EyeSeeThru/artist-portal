@@ -81,7 +81,10 @@ export default function Gallery() {
   const [viewMode, setViewMode] = useState<ViewMode>("medium");
   const [selectedMedium, setSelectedMedium] = useState<string | null>(null);
 
-  // Build the full pool: Met/AIC + Wikipedia + LoC + Rijksmuseum
+  // Build the full pool: Met + AIC only (bundle.artworks).
+  // Wikipedia images and LoC/Rijksmuseum data are NOT in the Gallery
+  // pool — they're shown only on the artist detail page. The Gallery
+  // is for artworks sourced from museum APIs.
   const allItems = useMemo<GalleryItem[]>(() => {
     const byId = new Map<string, Artist>();
     for (const a of artistsData as Artist[]) byId.set(a.id, a);
@@ -90,12 +93,7 @@ export default function Gallery() {
       const artist = byId.get(artistId);
       if (!artist) continue;
       const mk = artist.movements[0] ?? "unaffiliated";
-      const pools: Artwork[] = [
-        ...(bundle.artworks ?? []),
-        ...(bundle.wikipediaImages ?? []),
-        ...(bundle.artworksLoR ?? []),
-      ];
-      for (const aw of pools) {
+      for (const aw of bundle.artworks ?? []) {
         items.push({ artwork: aw, artist, movementKey: mk });
       }
     }
@@ -178,10 +176,9 @@ export default function Gallery() {
         </h1>
         <p className="text-muted-foreground text-lg max-w-2xl">
           Real artworks by the artists in the index — drawn from the
-          Metropolitan Museum of Art's Open Access collection (CC0), the Art
-          Institute of Chicago, Wikipedia, the Library of Congress, and the
-          Rijksmuseum. Click any image to enlarge, or the artist&rsquo;s name
-          to open their profile.
+          Metropolitan Museum of Art&rsquo;s Open Access collection (CC0) and
+          the Art Institute of Chicago. Click any image to enlarge, or the
+          artist&rsquo;s name to open their profile.
         </p>
       </header>
 
