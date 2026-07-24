@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { Compass, Search, Clock, Layers } from "lucide-react";
+import { Compass, Search, ImageIcon, Clock, Layers } from "lucide-react";
 
 export default function NotFound() {
   return (
@@ -32,11 +32,19 @@ export default function NotFound() {
           </div>
         </Link>
 
-        <Link href="/gallery" className="group p-6 rounded-xl border bg-card hover:bg-accent/50 transition-colors flex flex-col gap-3">
+        <Link href="/artist-index" className="group p-6 rounded-xl border bg-card hover:bg-accent/50 transition-colors flex flex-col gap-3">
           <Search className="w-6 h-6 text-primary/60 group-hover:text-primary transition-colors" />
           <div>
-            <h3 className="font-medium text-lg">Gallery</h3>
+            <h3 className="font-medium text-lg">Artist Index</h3>
             <p className="text-sm text-muted-foreground">Browse all artists alphabetically</p>
+          </div>
+        </Link>
+
+        <Link href="/gallery" className="group p-6 rounded-xl border bg-card hover:bg-accent/50 transition-colors flex flex-col gap-3">
+          <ImageIcon className="w-6 h-6 text-primary/60 group-hover:text-primary transition-colors" />
+          <div>
+            <h3 className="font-medium text-lg">Gallery</h3>
+            <p className="text-sm text-muted-foreground">Works from the archive</p>
           </div>
         </Link>
 

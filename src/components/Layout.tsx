@@ -12,6 +12,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const links = [
+    { href: "/artist-index", label: "Artist Index" },
     { href: "/gallery", label: "Gallery" },
     { href: "/timeline", label: "Timeline" },
     { href: "/movements", label: "Movements" },

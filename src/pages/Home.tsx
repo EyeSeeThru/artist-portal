@@ -5,7 +5,7 @@ import artistsData from "@/data/artists.json";
 import movementsData from "@/data/movements.json";
 import sourcesData from "@/data/sources.json";
 import { ArtistImage } from "@/components/ArtistImage";
-import { LayoutGrid, Clock, Layers, Shuffle } from "lucide-react";
+import { LayoutGrid, ImageIcon, Clock, Layers, Shuffle } from "lucide-react";
 import { motion } from "framer-motion";
 import { useArtistStore } from "@/hooks/use-artist";
 import { Button } from "@/components/ui/button";
@@ -67,14 +67,22 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <Link href="/gallery" className="group p-6 rounded-xl border bg-card hover:bg-accent/50 transition-colors flex flex-col gap-3">
+            <Link href="/artist-index" className="group p-6 rounded-xl border bg-card hover:bg-accent/50 transition-colors flex flex-col gap-3">
               <LayoutGrid className="w-6 h-6 text-primary/60 group-hover:text-primary transition-colors" />
               <div>
-                <h3 className="font-medium text-lg">Gallery</h3>
+                <h3 className="font-medium text-lg">Artist Index</h3>
                 <p className="text-sm text-muted-foreground">Browse all artists</p>
               </div>
             </Link>
-            
+
+            <Link href="/gallery" className="group p-6 rounded-xl border bg-card hover:bg-accent/50 transition-colors flex flex-col gap-3">
+              <ImageIcon className="w-6 h-6 text-primary/60 group-hover:text-primary transition-colors" />
+              <div>
+                <h3 className="font-medium text-lg">Gallery</h3>
+                <p className="text-sm text-muted-foreground">Works from the archive</p>
+              </div>
+            </Link>
+
             <Link href="/timeline" className="group p-6 rounded-xl border bg-card hover:bg-accent/50 transition-colors flex flex-col gap-3">
               <Clock className="w-6 h-6 text-primary/60 group-hover:text-primary transition-colors" />
               <div>

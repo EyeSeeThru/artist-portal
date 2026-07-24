@@ -6,6 +6,7 @@ import { AnimatePresence } from "framer-motion";
 
 import { Layout } from "@/components/Layout";
 import Home from "@/pages/Home";
+import ArtistIndex from "@/pages/ArtistIndex";
 import Gallery from "@/pages/Gallery";
 import Timeline from "@/pages/Timeline";
 import Movements from "@/pages/Movements";
@@ -20,6 +21,7 @@ function Router() {
     <AnimatePresence mode="wait">
       <Switch>
         <Route path="/" component={Home} />
+        <Route path="/artist-index" component={ArtistIndex} />
         <Route path="/gallery" component={Gallery} />
         <Route path="/timeline" component={Timeline} />
         <Route path="/movements" component={Movements} />

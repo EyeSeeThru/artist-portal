@@ -97,10 +97,20 @@ export default function About() {
             <li className="flex gap-3">
               <span className="text-primary/60 shrink-0 mt-1">•</span>
               <span>
+                <Link href="/artist-index" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary font-medium">
+                  Artist Index
+                </Link>{" "}
+                &mdash; a flat alphabetical browse of every artist.
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-primary/60 shrink-0 mt-1">•</span>
+              <span>
                 <Link href="/gallery" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary font-medium">
                   Gallery
                 </Link>{" "}
-                &mdash; a flat alphabetical browse of every artist.
+                &mdash; a curated masonry of artworks from the archive, grouped
+                by movement.
               </span>
             </li>
             <li className="flex gap-3">
