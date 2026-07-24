@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T15:43:04.402Z",
+  "generatedAt": "2026-07-24T08:46:39.668Z",
   "totalArtists": 393,
   "totalWikimedia": 383,
   "totalArtworks": 254,
@@ -193,6 +193,17 @@
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:RobertDuncanson-On_St_Annes_East_Canada_1863.jpg",
           "width": 600,
           "height": 363,
+          "license": "Public domain",
+          "artist": "Robert Seldon Duncanson",
+          "source": "Wikimedia Commons"
+        },
+        {
+          "title": "RobertDuncanson-Portrait Freeman Cary c1856.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/RobertDuncanson-Portrait_Freeman_Cary_c1856.jpg/960px-RobertDuncanson-Portrait_Freeman_Cary_c1856.jpg",
+          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/RobertDuncanson-Portrait_Freeman_Cary_c1856.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:RobertDuncanson-Portrait_Freeman_Cary_c1856.jpg",
+          "width": 600,
+          "height": 729,
           "license": "Public domain",
           "artist": "Robert Seldon Duncanson",
           "source": "Wikimedia Commons"
@@ -798,17 +809,6 @@
           "source": "Wikimedia Commons"
         },
         {
-          "title": "James Van Der Zee portrait, RIT NandE Vol13Num34 1981 Oct29 Complete (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/James_Van_Der_Zee_portrait%2C_RIT_NandE_Vol13Num34_1981_Oct29_Complete_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/James_Van_Der_Zee_portrait%2C_RIT_NandE_Vol13Num34_1981_Oct29_Complete_%28cropped%29.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:James_Van_Der_Zee_portrait,_RIT_NandE_Vol13Num34_1981_Oct29_Complete_(cropped).jpg",
-          "width": 668,
-          "height": 649,
-          "license": "Public domain",
-          "artist": "Rochester Institute of Technology",
-          "source": "Wikimedia Commons"
-        },
-        {
           "title": "VDZ Wedding Day.jpg",
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/VDZ_Wedding_Day.jpg/960px-VDZ_Wedding_Day.jpg",
           "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/VDZ_Wedding_Day.jpg",
@@ -909,17 +909,6 @@
     },
     "augusta-savage": {
       "wikipediaImages": [
-        {
-          "title": "Archives of American Art - Augusta Savage - 2371 CROPPED.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Archives_of_American_Art_-_Augusta_Savage_-_2371_CROPPED.jpg/960px-Archives_of_American_Art_-_Augusta_Savage_-_2371_CROPPED.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Archives_of_American_Art_-_Augusta_Savage_-_2371_CROPPED.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Archives_of_American_Art_-_Augusta_Savage_-_2371_CROPPED.jpg",
-          "width": 600,
-          "height": 765,
-          "license": "Public domain",
-          "artist": "Andrew Herman",
-          "source": "Wikimedia Commons"
-        },
         {
           "title": "AugustaSavage.jpg",
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/AugustaSavage.jpg",
@@ -1149,19 +1138,7 @@
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/%22African_Phantasy%22_-_NARA_-_559140.jpg/960px-%22African_Phantasy%22_-_NARA_-_559140.jpg"
     },
     "malvin-gray-johnson": {
-      "wikipediaImages": [
-        {
-          "title": "Self-portrait by Malvin Gray Johnson, 1934, Smithsonian American Art Museum.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Self-portrait_by_Malvin_Gray_Johnson%2C_1934%2C_Smithsonian_American_Art_Museum.jpg/960px-Self-portrait_by_Malvin_Gray_Johnson%2C_1934%2C_Smithsonian_American_Art_Museum.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Self-portrait_by_Malvin_Gray_Johnson%2C_1934%2C_Smithsonian_American_Art_Museum.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Self-portrait_by_Malvin_Gray_Johnson,_1934,_Smithsonian_American_Art_Museum.jpg",
-          "width": 600,
-          "height": 765,
-          "license": "Public domain",
-          "artist": "Malvin Gray Johnson",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Self-portrait_by_Malvin_Gray_Johnson%2C_1934%2C_Smithsonian_American_Art_Museum.jpg/960px-Self-portrait_by_Malvin_Gray_Johnson%2C_1934%2C_Smithsonian_American_Art_Museum.jpg",
       "wikipediaPortrait": {
@@ -1382,17 +1359,6 @@
           "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
           "artist": "Tim Evanson from Cleveland Heights, Ohio, USA",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Self Portrait of Archibald Motley.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Self_Portrait_of_Archibald_Motley.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Self_Portrait_of_Archibald_Motley.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Self_Portrait_of_Archibald_Motley.jpg",
-          "width": 552,
-          "height": 768,
-          "license": "Public domain",
-          "artist": "Archibald Motley",
           "source": "Wikimedia Commons"
         }
       ],
@@ -1657,17 +1623,6 @@
           "source": "Wikimedia Commons"
         },
         {
-          "title": "Archives of American Art - Charles Alston - 2465 CROPPED.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Archives_of_American_Art_-_Charles_Alston_-_2465_CROPPED.jpg/960px-Archives_of_American_Art_-_Charles_Alston_-_2465_CROPPED.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Archives_of_American_Art_-_Charles_Alston_-_2465_CROPPED.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Archives_of_American_Art_-_Charles_Alston_-_2465_CROPPED.jpg",
-          "width": 600,
-          "height": 762,
-          "license": "Public domain",
-          "artist": "Andrew Herman",
-          "source": "Wikimedia Commons"
-        },
-        {
           "title": "CARTER G. WOODSON - TEACHER, HISTORIAN, PUBLISHER - NARA - 535622.jpg",
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/CARTER_G._WOODSON_-_TEACHER%2C_HISTORIAN%2C_PUBLISHER_-_NARA_-_535622.jpg/960px-CARTER_G._WOODSON_-_TEACHER%2C_HISTORIAN%2C_PUBLISHER_-_NARA_-_535622.jpg",
           "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/CARTER_G._WOODSON_-_TEACHER%2C_HISTORIAN%2C_PUBLISHER_-_NARA_-_535622.jpg",
@@ -1834,17 +1789,6 @@
           "height": 591,
           "license": "Public domain",
           "artist": "Unknown authorUnknown author or not provided",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Portrait of Jacob Lawrence LCCN2004663191.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Portrait_of_Jacob_Lawrence_LCCN2004663191.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Portrait_of_Jacob_Lawrence_LCCN2004663191.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Jacob_Lawrence_LCCN2004663191.jpg",
-          "width": 405,
-          "height": 640,
-          "license": "Public domain",
-          "artist": "Carl Van Vechten",
           "source": "Wikimedia Commons"
         }
       ],
@@ -2166,19 +2110,7 @@
       "galleryCover": "https://www.artic.edu/iiif/2/29ee8eda-3172-f02b-c9fa-be08510e5e85/full/600,/0/default.jpg"
     },
     "eldzier-cortor": {
-      "wikipediaImages": [
-        {
-          "title": "Portrait of Eldzier Cortor LCCN2004662751.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Portrait_of_Eldzier_Cortor_LCCN2004662751.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Portrait_of_Eldzier_Cortor_LCCN2004662751.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Eldzier_Cortor_LCCN2004662751.jpg",
-          "width": 315,
-          "height": 420,
-          "license": "Public domain",
-          "artist": "Carl Van Vechten",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [
         {
           "title": "The Room No. VI",
@@ -2308,6 +2240,17 @@
           "license": "Public domain",
           "artist": "Laura Wheeler Waring",
           "source": "Wikimedia Commons"
+        },
+        {
+          "title": "Portrait of a Lady (Alma Thomas).jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Portrait_of_a_Lady_%28Alma_Thomas%29.jpg/960px-Portrait_of_a_Lady_%28Alma_Thomas%29.jpg",
+          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Portrait_of_a_Lady_%28Alma_Thomas%29.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Lady_(Alma_Thomas).jpg",
+          "width": 600,
+          "height": 719,
+          "license": "Public domain",
+          "artist": "Laura Wheeler Waring",
+          "source": "Wikimedia Commons"
         }
       ],
       "artworks": [
@@ -2374,28 +2317,6 @@
     },
     "romare-bearden": {
       "wikipediaImages": [
-        {
-          "title": "\"Sgt. Romare Bearden, noted young Negro artist whose paintings have been exhibited in galleries and museums in several m - NARA - 535841.tif",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/%22Sgt._Romare_Bearden%2C_noted_young_Negro_artist_whose_paintings_have_been_exhibited_in_galleries_and_museums_in_several_m_-_NARA_-_535841.tif/lossy-page1-960px-%22Sgt._Romare_Bearden%2C_noted_young_Negro_artist_whose_paintings_have_been_exhibited_in_galleries_and_museums_in_several_m_-_NARA_-_535841.tif.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/%22Sgt._Romare_Bearden%2C_noted_young_Negro_artist_whose_paintings_have_been_exhibited_in_galleries_and_museums_in_several_m_-_NARA_-_535841.tif",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%22Sgt._Romare_Bearden,_noted_young_Negro_artist_whose_paintings_have_been_exhibited_in_galleries_and_museums_in_several_m_-_NARA_-_535841.tif",
-          "width": 600,
-          "height": 446,
-          "license": "Public domain",
-          "artist": "Unknown authorUnknown author or not provided",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Portrait of Romare Bearden LCCN2004662578.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Portrait_of_Romare_Bearden_LCCN2004662578.jpg/960px-Portrait_of_Romare_Bearden_LCCN2004662578.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Portrait_of_Romare_Bearden_LCCN2004662578.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Romare_Bearden_LCCN2004662578.jpg",
-          "width": 600,
-          "height": 832,
-          "license": "Public domain",
-          "artist": "Carl Van Vechten",
-          "source": "Wikimedia Commons"
-        },
         {
           "title": "Romare Bearden's home in NYC 02.jpg",
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Romare_Bearden%27s_home_in_NYC_02.jpg/960px-Romare_Bearden%27s_home_in_NYC_02.jpg",
@@ -2761,17 +2682,6 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "artist": "FAH1223",
           "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Portrait of Betye Saar. Site Installations, 1989. A Cultural Presentation of the United States of America. - DPLA - 222f r.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Portrait_of_Betye_Saar._Site_Installations%2C_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f_r.jpg/960px-Portrait_of_Betye_Saar._Site_Installations%2C_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f_r.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Portrait_of_Betye_Saar._Site_Installations%2C_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f_r.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Betye_Saar._Site_Installations,_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f_r.jpg",
-          "width": 600,
-          "height": 795,
-          "license": "Public domain",
-          "artist": "Lezley Saar",
-          "source": "Wikimedia Commons"
         }
       ],
       "artworks": [
@@ -2846,6 +2756,17 @@
     },
     "faith-ringgold": {
       "wikipediaImages": [
+        {
+          "title": "Faith Ringgold, The Day, 1988 (cropped).jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Faith_Ringgold%2C_The_Day%2C_1988_%28cropped%29.jpg/960px-Faith_Ringgold%2C_The_Day%2C_1988_%28cropped%29.jpg",
+          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Faith_Ringgold%2C_The_Day%2C_1988_%28cropped%29.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Faith_Ringgold,_The_Day,_1988_(cropped).jpg",
+          "width": 600,
+          "height": 1003,
+          "license": "Public domain",
+          "artist": "Gordon Alexander",
+          "source": "Wikimedia Commons"
+        },
         {
           "title": "Faith Ringgold, The Day, 1988 (cropped).jpg",
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Faith_Ringgold%2C_The_Day%2C_1988_%28cropped%29.jpg/960px-Faith_Ringgold%2C_The_Day%2C_1988_%28cropped%29.jpg",
@@ -3121,18 +3042,6 @@
           "license": "Public domain",
           "artist": "Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division",
           "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Howardena Pindell at Rose Art Museum.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Howardena_Pindell_at_Rose_Art_Museum.jpg/960px-Howardena_Pindell_at_Rose_Art_Museum.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Howardena_Pindell_at_Rose_Art_Museum.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Howardena_Pindell_at_Rose_Art_Museum.jpg",
-          "width": 600,
-          "height": 840,
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "artist": "Kenneth C. Zirkel",
-          "source": "Wikimedia Commons"
         }
       ],
       "artworks": [],
@@ -3283,18 +3192,6 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "artist": "Itsjoshporter",
           "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Portrait of Lorraine OGrady, 2014 (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Portrait_of_Lorraine_OGrady%2C_2014_%28cropped%29.jpg/960px-Portrait_of_Lorraine_OGrady%2C_2014_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Portrait_of_Lorraine_OGrady%2C_2014_%28cropped%29.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Lorraine_OGrady,_2014_(cropped).jpg",
-          "width": 600,
-          "height": 613,
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "artist": "Lorraineogrady",
-          "source": "Wikimedia Commons"
         }
       ],
       "artworks": [
@@ -3414,18 +3311,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "artist": "Ardfern",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Kara Walker Interview Camden Arts Centre 01.47 (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kara_Walker_Interview_Camden_Arts_Centre_01.47_%28cropped%29.jpg/960px-Kara_Walker_Interview_Camden_Arts_Centre_01.47_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Kara_Walker_Interview_Camden_Arts_Centre_01.47_%28cropped%29.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kara_Walker_Interview_Camden_Arts_Centre_01.47_(cropped).jpg",
-          "width": 600,
-          "height": 750,
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "artist": "studio international",
           "source": "Wikimedia Commons"
         },
         {
@@ -3753,20 +3638,7 @@
       }
     },
     "glenn-ligon": {
-      "wikipediaImages": [
-        {
-          "title": "Glenn Ligon Interview at Camden Arts Centre 6m24s (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Glenn_Ligon_Interview_at_Camden_Arts_Centre_6m24s_%28cropped%29.jpg/960px-Glenn_Ligon_Interview_at_Camden_Arts_Centre_6m24s_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Glenn_Ligon_Interview_at_Camden_Arts_Centre_6m24s_%28cropped%29.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Glenn_Ligon_Interview_at_Camden_Arts_Centre_6m24s_(cropped).jpg",
-          "width": 600,
-          "height": 750,
-          "license": "CC BY 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-          "artist": "studio international",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [
         {
           "title": "Stranger in the Village #13",
@@ -3822,17 +3694,6 @@
           "source": "Wikimedia Commons"
         },
         {
-          "title": "Kehinde Wiley (2015) (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Kehinde_Wiley_%282015%29_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Kehinde_Wiley_%282015%29_%28cropped%29.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kehinde_Wiley_(2015)_(cropped).jpg",
-          "width": 479,
-          "height": 689,
-          "license": "Public domain",
-          "artist": "U.S. Department of State",
-          "source": "Wikimedia Commons"
-        },
-        {
           "title": "Kehinde Wiley sculpture.jpg",
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Kehinde_Wiley_sculpture.jpg/960px-Kehinde_Wiley_sculpture.jpg",
           "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Kehinde_Wiley_sculpture.jpg",
@@ -3872,20 +3733,7 @@
       }
     },
     "amy-sherald": {
-      "wikipediaImages": [
-        {
-          "title": "National Portrait Gallery visitors view First Lady Michelle Obama.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/National_Portrait_Gallery_visitors_view_First_Lady_Michelle_Obama.jpg/960px-National_Portrait_Gallery_visitors_view_First_Lady_Michelle_Obama.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/National_Portrait_Gallery_visitors_view_First_Lady_Michelle_Obama.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:National_Portrait_Gallery_visitors_view_First_Lady_Michelle_Obama.jpg",
-          "width": 600,
-          "height": 450,
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-          "artist": "Michelle",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [
         {
           "title": "A Certain Kind of Happiness",
@@ -4001,17 +3849,6 @@
     },
     "theaster-gates": {
       "wikipediaImages": [
-        {
-          "title": "Theaster Gates Mori Art Museum exhibit opening 2024-04-23 (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Theaster_Gates_Mori_Art_Museum_exhibit_opening_2024-04-23_%28cropped%29.jpg/960px-Theaster_Gates_Mori_Art_Museum_exhibit_opening_2024-04-23_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Theaster_Gates_Mori_Art_Museum_exhibit_opening_2024-04-23_%28cropped%29.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Theaster_Gates_Mori_Art_Museum_exhibit_opening_2024-04-23_(cropped).jpg",
-          "width": 600,
-          "height": 403,
-          "license": "Public domain",
-          "artist": "Embassy of the United States in Tokyo",
-          "source": "Wikimedia Commons"
-        },
         {
           "title": "Unleashing Entrepreneurial Innovation with Stanford University Theaster Gates.jpg",
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Unleashing_Entrepreneurial_Innovation_with_Stanford_University_Theaster_Gates.jpg/960px-Unleashing_Entrepreneurial_Innovation_with_Stanford_University_Theaster_Gates.jpg",
@@ -4529,20 +4366,7 @@
       "galleryCover": "https://www.artic.edu/iiif/2/52edf63c-0706-cf5d-c7de-b3a458b60ff4/full/600,/0/default.jpg"
     },
     "derrick-adams": {
-      "wikipediaImages": [
-        {
-          "title": "Derrick Adams, multidisciplinary artist in 2019 (33398613818) (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Derrick_Adams%2C_multidisciplinary_artist_in_2019_%2833398613818%29_%28cropped%29.jpg/960px-Derrick_Adams%2C_multidisciplinary_artist_in_2019_%2833398613818%29_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Derrick_Adams%2C_multidisciplinary_artist_in_2019_%2833398613818%29_%28cropped%29.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Derrick_Adams,_multidisciplinary_artist_in_2019_(33398613818)_(cropped).jpg",
-          "width": 600,
-          "height": 806,
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "artist": "Kay Hickman",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Derrick_Adams%2C_multidisciplinary_artist_in_2019_%2833398613818%29_%28cropped%29.jpg/960px-Derrick_Adams%2C_multidisciplinary_artist_in_2019_%2833398613818%29_%28cropped%29.jpg",
       "wikipediaPortrait": {
@@ -4582,17 +4406,6 @@
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
           "artist": "Matt Brown",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Hank Willis Thomas at the unveiling of the \"The Embrace\" (FmcSzEoXoAAQCdX) (1) (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Hank_Willis_Thomas_at_the_unveiling_of_the_%22The_Embrace%22_%28FmcSzEoXoAAQCdX%29_%281%29_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Hank_Willis_Thomas_at_the_unveiling_of_the_%22The_Embrace%22_%28FmcSzEoXoAAQCdX%29_%281%29_%28cropped%29.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hank_Willis_Thomas_at_the_unveiling_of_the_%22The_Embrace%22_(FmcSzEoXoAAQCdX)_(1)_(cropped).jpg",
-          "width": 538,
-          "height": 716,
-          "license": "Public domain",
-          "artist": "Office of U.S. Senator Ed Markey",
           "source": "Wikimedia Commons"
         },
         {
@@ -4677,20 +4490,7 @@
       "galleryCover": "https://www.artic.edu/iiif/2/0247f0fd-ab2c-e334-afe9-d662ffd3a295/full/600,/0/default.jpg"
     },
     "suzanne-jackson": {
-      "wikipediaImages": [
-        {
-          "title": "Suzanne Jackson at Wormsloe 2018 (cropped).JPG",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Suzanne_Jackson_at_Wormsloe_2018_%28cropped%29.JPG/960px-Suzanne_Jackson_at_Wormsloe_2018_%28cropped%29.JPG",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Suzanne_Jackson_at_Wormsloe_2018_%28cropped%29.JPG",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Suzanne_Jackson_at_Wormsloe_2018_(cropped).JPG",
-          "width": 600,
-          "height": 824,
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "artist": "Alandausmith",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [
         {
           "title": "oldblueshanging, while she waits",
@@ -4725,20 +4525,7 @@
       "galleryCover": null
     },
     "nina-chanel-abney": {
-      "wikipediaImages": [
-        {
-          "title": "Nina Chanel Abney portrait photo.webp",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Nina_Chanel_Abney_portrait_photo.webp/960px-Nina_Chanel_Abney_portrait_photo.webp.png",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nina_Chanel_Abney_portrait_photo.webp",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nina_Chanel_Abney_portrait_photo.webp",
-          "width": 600,
-          "height": 750,
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "artist": "Donavan Smallwood",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Nina_Chanel_Abney_portrait_photo.webp/960px-Nina_Chanel_Abney_portrait_photo.webp.png",
       "wikipediaPortrait": {
@@ -5157,18 +4944,7 @@
       "galleryCover": null
     },
     "henry-bannarn": {
-      "wikipediaImages": [
-        {
-          "title": "Archives of American Art - Henry W. Bannarn - 3156 CROPPED.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Archives_of_American_Art_-_Henry_W._Bannarn_-_3156_CROPPED.jpg/960px-Archives_of_American_Art_-_Henry_W._Bannarn_-_3156_CROPPED.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Archives_of_American_Art_-_Henry_W._Bannarn_-_3156_CROPPED.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Archives_of_American_Art_-_Henry_W._Bannarn_-_3156_CROPPED.jpg",
-          "width": 600,
-          "height": 671,
-          "license": "Public domain",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Archives_of_American_Art_-_Henry_W._Bannarn_-_3156_CROPPED.jpg/960px-Archives_of_American_Art_-_Henry_W._Bannarn_-_3156_CROPPED.jpg",
       "wikipediaPortrait": {
@@ -5802,17 +5578,6 @@
           "source": "Wikimedia Commons"
         },
         {
-          "title": "Self-Portrait by Samuel Joseph Brown Jr.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Self-Portrait_by_Samuel_Joseph_Brown_Jr.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Self-Portrait_by_Samuel_Joseph_Brown_Jr.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Self-Portrait_by_Samuel_Joseph_Brown_Jr.jpg",
-          "width": 917,
-          "height": 1200,
-          "license": "Public domain",
-          "artist": "Samuel Joseph Brown",
-          "source": "Wikimedia Commons"
-        },
-        {
           "title": "Writing Lesson by Samuel Joseph Brown, Jr. 1938.jpg",
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Writing_Lesson_by_Samuel_Joseph_Brown%2C_Jr._1938.jpg/960px-Writing_Lesson_by_Samuel_Joseph_Brown%2C_Jr._1938.jpg",
           "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Writing_Lesson_by_Samuel_Joseph_Brown%2C_Jr._1938.jpg",
@@ -6262,20 +6027,7 @@
       "galleryCover": "https://www.artic.edu/iiif/2/4f93b5a2-40ed-c384-9452-6215060f52e9/full/600,/0/default.jpg"
     },
     "sonya-clark": {
-      "wikipediaImages": [
-        {
-          "title": "A selfie of Sonya Clark.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/A_selfie_of_Sonya_Clark.jpg/960px-A_selfie_of_Sonya_Clark.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/A_selfie_of_Sonya_Clark.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_selfie_of_Sonya_Clark.jpg",
-          "width": 600,
-          "height": 799,
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "artist": "Sonya Clark",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/A_selfie_of_Sonya_Clark.jpg/960px-A_selfie_of_Sonya_Clark.jpg",
       "wikipediaPortrait": {
@@ -6292,20 +6044,7 @@
       }
     },
     "willie-cole": {
-      "wikipediaImages": [
-        {
-          "title": "Cole Portrait 3.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cole_Portrait_3.jpg/960px-Cole_Portrait_3.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Cole_Portrait_3.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cole_Portrait_3.jpg",
-          "width": 600,
-          "height": 488,
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "artist": "Alexander and Bonin",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cole_Portrait_3.jpg/960px-Cole_Portrait_3.jpg",
       "wikipediaPortrait": {
@@ -6666,19 +6405,7 @@
       }
     },
     "roy-decarava": {
-      "wikipediaImages": [
-        {
-          "title": "Roy DeCarava PBS publicity 1984 (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Roy_DeCarava_PBS_publicity_1984_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Roy_DeCarava_PBS_publicity_1984_%28cropped%29.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Roy_DeCarava_PBS_publicity_1984_(cropped).jpg",
-          "width": 711,
-          "height": 941,
-          "license": "Public domain",
-          "artist": "PBS",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [
         {
           "title": "Dancers, New York",
@@ -7005,6 +6732,17 @@
           "license": "Public domain",
           "artist": "Robert Seldon Duncanson",
           "source": "Wikimedia Commons"
+        },
+        {
+          "title": "RobertDuncanson-Portrait Freeman Cary c1856.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/RobertDuncanson-Portrait_Freeman_Cary_c1856.jpg/960px-RobertDuncanson-Portrait_Freeman_Cary_c1856.jpg",
+          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/RobertDuncanson-Portrait_Freeman_Cary_c1856.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:RobertDuncanson-Portrait_Freeman_Cary_c1856.jpg",
+          "width": 600,
+          "height": 729,
+          "license": "Public domain",
+          "artist": "Robert Seldon Duncanson",
+          "source": "Wikimedia Commons"
         }
       ],
       "artworks": [],
@@ -7220,18 +6958,6 @@
           "license": "Public domain",
           "artist": "Melvin Edwards",
           "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Saggese, Edwards, Moore, and King Rice (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Saggese%2C_Edwards%2C_Moore%2C_and_King_Rice_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Saggese%2C_Edwards%2C_Moore%2C_and_King_Rice_%28cropped%29.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Saggese,_Edwards,_Moore,_and_King_Rice_(cropped).jpg",
-          "width": 376,
-          "height": 510,
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-          "artist": "Tom Nappi",
-          "source": "Wikimedia Commons"
         }
       ],
       "artworks": [
@@ -7407,18 +7133,6 @@
     },
     "latoya-ruby-frazier": {
       "wikipediaImages": [
-        {
-          "title": "LaToya Ruby Frazier (54162833127).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/LaToya_Ruby_Frazier_%2854162833127%29.jpg/960px-LaToya_Ruby_Frazier_%2854162833127%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/LaToya_Ruby_Frazier_%2854162833127%29.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:LaToya_Ruby_Frazier_(54162833127).jpg",
-          "width": 600,
-          "height": 800,
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-          "artist": "Maryland GovPics",
-          "source": "Wikimedia Commons"
-        },
         {
           "title": "LaToye Ruby Frazier Look 3 2011 Ramspott.jpg",
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/LaToye_Ruby_Frazier_Look_3_2011_Ramspott.jpg/960px-LaToye_Ruby_Frazier_Look_3_2011_Ramspott.jpg",
@@ -7716,6 +7430,17 @@
           "license": "Public domain",
           "artist": "Edwin A. Harleston (1882 - 1931)   Born in Charlston, South Carolina. Details on Google Art Project",
           "source": "Wikimedia Commons"
+        },
+        {
+          "title": "Edwin A. Harleston - Portrait of a Woman - Google Art Project.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Edwin_A._Harleston_-_Portrait_of_a_Woman_-_Google_Art_Project.jpg/960px-Edwin_A._Harleston_-_Portrait_of_a_Woman_-_Google_Art_Project.jpg",
+          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Edwin_A._Harleston_-_Portrait_of_a_Woman_-_Google_Art_Project.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Edwin_A._Harleston_-_Portrait_of_a_Woman_-_Google_Art_Project.jpg",
+          "width": 600,
+          "height": 745,
+          "license": "Public domain",
+          "artist": "Edwin A. Harleston (1882 - 1931)   Born in Charlston, South Carolina. Details on Google Art Project",
+          "source": "Wikimedia Commons"
         }
       ],
       "artworks": [],
@@ -7984,6 +7709,17 @@
           "license": "Public domain",
           "artist": "Julien Hudson (c. 1811–1844)",
           "source": "Wikimedia Commons"
+        },
+        {
+          "title": "Julien Hudson - Portrait of a Creole Gentleman.jpg",
+          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Julien_Hudson_-_Portrait_of_a_Creole_Gentleman.jpg",
+          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Julien_Hudson_-_Portrait_of_a_Creole_Gentleman.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Julien_Hudson_-_Portrait_of_a_Creole_Gentleman.jpg",
+          "width": 486,
+          "height": 600,
+          "license": "Public domain",
+          "artist": "Julien Hudson (c. 1811–1844)",
+          "source": "Wikimedia Commons"
         }
       ],
       "artworks": [],
@@ -8001,20 +7737,7 @@
       }
     },
     "david-huffman": {
-      "wikipediaImages": [
-        {
-          "title": "David Huffman at Berkeley Art Museum.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/David_Huffman_at_Berkeley_Art_Museum.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/David_Huffman_at_Berkeley_Art_Museum.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:David_Huffman_at_Berkeley_Art_Museum.jpg",
-          "width": 879,
-          "height": 1085,
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "artist": "Traumaeve",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/2/2f/David_Huffman_at_Berkeley_Art_Museum.jpg",
       "wikipediaPortrait": {
@@ -8454,20 +8177,7 @@
       "galleryCover": "https://www.artic.edu/iiif/2/0728a578-91ca-7f15-eeaf-07530bc5ed61/full/600,/0/default.jpg"
     },
     "seitu-jones": {
-      "wikipediaImages": [
-        {
-          "title": "Seitu Jones Portrait.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Seitu_Jones_Portrait.jpg/960px-Seitu_Jones_Portrait.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Seitu_Jones_Portrait.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Seitu_Jones_Portrait.jpg",
-          "width": 600,
-          "height": 900,
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "artist": "Axonometriclettuce",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Seitu_Jones_Portrait.jpg/960px-Seitu_Jones_Portrait.jpg",
       "wikipediaPortrait": {
@@ -9013,18 +8723,6 @@
     },
     "julie-mehretu": {
       "wikipediaImages": [
-        {
-          "title": "Julie Mehretu (13899464483) (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Julie_Mehretu_%2813899464483%29_%28cropped%29.jpg/960px-Julie_Mehretu_%2813899464483%29_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Julie_Mehretu_%2813899464483%29_%28cropped%29.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Julie_Mehretu_(13899464483)_(cropped).jpg",
-          "width": 600,
-          "height": 393,
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-          "artist": "Columbia GSAPP",
-          "source": "Wikimedia Commons"
-        },
         {
           "title": "Secretary Kerry Awards the Medal of Arts Lifetime Achievement Award to Julie Mehretu.jpg",
           "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Secretary_Kerry_Awards_the_Medal_of_Arts_Lifetime_Achievement_Award_to_Julie_Mehretu.jpg/960px-Secretary_Kerry_Awards_the_Medal_of_Arts_Lifetime_Achievement_Award_to_Julie_Mehretu.jpg",
@@ -9862,18 +9560,6 @@
           "height": 325,
           "license": "Public domain",
           "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Ribbon Wreath Harriet Powers gravesite Gospel Pilgrim Cemetery Oct 31 2010.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Ribbon_Wreath_Harriet_Powers_gravesite_Gospel_Pilgrim_Cemetery_Oct_31_2010.jpg/960px-Ribbon_Wreath_Harriet_Powers_gravesite_Gospel_Pilgrim_Cemetery_Oct_31_2010.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ribbon_Wreath_Harriet_Powers_gravesite_Gospel_Pilgrim_Cemetery_Oct_31_2010.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ribbon_Wreath_Harriet_Powers_gravesite_Gospel_Pilgrim_Cemetery_Oct_31_2010.jpg",
-          "width": 600,
-          "height": 800,
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "artist": "Nicolet1327",
-          "source": "Wikimedia Commons"
         }
       ],
       "artworks": [],
@@ -9908,19 +9594,7 @@
       }
     },
     "martin-puryear": {
-      "wikipediaImages": [
-        {
-          "title": "The Blade-Tribune, Martin Puryear 1984 (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/The_Blade-Tribune%2C_Martin_Puryear_1984_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/The_Blade-Tribune%2C_Martin_Puryear_1984_%28cropped%29.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Blade-Tribune,_Martin_Puryear_1984_(cropped).jpg",
-          "width": 906,
-          "height": 1299,
-          "license": "Public domain",
-          "artist": "Charlie Neuman",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [
         {
           "title": "Sanctuary",
@@ -10217,17 +9891,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "artist": "Michael Barera",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "title": "Portrait of Betye Saar. Site Installations, 1989. A Cultural Presentation of the United States of America. - DPLA - 222f r.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Portrait_of_Betye_Saar._Site_Installations%2C_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f_r.jpg/960px-Portrait_of_Betye_Saar._Site_Installations%2C_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f_r.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Portrait_of_Betye_Saar._Site_Installations%2C_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f_r.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Betye_Saar._Site_Installations,_1989._A_Cultural_Presentation_of_the_United_States_of_America._-_DPLA_-_222f_r.jpg",
-          "width": 600,
-          "height": 795,
-          "license": "Public domain",
-          "artist": "Lezley Saar",
           "source": "Wikimedia Commons"
         }
       ],
@@ -10777,20 +10440,7 @@
       }
     },
     "martine-syms": {
-      "wikipediaImages": [
-        {
-          "title": "Martine Syms (cropped).jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Martine_Syms_%28cropped%29.jpg/960px-Martine_Syms_%28cropped%29.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Martine_Syms_%28cropped%29.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Martine_Syms_(cropped).jpg",
-          "width": 600,
-          "height": 602,
-          "license": "CC BY 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-          "artist": "theartVIEw",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [
         {
           "title": "SHE MAD: Laughing Gas",
@@ -10972,20 +10622,7 @@
       "galleryCover": null
     },
     "adejoke-tugbiyele": {
-      "wikipediaImages": [
-        {
-          "title": "Adejoke Tugbiyele at Brooklyn Museum.jpg",
-          "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adejoke_Tugbiyele_at_Brooklyn_Museum.jpg/960px-Adejoke_Tugbiyele_at_Brooklyn_Museum.jpg",
-          "fullUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Adejoke_Tugbiyele_at_Brooklyn_Museum.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Adejoke_Tugbiyele_at_Brooklyn_Museum.jpg",
-          "width": 600,
-          "height": 580,
-          "license": "CC BY 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-          "artist": "Brooklyn Museum",
-          "source": "Wikimedia Commons"
-        }
-      ],
+      "wikipediaImages": [],
       "artworks": [],
       "galleryCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adejoke_Tugbiyele_at_Brooklyn_Museum.jpg/960px-Adejoke_Tugbiyele_at_Brooklyn_Museum.jpg",
       "wikipediaPortrait": {
